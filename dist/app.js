@@ -1,10 +1,10 @@
 const categories = [
-  { id:'comida', name:'Comida y bebida', icon:'🍽️', tone:'#f8efe5' },
-  { id:'animales', name:'Animales', icon:'🐾', tone:'#f4eee9' },
-  { id:'casa', name:'Casa y objetos', icon:'🏠', tone:'#f3f0e7' },
-  { id:'naturaleza', name:'Naturaleza', icon:'🌿', tone:'#edf3e9' },
-  { id:'personas', name:'Personas', icon:'👋', tone:'#f4edf0' },
-  { id:'lugares', name:'Lugares', icon:'📍', tone:'#eaf1f3' }
+  { id:'comida', name:'Comida y bebida', icon:'🍽️', tone:'#fff1f2' },
+  { id:'animales', name:'Animales', icon:'🐾', tone:'#eef4ff' },
+  { id:'casa', name:'Casa y objetos', icon:'🏠', tone:'#f7f7f9' },
+  { id:'naturaleza', name:'Naturaleza', icon:'🌿', tone:'#edf3ff' },
+  { id:'personas', name:'Personas', icon:'👋', tone:'#fff0f2' },
+  { id:'lugares', name:'Lugares', icon:'📍', tone:'#eff5ff' }
 ];
 const words = [
   { category:'comida', korean:'사과', spanish:'manzana', image:'apple', emoji:'🍎', imageLabel:'una manzana roja' },
@@ -73,6 +73,11 @@ const KEY_ROWS = [
 const LATIN_KEY = Object.fromEntries(KEY_ROWS.flat().map(([jamo,key]) => [key,jamo]));
 const SHIFT_KEY = { q:'ㅃ', w:'ㅉ', e:'ㄸ', r:'ㄲ', t:'ㅆ', o:'ㅒ', p:'ㅖ' };
 const $ = selector => document.querySelector(selector);
+const grammarLessons = {
+  topic:{ step:'LECCIÓN 01 / PARTÍCULAS', title:'Presenta el <em>tema</em> de la oración.', intro:'은 y 는 nos dicen de qué persona o cosa vamos a hablar.', subject:'저', subjectMeaning:'yo', particle:'는', particleMeaning:'marca el tema', rest:'학생이에요', restMeaning:'soy estudiante', ruleTitle:'¿은 o 는?', rule:'Usa 는 después de una vocal y 은 después de una consonante: 저는, 책은.', text:'안녕하세요. 저는 마리아예요. 저는 학생이에요.', translation:'Hola. Soy María. Soy estudiante.' },
+  subject:{ step:'LECCIÓN 02 / PARTÍCULAS', title:'Señala quién realiza o vive la <em>acción</em>.', intro:'이 y 가 destacan el sujeto de la oración o presentan información nueva.', subject:'비', subjectMeaning:'lluvia', particle:'가', particleMeaning:'marca el sujeto', rest:'와요', restMeaning:'viene / llueve', ruleTitle:'¿이 o 가?', rule:'Usa 가 después de una vocal y 이 después de una consonante: 비가, 사람이.', text:'오늘은 비가 와요. 우산이 있어요.', translation:'Hoy llueve. Tengo un paraguas.' },
+  object:{ step:'LECCIÓN 03 / PARTÍCULAS', title:'Marca aquello que recibe la <em>acción</em>.', intro:'을 y 를 acompañan al objeto sobre el que actúa el verbo.', subject:'사과', subjectMeaning:'manzana', particle:'를', particleMeaning:'marca el objeto', rest:'먹어요', restMeaning:'como', ruleTitle:'¿을 o 를?', rule:'Usa 를 después de una vocal y 을 después de una consonante: 사과를, 빵을.', text:'저는 사과를 먹어요. 물을 마셔요.', translation:'Como una manzana. Bebo agua.' }
+};
 let currentIndex = 0;
 let inputTokens = [];
 let completed = new Set();
@@ -148,6 +153,11 @@ function compose(tokens) {
   }
   flush();
   return result;
+}
+
+function emojiAsset(emoji) {
+  const points = [...emoji].map(character => character.codePointAt(0)).filter(code => code !== 0xFE0F).map(code => code.toString(16));
+  return `assets/noto/emoji_u${points.join('_')}.svg`;
 }
 
 function renderCategories() {
@@ -325,9 +335,13 @@ function loadWord(index) {
   syncShiftKeys();
   const word = words[index];
   $('#target-word').textContent = word.korean;
-  $('#word-picture').toggleAttribute('hidden',!word.image);
-  $('#word-emoji').hidden = !!word.image;
-  if (word.image) $('#word-picture-use').setAttribute('href',`#ill-${word.image}`);
+  const art = $('#word-art');
+  art.hidden = false;
+  art.alt = `Ilustración de ${word.imageLabel || word.spanish}, Noto Emoji`;
+  $('#word-picture').hidden = true;
+  $('#word-emoji').hidden = true;
+  art.onerror = () => { art.hidden = true; $('#word-emoji').hidden = false; $('#word-emoji').textContent = word.emoji; };
+  art.src = emojiAsset(word.emoji);
   $('#word-picture').setAttribute('aria-label',`Ilustración de ${word.imageLabel || word.spanish}`);
   $('#word-emoji').textContent = word.emoji;
   $('#word-emoji').setAttribute('aria-label',`Ilustración de ${word.spanish}`);
@@ -387,14 +401,57 @@ function checkAnswer() {
   else setHint('Aún no coincide. Puedes borrar una letra o activar la guía.','error');
 }
 function speak() {
+  speakKorean(words[currentIndex].korean);
+}
+function speakKorean(text) {
   if (!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)) { setHint('Tu navegador no ofrece pronunciación en este dispositivo.'); return; }
-  const utterance = new SpeechSynthesisUtterance(words[currentIndex].korean);
+  const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'ko-KR';
   utterance.rate = .82;
   const koreanVoice = speechSynthesis.getVoices().find(voice => voice.lang.toLowerCase().startsWith('ko'));
   if (koreanVoice) utterance.voice = koreanVoice;
   speechSynthesis.cancel();
   speechSynthesis.speak(utterance);
+}
+
+function setMode(mode) {
+  const wordsMode = mode === 'words';
+  $('.layout').hidden = !wordsMode;
+  $('#grammar-view').hidden = wordsMode;
+  $('#hear-word').hidden = !wordsMode;
+  $('#show-words').classList.toggle('active',wordsMode);
+  $('#show-grammar').classList.toggle('active',!wordsMode);
+  $('#show-words').setAttribute('aria-pressed',String(wordsMode));
+  $('#show-grammar').setAttribute('aria-pressed',String(!wordsMode));
+  closeKeyboard();
+  scrollTo({ top:0, behavior:'smooth' });
+}
+function renderGrammar(key) {
+  const lesson = grammarLessons[key];
+  document.querySelectorAll('.grammar-lesson').forEach(button => {
+    const active = button.dataset.grammar === key;
+    button.classList.toggle('active',active);
+    button.setAttribute('aria-current',String(active));
+  });
+  $('#grammar-step').textContent = lesson.step;
+  $('#grammar-title').innerHTML = lesson.title;
+  $('#grammar-intro').textContent = lesson.intro;
+  $('#grammar-sentence').setAttribute('aria-label',`${lesson.subject}${lesson.particle} ${lesson.rest}`);
+  $('.sentence-part.subject').textContent = lesson.subject;
+  $('.sentence-part.particle').textContent = lesson.particle;
+  $('.sentence-part.rest').textContent = lesson.rest;
+  $('#legend-subject').textContent = lesson.subject;
+  $('#legend-subject').nextElementSibling.textContent = lesson.subjectMeaning;
+  $('#legend-particle').textContent = lesson.particle;
+  $('#legend-function').textContent = lesson.particleMeaning;
+  $('#legend-rest').textContent = lesson.rest;
+  $('#legend-rest-copy').textContent = lesson.restMeaning;
+  $('#grammar-rule-title').textContent = lesson.ruleTitle;
+  $('#grammar-rule').textContent = lesson.rule;
+  $('#grammar-text').textContent = lesson.text;
+  $('#grammar-translation').textContent = lesson.translation;
+  $('#grammar-translation').hidden = true;
+  $('#reveal-text').hidden = false;
 }
 
 loadProgress();
@@ -410,6 +467,11 @@ $('#success-next').addEventListener('click',() => loadWord((currentIndex + 1) % 
 $('#hear-word').addEventListener('click',speak);
 $('#hear-word-inline').addEventListener('click',speak);
 $('#reveal-translation').addEventListener('click',() => { $('#translation').hidden=false; $('#reveal-translation').hidden=true; });
+$('#show-words').addEventListener('click',() => setMode('words'));
+$('#show-grammar').addEventListener('click',() => setMode('grammar'));
+document.querySelectorAll('.grammar-lesson').forEach(button => button.addEventListener('click',() => renderGrammar(button.dataset.grammar)));
+$('#hear-example').addEventListener('click',() => { const lesson = grammarLessons[document.querySelector('.grammar-lesson.active').dataset.grammar]; speakKorean(lesson.subject + lesson.particle + lesson.rest); });
+$('#reveal-text').addEventListener('click',() => { $('#grammar-translation').hidden=false; $('#reveal-text').hidden=true; });
 $('#show-tip').addEventListener('click',() => $('#hangul-dialog').showModal());
 $('#answer-display').addEventListener('click',openKeyboard);
 $('#open-keyboard').addEventListener('click',openKeyboard);
@@ -417,6 +479,7 @@ $('#close-keyboard').addEventListener('click',closeKeyboard);
 mobileViewport.addEventListener('change',closeKeyboard);
 $('#open-words').addEventListener('click',() => { const menu=$('#mobile-words'); menu.hidden=!menu.hidden; $('#open-words').setAttribute('aria-expanded',String(!menu.hidden)); });
 window.addEventListener('keydown',event => {
+  if (!$('#grammar-view').hidden) return;
   if ($('#hangul-dialog').open || event.altKey || event.ctrlKey || event.metaKey || event.isComposing) return;
   if (event.key === 'Escape' && document.body.classList.contains('keyboard-open')) { event.preventDefault(); closeKeyboard(); return; }
   if (event.key === 'Backspace') { event.preventDefault(); eraseToken(); return; }

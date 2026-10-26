@@ -87,7 +87,10 @@
   <div class="app-shell">
     <header class="topbar">
       <a class="brand" href="#inicio" aria-label="Trazo, ir al inicio"><span class="brand-mark" aria-hidden="true">ㅎ<span class="brand-dot"></span></span><span class="brand-name">trazo<span class="brand-hangul">한글</span></span></a>
-      <span class="topbar-tag">Aprende a escribir coreano, una palabra a la vez</span>
+      <nav class="mode-switch" aria-label="Tipo de práctica">
+        <button class="mode-button active" id="show-words" type="button" aria-pressed="true">Palabras</button>
+        <button class="mode-button" id="show-grammar" type="button" aria-pressed="false">Gramática</button>
+      </nav>
       <button class="audio-button" id="hear-word" type="button" aria-label="Escuchar la palabra actual"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Zm13-2c2 1 3 3 3 5s-1 4-3 5m-2-7c1 .5 1.5 1.2 1.5 2S16 13.5 15 14"/></svg><span>Escuchar</span></button>
     </header>
 
@@ -112,7 +115,7 @@
 
         <section class="practice-card" aria-labelledby="word-label">
           <div class="picture-side">
-            <div class="picture-halo"><svg id="word-picture" viewBox="0 0 360 300" role="img" aria-label="Ilustración de una manzana"><use id="word-picture-use" href="#ill-apple"></use></svg><span class="word-emoji" id="word-emoji" role="img" hidden></span></div>
+            <div class="picture-halo"><img class="word-art" id="word-art" src="assets/noto/emoji_u1f34e.svg" alt="Ilustración de una manzana"><svg id="word-picture" viewBox="0 0 360 300" role="img" aria-label="Ilustración de una manzana" hidden><use id="word-picture-use" href="#ill-apple"></use></svg><span class="word-emoji" id="word-emoji" role="img" hidden></span></div>
             <span class="picture-caption">MIRA LA IMAGEN</span>
             <button class="translation-button" id="reveal-translation" type="button">¿Qué significa? <span aria-hidden="true">↗</span></button>
             <span class="translation" id="translation" hidden>Manzana</span>
@@ -140,6 +143,40 @@
         <div class="lesson-navigation"><button id="previous-word" type="button"><span aria-hidden="true">←</span> Anterior</button><span>Avanza a tu ritmo</span><button id="next-word" type="button">Siguiente palabra <span aria-hidden="true">→</span></button></div>
       </main>
     </div>
+
+    <main class="grammar-view" id="grammar-view" hidden>
+      <aside class="grammar-sidebar">
+        <span class="eyebrow">GRAMÁTICA INICIAL</span>
+        <h2>Construye sentido</h2>
+        <p>La gramática se entiende mejor viendo qué función cumple cada pieza.</p>
+        <nav class="grammar-lessons" aria-label="Lecciones de gramática">
+          <button class="grammar-lesson active" type="button" data-grammar="topic" aria-current="true"><span>01</span><strong>은 / 는</strong><small>El tema</small></button>
+          <button class="grammar-lesson" type="button" data-grammar="subject" aria-current="false"><span>02</span><strong>이 / 가</strong><small>El sujeto</small></button>
+          <button class="grammar-lesson" type="button" data-grammar="object" aria-current="false"><span>03</span><strong>을 / 를</strong><small>El objeto</small></button>
+        </nav>
+      </aside>
+      <section class="grammar-content" aria-labelledby="grammar-title">
+        <div class="grammar-topline"><span class="eyebrow" id="grammar-step">LECCIÓN 01 / PARTÍCULAS</span><span class="grammar-level">TOPIK I · INICIAL</span></div>
+        <h1 id="grammar-title">Presenta el <em>tema</em> de la oración.</h1>
+        <p class="hero-copy" id="grammar-intro">은 y 는 nos dicen de qué persona o cosa vamos a hablar.</p>
+        <article class="grammar-card">
+          <div class="pattern-heading"><span>OBSERVA LA ESTRUCTURA</span><button class="icon-text-button" id="hear-example" type="button"><span aria-hidden="true">◖))</span> Escuchar ejemplo</button></div>
+          <div class="sentence" id="grammar-sentence" lang="ko" aria-label="저는 학생이에요">
+            <span class="sentence-part subject">저</span><span class="sentence-part particle">는</span><span class="sentence-part rest">학생이에요</span>
+          </div>
+          <div class="sentence-legend">
+            <span><i class="subject-dot"></i><strong id="legend-subject">저</strong><small>yo</small></span>
+            <span><i class="particle-dot"></i><strong id="legend-particle">는</strong><small id="legend-function">marca el tema</small></span>
+            <span><i class="rest-dot"></i><strong id="legend-rest">학생이에요</strong><small id="legend-rest-copy">soy estudiante</small></span>
+          </div>
+          <div class="grammar-explanation"><span class="taegeuk-mark" aria-hidden="true"><i></i></span><div><strong id="grammar-rule-title">¿은 o 는?</strong><p id="grammar-rule">Usa 는 después de una vocal y 은 después de una consonante: 저는, 책은.</p></div></div>
+        </article>
+        <section class="simple-text" aria-labelledby="simple-text-title">
+          <div><span class="eyebrow">TEXTO SIMPLE</span><h2 id="simple-text-title">Lee la estructura dentro de una idea real.</h2></div>
+          <div class="text-sample"><p id="grammar-text" lang="ko">안녕하세요. 저는 마리아예요. 저는 학생이에요.</p><button id="reveal-text" class="translation-button" type="button">Ver significado <span aria-hidden="true">↗</span></button><p class="text-translation" id="grammar-translation" hidden>Hola. Soy María. Soy estudiante.</p></div>
+        </section>
+      </section>
+    </main>
   </div>
 
   <dialog id="hangul-dialog" class="info-dialog" aria-labelledby="hangul-dialog-title"><form method="dialog"><button class="dialog-close" aria-label="Cerrar explicación" type="submit">×</button><span class="eyebrow">UNA IDEA SENCILLA</span><h2 id="hangul-dialog-title">Cada bloque forma una sílaba.</h2><p>En Hangul, primero eliges una consonante y después una vocal. Por ejemplo, <strong lang="ko">ㅅ + ㅏ = 사</strong>. Si agregas otra consonante, puede cerrar el bloque; al escribir una vocal después, esa consonante pasa al siguiente bloque.</p><div class="dialog-example"><span lang="ko">ㅅ</span><b>+</b><span lang="ko">ㅏ</span><b>=</b><strong lang="ko">사</strong></div><button class="check-button" type="submit">Entendido</button></form></dialog>

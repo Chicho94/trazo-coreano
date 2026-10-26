@@ -5,6 +5,10 @@ Esta es una lista de trabajo para ampliar Trazo de forma gradual. TOPIK I compre
 - Las 48 palabras que ya están en `dist/app.js` se consideran **publicadas**. No se duplican en `topik-i-propuestas.json`.
 - Las 120 propuestas se organizan en cinco lotes de 24 palabras. Los lotes 1 a 3 priorizan el nivel 1; los lotes 4 y 5 amplían hacia el nivel 2.
 - Antes de integrar una palabra: verificar su acepción en contexto, elegir una imagen clara, comprobar la composición Hangul con el teclado y probarla en móvil.
+- La imagen base de una palabra se toma de Noto Emoji y se guarda localmente. El nombre se deriva de sus puntos Unicode, lo que permite ampliar el catálogo sin mantener una tabla manual de rutas.
+- Fluent Emoji queda disponible para palabras destacadas o casos donde aporte una representación más clara. Mezclar estilos debe ser una decisión editorial, no aleatoria.
+- Si ninguna biblioteca representa bien el sentido elegido, se crea una ilustración propia. Las fotografías requieren revisar su licencia y atribución individualmente.
+- Las lecciones de gramática se explican con estructura visual, ejemplos y textos simples. No necesitan una ilustración literal para cada regla.
 - `읽다`, `많다` y `여덟` requieren ampliar la composición de consonantes finales dobles del teclado antes de publicarse en la app.
 - Una palabra puede tener varios sentidos. El significado español aquí es el sentido que se pretende ilustrar en Trazo (por ejemplo, `차` como bebida).
 
