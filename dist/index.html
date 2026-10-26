@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf7f0">
+  <meta name="description" content="Practica la escritura coreana con palabras ilustradas, teclado Hangul y ayuda paso a paso.">
+  <title>Trazo — Aprende a escribir coreano</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <svg class="asset-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="ill-apple" viewBox="0 0 360 300">
+      <ellipse cx="183" cy="263" rx="105" ry="15" fill="#d5c9ba" opacity=".5"/>
+      <path d="M181 86c-7-28 0-44 19-57" fill="none" stroke="#66482f" stroke-width="13" stroke-linecap="round"/>
+      <path d="M182 75c-11-28-40-39-65-27 11 28 36 40 65 27Z" fill="#6d9e65"/>
+      <path d="M176 107c-27-25-83-18-107 27-28 54-6 133 42 148 28 9 50-5 68-5s39 13 66 5c49-16 70-92 43-147-24-48-82-55-112-28Z" fill="#e66e58" stroke="#9e463e" stroke-width="6"/>
+      <path d="M94 139c13-21 33-28 48-27" fill="none" stroke="#ffb9a9" stroke-width="12" stroke-linecap="round" opacity=".72"/>
+    </symbol>
+    <symbol id="ill-water" viewBox="0 0 360 300">
+      <ellipse cx="180" cy="268" rx="92" ry="13" fill="#c6d1d2" opacity=".5"/>
+      <path d="M91 63h178l-17 183c-2 18-16 26-34 26h-76c-18 0-32-8-34-26L91 63Z" fill="#f6ffff" stroke="#557c83" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M105 144c28-10 49 9 75 9s47-19 75-9l-10 96c-2 16-12 22-30 22h-70c-18 0-28-6-30-22l-10-96Z" fill="#91d6de" opacity=".85"/>
+      <path d="M120 83h17" stroke="#fff" stroke-width="11" stroke-linecap="round"/>
+      <path d="M154 41c0-15 16-29 16-29s16 14 16 29a16 16 0 0 1-32 0Z" fill="#59b4cf"/>
+    </symbol>
+    <symbol id="ill-house" viewBox="0 0 360 300">
+      <ellipse cx="181" cy="266" rx="122" ry="13" fill="#d6cbbb" opacity=".5"/>
+      <path d="M76 139 181 50l105 89" fill="none" stroke="#a95642" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M92 137 181 65l89 72v120H92V137Z" fill="#fff2d8" stroke="#786650" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M156 257v-76h51v76" fill="#b66e57" stroke="#786650" stroke-width="6"/>
+      <circle cx="194" cy="222" r="4" fill="#fff5d7"/>
+      <rect x="111" y="160" width="33" height="36" rx="4" fill="#a9d8dd" stroke="#786650" stroke-width="5"/>
+      <rect x="220" y="160" width="33" height="36" rx="4" fill="#a9d8dd" stroke="#786650" stroke-width="5"/>
+    </symbol>
+    <symbol id="ill-book" viewBox="0 0 360 300">
+      <ellipse cx="181" cy="256" rx="126" ry="13" fill="#d4c8b8" opacity=".5"/>
+      <path d="M179 80c-39-22-82-20-117-6v156c34-14 78-16 117 6 39-22 83-20 119-6V74c-36-14-80-16-119 6Z" fill="#f9f0d9" stroke="#44566d" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M179 80v156" fill="none" stroke="#44566d" stroke-width="7"/>
+      <path d="M85 107c23-8 46-7 72 3m-72 26c23-8 46-7 72 3m-72 27c23-8 46-7 72 3m45-59c23-10 46-11 72-3m-72 32c23-10 46-11 72-3m-72 32c23-10 46-11 72-3" fill="none" stroke="#8a9aa5" stroke-width="5" stroke-linecap="round"/>
+      <path d="M224 78v71l14-11 14 11V73" fill="#e5a289"/>
+    </symbol>
+    <symbol id="ill-tree" viewBox="0 0 360 300">
+      <ellipse cx="180" cy="268" rx="124" ry="13" fill="#c9d6bd" opacity=".55"/>
+      <path d="M167 240V138h27v102l17 25h-61l17-25Z" fill="#a96c4b" stroke="#80503e" stroke-width="6"/>
+      <path d="M179 61c-39-27-76 0-74 31-40 3-51 57-19 80-14 36 18 64 52 54 28 28 75 15 88-14 36 10 68-26 49-58 19-30 0-66-37-67-8-33-35-40-59-26Z" fill="#83b888" stroke="#4f8063" stroke-width="7"/>
+      <circle cx="122" cy="137" r="18" fill="#a6ce9f" opacity=".72"/>
+      <circle cx="227" cy="119" r="20" fill="#a6ce9f" opacity=".72"/>
+    </symbol>
+    <symbol id="ill-cat" viewBox="0 0 360 300">
+      <ellipse cx="181" cy="269" rx="109" ry="13" fill="#d8cabc" opacity=".5"/>
+      <path d="M252 227c44-4 60-55 27-71" fill="none" stroke="#b48465" stroke-width="20" stroke-linecap="round"/>
+      <path d="M106 196c0-42 33-67 74-67s74 25 74 67v58H106v-58Z" fill="#d7ad85" stroke="#876b58" stroke-width="6"/>
+      <path d="m112 99-4-60 53 31a95 95 0 0 1 40 0l52-31-5 60c25 19 31 48 21 72-14 34-52 49-89 49-38 0-76-15-90-49-10-24-4-53 22-72Z" fill="#e1b88e" stroke="#876b58" stroke-width="7" stroke-linejoin="round"/>
+      <path d="m121 80-2-20 26 18m94 2 3-20-27 18" fill="#e9a6a7"/>
+      <ellipse cx="146" cy="142" rx="7" ry="11" fill="#354653"/><ellipse cx="213" cy="142" rx="7" ry="11" fill="#354653"/>
+      <path d="m172 169 8 6 8-6m-8 6v8m0 0-14 8m14-8 14 8" fill="none" stroke="#865b52" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="m137 175-47-7m48 16-45 6m130-15 47-7m-48 16 45 6" fill="none" stroke="#865b52" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="ill-coffee" viewBox="0 0 360 300">
+      <ellipse cx="179" cy="259" rx="119" ry="13" fill="#d5c6b7" opacity=".5"/>
+      <path d="M107 108h147v100c0 32-24 48-73 48s-74-16-74-48V108Z" fill="#fdf7ed" stroke="#775e50" stroke-width="7"/>
+      <path d="M254 134h26c18 0 24 11 24 26s-11 29-40 29h-10" fill="none" stroke="#775e50" stroke-width="12"/>
+      <ellipse cx="181" cy="110" rx="75" ry="16" fill="#815843" stroke="#775e50" stroke-width="6"/>
+      <path d="M144 79c-10-15 11-24 2-40m36 40c-10-15 11-24 2-40m36 40c-10-15 11-24 2-40" fill="none" stroke="#b49a89" stroke-width="7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="ill-milk" viewBox="0 0 360 300">
+      <ellipse cx="183" cy="263" rx="93" ry="13" fill="#d5d1c6" opacity=".5"/>
+      <path d="M126 80h108l-11 33v136c0 10-9 15-17 15h-58c-9 0-17-5-17-15V113l-5-33Z" fill="#f8fbf6" stroke="#657982" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M131 113h92v42h-92z" fill="#c7e4e4"/>
+      <path d="M141 178h72v63h-72z" fill="#e7f1ed"/>
+      <path d="M153 47h56l25 33H126l27-33Z" fill="#a9c7cf" stroke="#657982" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M153 47v32" stroke="#657982" stroke-width="6"/>
+      <path d="M164 203c8-16 23-16 31 0-1 14-8 23-16 23s-15-9-15-23Z" fill="#fff"/>
+    </symbol>
+    <symbol id="ill-banana" viewBox="0 0 360 300">
+      <ellipse cx="181" cy="265" rx="114" ry="13" fill="#d6ccb5" opacity=".5"/>
+      <path d="M61 88c9 56 45 103 100 125 54 21 113 3 141-38-14 57-56 99-120 101C116 277 59 224 48 152c-5-31-1-52 13-64Z" fill="#f7cd61" stroke="#a97f39" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M61 88c-10-8-13-20-10-32" fill="none" stroke="#795f3a" stroke-width="12" stroke-linecap="round"/>
+      <path d="M300 176c11-5 18-4 24 1" fill="none" stroke="#795f3a" stroke-width="12" stroke-linecap="round"/>
+      <path d="M92 175c29 44 80 75 135 70" fill="none" stroke="#ffe8a0" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+    </symbol>
+  </svg>
+
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Trazo, ir al inicio"><span class="brand-mark" aria-hidden="true">ㅎ<span class="brand-dot"></span></span><span class="brand-name">trazo<span class="brand-hangul">한글</span></span></a>
+      <span class="topbar-tag">Aprende a escribir coreano, una palabra a la vez</span>
+      <button class="audio-button" id="hear-word" type="button" aria-label="Escuchar la palabra actual"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Zm13-2c2 1 3 3 3 5s-1 4-3 5m-2-7c1 .5 1.5 1.2 1.5 2S16 13.5 15 14"/></svg><span>Escuchar</span></button>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Tu práctica">
+        <div class="sidebar-heading"><div><span class="eyebrow">TU RUTA</span><h2>Vocabulario</h2></div><span class="lesson-count" id="lesson-count">00 / 48</span></div>
+        <div class="lesson-progress" role="progressbar" aria-label="Palabras completadas" aria-valuemin="0" aria-valuemax="48" aria-valuenow="0"><span id="lesson-progress-fill"></span></div>
+        <p class="progress-copy" id="progress-copy">0 de 48 palabras aprendidas</p>
+        <div class="sidebar-section-label">EXPLORA POR TEMAS</div>
+        <nav class="category-list" id="category-list" aria-label="Elegir tema"></nav>
+        <div class="sidebar-section-label" id="current-category-label">COMIDA Y BEBIDA</div>
+        <nav class="word-list" id="word-list" aria-label="Elegir palabra"></nav>
+        <div class="sidebar-tip"><span class="tip-icon" aria-hidden="true">✦</span><p><strong>Un consejo</strong><br>El Hangul combina consonantes y vocales en bloques. No necesitas memorizar todo de una vez.</p></div>
+      </aside>
+
+      <main class="main-content" id="inicio">
+        <div class="lesson-topline"><span class="eyebrow" id="category-breadcrumb">LECCIÓN 01 <span class="topline-divider">/</span> COMIDA Y BEBIDA</span><button class="all-words-button" id="open-words" type="button" aria-expanded="false" aria-controls="mobile-words">Palabras del tema <span aria-hidden="true">⌄</span></button></div>
+        <nav class="mobile-categories" id="mobile-categories" aria-label="Elegir tema"></nav>
+        <div class="mobile-words" id="mobile-words" hidden></div>
+        <h1>Escribir también es <em>descubrir.</em></h1>
+        <p class="hero-copy">Observa, escucha y construye cada palabra en coreano con tus propias manos.</p>
+
+        <section class="practice-card" aria-labelledby="word-label">
+          <div class="picture-side">
+            <div class="picture-halo"><svg id="word-picture" viewBox="0 0 360 300" role="img" aria-label="Ilustración de una manzana"><use id="word-picture-use" href="#ill-apple"></use></svg><span class="word-emoji" id="word-emoji" role="img" hidden></span></div>
+            <span class="picture-caption">MIRA LA IMAGEN</span>
+            <button class="translation-button" id="reveal-translation" type="button">¿Qué significa? <span aria-hidden="true">↗</span></button>
+            <span class="translation" id="translation" hidden>Manzana</span>
+          </div>
+          <div class="word-side">
+            <div class="word-meta"><span class="word-pill">PALABRA <span id="word-number">01</span> DE <span id="word-total">48</span></span><span class="syllable-count" id="syllable-count">2 bloques</span></div>
+            <span class="word-label" id="word-label">Escribe esta palabra</span>
+            <div class="target-word" id="target-word" lang="ko">사과</div>
+            <div class="word-actions"><button id="hear-word-inline" type="button" class="icon-text-button"><span aria-hidden="true">◖))</span> Escuchar pronunciación</button></div>
+            <div class="work-area">
+              <div class="answer-heading"><label for="answer-display">Tu escritura</label><span id="answer-count">0 / 5 letras</span></div>
+              <div class="answer-box" id="answer-box"><input id="answer-display" type="text" lang="ko" readonly placeholder="Toca para escribir…" autocomplete="off" aria-describedby="answer-hint"><button class="mobile-write-button" id="open-keyboard" type="button" aria-label="Mostrar teclado coreano" aria-controls="keyboard-section" aria-expanded="false">⌨</button><button class="erase-button" id="erase-key" type="button" aria-label="Borrar última letra" title="Borrar última letra">⌫</button></div>
+              <p class="answer-hint" id="answer-hint" role="status" aria-live="polite">Puedes usar el teclado en pantalla o tu teclado físico.</p>
+            </div>
+            <div class="practice-actions"><button class="check-button" id="check-answer" type="button">Comprobar <span aria-hidden="true">→</span></button><button class="clear-button" id="clear-answer" type="button">Limpiar</button></div>
+          </div>
+        </section>
+
+        <section class="keyboard-section" id="keyboard-section" aria-labelledby="keyboard-heading">
+          <div class="keyboard-heading"><div><span class="eyebrow">TECLADO HANGUL</span><h2 id="keyboard-heading">Construye la palabra</h2></div><div class="keyboard-heading-actions"><label class="guide-switch"><span>Guíame paso a paso <small id="guide-state">Desactivado</small></span><input id="guide-toggle" type="checkbox" role="switch"><span class="switch-track" aria-hidden="true"></span></label><button class="keyboard-close" id="close-keyboard" type="button" aria-label="Ocultar teclado">⌄</button></div></div>
+          <div class="guide-panel" id="guide-panel" hidden><span class="guide-spark" aria-hidden="true">✦</span><div><strong id="guide-title">Primera letra</strong><p id="guide-copy">Pulsa la tecla destacada para comenzar.</p></div><div class="guide-next" id="guide-next" lang="ko">ㅅ</div></div>
+          <div class="keyboard" id="keyboard" aria-label="Teclado coreano en pantalla"></div>
+          <div class="keyboard-footer"><span><kbd>Espacio</kbd> separa palabras</span><span><kbd>⌫</kbd> borra una letra</span><button id="show-tip" type="button">¿Cómo funciona Hangul? <span aria-hidden="true">↗</span></button></div>
+        </section>
+        <div class="lesson-navigation"><button id="previous-word" type="button"><span aria-hidden="true">←</span> Anterior</button><span>Avanza a tu ritmo</span><button id="next-word" type="button">Siguiente palabra <span aria-hidden="true">→</span></button></div>
+      </main>
+    </div>
+  </div>
+
+  <dialog id="hangul-dialog" class="info-dialog" aria-labelledby="hangul-dialog-title"><form method="dialog"><button class="dialog-close" aria-label="Cerrar explicación" type="submit">×</button><span class="eyebrow">UNA IDEA SENCILLA</span><h2 id="hangul-dialog-title">Cada bloque forma una sílaba.</h2><p>En Hangul, primero eliges una consonante y después una vocal. Por ejemplo, <strong lang="ko">ㅅ + ㅏ = 사</strong>. Si agregas otra consonante, puede cerrar el bloque; al escribir una vocal después, esa consonante pasa al siguiente bloque.</p><div class="dialog-example"><span lang="ko">ㅅ</span><b>+</b><span lang="ko">ㅏ</span><b>=</b><strong lang="ko">사</strong></div><button class="check-button" type="submit">Entendido</button></form></dialog>
+  <div class="success-card" id="success-card" role="status" aria-live="polite" hidden><span class="success-icon">✓</span><div><strong>¡Lo escribiste!</strong><p><span id="success-korean" lang="ko">사과</span> significa <span id="success-spanish">manzana</span>.</p></div><button id="success-next" type="button">Siguiente <span aria-hidden="true">→</span></button></div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="3" y="3" width="58" height="58" rx="18" fill="#dbece5"/>
+  <text x="32" y="43" text-anchor="middle" fill="#245b55" font-family="Malgun Gothic, sans-serif" font-size="37" font-weight="800">ㅎ</text>
+  <circle cx="48" cy="49" r="5" fill="#c67660"/>
+</svg>
