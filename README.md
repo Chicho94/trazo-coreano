@@ -11,3 +11,7 @@ En pantallas de teléfono, el teclado aparece como una bandeja inferior al tocar
 La versión actual es un MVP de práctica: no incluye cuentas, clases, seguimiento entre dispositivos ni un curso completo de gramática. El progreso se conserva solo en `localStorage`.
 
 El sitio se publica con GitHub Pages desde `dist/` mediante el workflow de `.github/workflows/pages.yml`. Cada actualización de la rama `main` vuelve a publicar la versión estática.
+
+## Próximo vocabulario
+
+La [lista de trabajo para TOPIK I](content/README.md) organiza 120 palabras candidatas en cinco lotes para incorporarlas de forma gradual. Se suma a las 48 palabras ya disponibles. La división entre niveles 1 y 2 es editorial y provisional; cada palabra se revisará antes de publicarla en la app.

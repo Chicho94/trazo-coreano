@@ -1,4 +1,6 @@
 screenshots/
 qa.mjs
+.tmp/
+outputs/
 .DS_Store
 Thumbs.db
