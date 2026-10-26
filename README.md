@@ -10,6 +10,12 @@ En pantallas de teléfono, el teclado aparece como una bandeja inferior al tocar
 
 La versión actual es un MVP de práctica: no incluye cuentas, clases, seguimiento entre dispositivos ni un curso completo de gramática. El progreso se conserva solo en `localStorage`.
 
+## Laboratorio de imágenes
+
+La [comparación visual](dist/comparativa-imagenes.html) permite alternar entre tres palabras y verlas con Noto Emoji, Fluent Emoji 3D y fotografías encontradas en Openverse. Es una prueba independiente: no cambia las ilustraciones de las lecciones. Los archivos de muestra se guardan en `dist/assets/comparativa/` para que la comparación funcione sin consultar servicios externos; la tipografía puede usar Google Fonts si hay conexión.
+
+Noto Emoji se usa bajo Apache 2.0 y Fluent Emoji bajo MIT. Las tres fotos de esta prueba tienen licencia CC BY-NC-SA 2.0: la página muestra sus créditos y enlaces, y esas fotos no se deben trasladar a un producto comercial sin reemplazarlas. Los avisos de licencia de los dos paquetes de emojis están en la carpeta de imágenes.
+
 El sitio se publica con GitHub Pages desde `dist/` mediante el workflow de `.github/workflows/pages.yml`. Cada actualización de la rama `main` vuelve a publicar la versión estática.
 
 ## Próximo vocabulario

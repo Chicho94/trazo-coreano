@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf7f0">
+  <meta name="description" content="Prueba visual de Noto Emoji, Fluent Emoji y Openverse para Trazo Coreano.">
+  <title>Laboratorio de imágenes · Trazo</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="comparativa-imagenes.css">
+  <script src="comparativa-imagenes.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">ㅎ</span><span>trazo<small>한글</small></span></a>
+    <a class="back" href="index.html">← Volver a practicar</a>
+  </header>
+
+  <main class="shell">
+    <div class="intro">
+      <div class="intro-copy">
+        <span class="eyebrow">LABORATORIO VISUAL · PRUEBA DE CONCEPTO</span>
+        <h1>Una palabra.<br><em>Tres maneras de verla.</em></h1>
+        <p>Comparamos las mismas palabras con ilustraciones de <strong>Noto Emoji</strong>, <strong>Fluent Emoji</strong> y fotografías encontradas en <strong>Openverse</strong>. Selecciona una palabra para juzgar cuál ayuda más a recordarla.</p>
+      </div>
+      <div class="intro-stamp" aria-hidden="true"><span>ㅎ</span><span>✦</span><span>가</span></div>
+    </div>
+
+    <section class="picker" aria-label="Elegir palabra">
+      <div class="picker-heading"><span class="eyebrow">01 / ELIGE UNA PALABRA</span><span class="picker-hint">Mismo concepto, tres estilos</span></div>
+      <div class="word-tabs" role="tablist" aria-label="Palabras para comparar">
+        <button class="word-tab" type="button" role="tab" id="tab-apple" aria-controls="comparison-panel" aria-selected="true" data-word="apple"><span class="tab-emoji" aria-hidden="true">🍎</span><span><strong>사과</strong><small>manzana</small></span></button>
+        <button class="word-tab" type="button" role="tab" id="tab-cat" aria-controls="comparison-panel" aria-selected="false" tabindex="-1" data-word="cat"><span class="tab-emoji" aria-hidden="true">🐱</span><span><strong>고양이</strong><small>gato</small></span></button>
+        <button class="word-tab" type="button" role="tab" id="tab-tree" aria-controls="comparison-panel" aria-selected="false" tabindex="-1" data-word="tree"><span class="tab-emoji" aria-hidden="true">🌳</span><span><strong>나무</strong><small>árbol</small></span></button>
+      </div>
+    </section>
+
+    <section class="comparison" id="comparison-panel" role="tabpanel" aria-labelledby="tab-apple">
+      <div class="comparison-heading"><div><span class="eyebrow">02 / COMPARA</span><h2 id="word-title">사과 <span>manzana</span></h2></div><p>¿Qué imagen reconocerías más rápido al practicar?</p></div>
+      <div class="cards">
+        <article class="source-card noto">
+          <div class="card-top"><span class="source-index">01</span><span class="source-kind">ILUSTRACIÓN VECTORIAL</span></div>
+          <div class="image-stage"><img id="noto-image" src="assets/comparativa/noto-apple.svg" alt="Manzana en estilo Noto Emoji" width="220" height="220"></div>
+          <div class="card-content"><div class="card-title"><h3>Noto Emoji</h3><span class="size" id="noto-size">2,1 KB</span></div><p>Formas claras y colores planos. Es la opción más ligera de esta muestra.</p><a href="https://github.com/googlefonts/noto-emoji" target="_blank" rel="noopener noreferrer">Ver biblioteca ↗</a><div class="photo-credit">Google · <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener noreferrer">Apache 2.0</a></div></div>
+        </article>
+        <article class="source-card fluent">
+          <div class="card-top"><span class="source-index">02</span><span class="source-kind">ILUSTRACIÓN 3D</span></div>
+          <div class="image-stage"><img id="fluent-image" src="assets/comparativa/fluent-apple.png" alt="Manzana en estilo Fluent Emoji" width="220" height="220"></div>
+          <div class="card-content"><div class="card-title"><h3>Fluent Emoji</h3><span class="size" id="fluent-size">44,0 KB</span></div><p>Más volumen y textura, con una apariencia suave y expresiva.</p><a href="https://github.com/microsoft/fluentui-emoji" target="_blank" rel="noopener noreferrer">Ver biblioteca ↗</a><div class="photo-credit">Microsoft · <a href="https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a></div></div>
+        </article>
+        <article class="source-card openverse">
+          <div class="card-top"><span class="source-index">03</span><span class="source-kind">FOTOGRAFÍA</span></div>
+          <div class="image-stage photo"><img id="openverse-image" src="assets/comparativa/openverse-apple.jpg" alt="Fotografía de manzanas encontrada en Openverse" width="600" height="400"></div>
+          <div class="card-content"><div class="card-title"><h3>Openverse</h3><span class="size" id="openverse-size">136,5 KB</span></div><p>Una imagen real ofrece contexto, aunque exige seleccionar y acreditar cada foto.</p><a id="openverse-source" href="https://openverse.org/image/ae9def31-39f4-4056-8df3-135b19a2ddc7" target="_blank" rel="noopener noreferrer">Ver imagen y licencia ↗</a><div class="photo-credit"><a id="photo-title" href="https://www.flickr.com/photos/53575715@N02/6284756738" target="_blank" rel="noopener noreferrer">“Apples”</a> por <a id="photo-author" href="https://www.flickr.com/photos/53575715@N02" target="_blank" rel="noopener noreferrer">astronomy_blog</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 2.0</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="notes" aria-labelledby="notes-title"><div><span class="eyebrow">03 / LO QUE APRENDIMOS</span><h2 id="notes-title">La imagen también enseña.</h2></div><div class="note-grid"><div><strong>Rapidez y consistencia</strong><p>Noto y Fluent tienen una apariencia predecible entre palabras. Sus archivos se pueden guardar con la aplicación.</p></div><div><strong>Realismo con trabajo editorial</strong><p>Openverse es un buscador, no una biblioteca de estilo único. Hay que comprobar relevancia, calidad, autor y licencia imagen por imagen.</p></div><div><strong>Licencia antes de publicar</strong><p>Estas tres fotos son CC BY-NC-SA 2.0: requieren atribución y no permiten uso comercial. Para una versión comercial habría que sustituirlas.</p></div></div></section>
+
+    <details class="credits"><summary>Procedencia y licencias de los archivos</summary><div class="credits-body"><p>Los SVG de <a href="https://github.com/googlefonts/noto-emoji/tree/main/2D/svg" target="_blank" rel="noopener noreferrer">Noto Emoji</a> pertenecen a Google y están bajo <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener noreferrer">Apache 2.0</a>. Los PNG de <a href="https://github.com/microsoft/fluentui-emoji" target="_blank" rel="noopener noreferrer">Fluent Emoji</a> pertenecen a Microsoft y están bajo <a href="https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a>. Las copias de los avisos se incluyen en <code>assets/comparativa/</code>.</p><ul><li><a href="https://www.flickr.com/photos/53575715@N02/6284756738" target="_blank" rel="noopener noreferrer">“Apples”</a> por astronomy_blog.</li><li><a href="https://www.flickr.com/photos/29468339@N02/5840168826" target="_blank" rel="noopener noreferrer">“Cat bliss”</a> por @Doug88888.</li><li><a href="https://www.flickr.com/photos/12771303@N00/96442418" target="_blank" rel="noopener noreferrer">“Perfect tree”</a> por Daveybot.</li></ul><p>Las tres fotografías fueron encontradas en Openverse y se presentan sin modificar bajo <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 2.0</a>. Esta página es una demostración de diseño, no una selección definitiva para el contenido de Trazo.</p></div></details>
+  </main>
+</body>
+</html>
