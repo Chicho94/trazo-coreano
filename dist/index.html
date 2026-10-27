@@ -102,8 +102,11 @@
         <div class="sidebar-heading"><div><span class="eyebrow">TU RUTA</span><h2>Vocabulario</h2></div><span class="lesson-count" id="lesson-count">00 / 48</span></div>
         <div class="lesson-progress" role="progressbar" aria-label="Palabras completadas" aria-valuemin="0" aria-valuemax="48" aria-valuenow="0"><span id="lesson-progress-fill"></span></div>
         <p class="progress-copy" id="progress-copy">0 de 48 palabras aprendidas</p>
+        <button class="review-card" id="start-review" type="button" disabled><span class="review-card-icon" aria-hidden="true">↻</span><span><strong>Repaso inteligente</strong><small id="review-count">Nada pendiente por ahora</small></span><span aria-hidden="true">→</span></button>
         <div class="sidebar-section-label">NIVEL TOPIK</div>
         <nav class="category-list" id="category-list" aria-label="Elegir tema"></nav>
+        <div class="sidebar-section-label">COLECCIONES</div>
+        <nav class="collection-list" id="collection-list" aria-label="Elegir colección temática"></nav>
         <label class="route-select-label" for="unit-select">UNIDAD DE ESTUDIO</label>
         <select class="route-select" id="unit-select" aria-label="Elegir unidad de vocabulario"></select>
         <div class="sidebar-section-label" id="current-category-label">COMIDA Y BEBIDA</div>
@@ -114,6 +117,7 @@
       <main class="main-content" id="inicio">
         <div class="lesson-topline"><span class="eyebrow" id="category-breadcrumb">LECCIÓN 01 <span class="topline-divider">/</span> COMIDA Y BEBIDA</span><button class="all-words-button" id="open-words" type="button" aria-expanded="false" aria-controls="mobile-words">Palabras del tema <span aria-hidden="true">⌄</span></button></div>
         <nav class="mobile-categories" id="mobile-categories" aria-label="Elegir tema"></nav>
+        <nav class="mobile-categories mobile-collections" id="mobile-collections" aria-label="Elegir colección temática"></nav>
         <label class="mobile-route-select" for="mobile-unit-select"><span>Unidad</span><select class="route-select" id="mobile-unit-select" aria-label="Elegir unidad de vocabulario"></select></label>
         <div class="mobile-words" id="mobile-words" hidden></div>
         <h1>Escribir también es <em>descubrir.</em></h1>
@@ -184,6 +188,6 @@
   </div>
 
   <dialog id="hangul-dialog" class="info-dialog" aria-labelledby="hangul-dialog-title"><form method="dialog"><button class="dialog-close" aria-label="Cerrar explicación" type="submit">×</button><span class="eyebrow">UNA IDEA SENCILLA</span><h2 id="hangul-dialog-title">Cada bloque forma una sílaba.</h2><p>En Hangul, primero eliges una consonante y después una vocal. Por ejemplo, <strong lang="ko">ㅅ + ㅏ = 사</strong>. Si agregas otra consonante, puede cerrar el bloque; al escribir una vocal después, esa consonante pasa al siguiente bloque.</p><div class="dialog-example"><span lang="ko">ㅅ</span><b>+</b><span lang="ko">ㅏ</span><b>=</b><strong lang="ko">사</strong></div><button class="check-button" type="submit">Entendido</button></form></dialog>
-  <div class="success-card" id="success-card" role="status" aria-live="polite" hidden><span class="success-icon">✓</span><div><strong>¡Lo escribiste!</strong><p><span id="success-korean" lang="ko">사과</span> significa <span id="success-spanish">manzana</span>.</p></div><button id="success-next" type="button">Siguiente <span aria-hidden="true">→</span></button></div>
+  <div class="success-card" id="success-card" role="status" aria-live="polite" hidden><span class="success-icon">✓</span><div class="success-copy"><strong>¡Lo escribiste!</strong><p><span id="success-korean" lang="ko">사과</span> significa <span id="success-spanish">manzana</span>.</p><small id="review-plan">La volverás a ver según tu desempeño.</small></div><div class="rating-buttons" aria-label="Cambiar dificultad"><button type="button" data-rating="hard">Difícil</button><button type="button" data-rating="good">Bien</button><button type="button" data-rating="easy">Fácil</button></div><button id="success-next" type="button">Siguiente <span aria-hidden="true">→</span></button></div>
 </body>
 </html>

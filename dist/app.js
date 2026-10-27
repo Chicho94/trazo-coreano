@@ -67,7 +67,10 @@ const words = masterVocabulary.map(word => {
   const visual = starterVisuals[word.korean] || {};
   return {
     ...word,
+    spanish:visual.spanish || word.spanish,
+    fullSpanish:word.spanish,
     category:`topik${word.level || 1}`,
+    collection:visual.category || null,
     emoji:visual.emoji || '',
     hasVisual:Boolean(visual.emoji),
     image:visual.image,
@@ -116,9 +119,16 @@ let currentGrammarId = grammarLessons[0]?.id;
 let currentIndex = 0;
 let inputTokens = [];
 let completed = new Set();
+let reviewState = {};
+let reviewQueue = [];
+let currentCollection = null;
 let guided = false;
 let successShown = false;
 let shiftActive = false;
+let mistakeCount = 0;
+let guidedUsed = false;
+let lastReviewBaseline = null;
+const DAY = 24 * 60 * 60 * 1000;
 const mobileViewport = matchMedia('(max-width: 760px)');
 
 function loadProgress() {
@@ -128,11 +138,12 @@ function loadProgress() {
     const previousWords = ['사과','물','집','책','나무','고양이','커피','우유','바나나'];
     const knownWords = new Set(words.map(word => word.korean));
     completed = new Set(Array.isArray(saved.completed) ? saved.completed.map(item => typeof item === 'number' ? previousWords[item] : item).filter(item => knownWords.has(item)) : []);
+    reviewState = saved.review && typeof saved.review === 'object' ? saved.review : {};
     guided = saved.guided === true;
-  } catch { completed = new Set(); }
+  } catch { completed = new Set(); reviewState = {}; }
 }
 function saveProgress() {
-  try { localStorage.setItem('trazo-coreano-v2', JSON.stringify({ completed:[...completed], guided })); } catch { /* La práctica sigue funcionando sin almacenamiento. */ }
+  try { localStorage.setItem('trazo-coreano-v2', JSON.stringify({ completed:[...completed], guided, review:reviewState })); } catch { /* La práctica sigue funcionando sin almacenamiento. */ }
 }
 function stepsFor(word) {
   const steps = [];
@@ -213,11 +224,14 @@ function renderCategories() {
       const learned = members.filter(word => completed.has(word.korean)).length;
       const button = document.createElement('button');
       button.type = 'button';
-      button.className = 'category-option' + (category.id === activeCategory ? ' active' : '');
-      button.setAttribute('aria-current', category.id === activeCategory ? 'true' : 'false');
+      const active = !currentCollection && category.id === activeCategory;
+      button.className = 'category-option' + (active ? ' active' : '');
+      button.setAttribute('aria-current', active ? 'true' : 'false');
       button.setAttribute('aria-label', `${category.name}, ${learned} de ${members.length} palabras aprendidas`);
       button.innerHTML = `<span class="category-icon" aria-hidden="true">${category.icon}</span><span>${category.name}</span><small>${learned}/${members.length}</small>`;
       button.addEventListener('click', () => {
+        currentCollection = null;
+        reviewQueue = [];
         const firstUnit = studyUnits.find(unit => `topik${unit.level}` === category.id);
         if (firstUnit) currentUnit = firstUnit.id;
         loadWord(words.findIndex(word => word.unit === currentUnit));
@@ -228,10 +242,42 @@ function renderCategories() {
     });
   }
   const category = categories.find(item => item.id === activeCategory);
+  renderCollections();
   renderUnitSelectors(category);
   const unit = studyUnits.find(item => item.id === currentUnit);
-  $('#current-category-label').textContent = (unit?.title || category.name).toUpperCase();
-  $('#category-breadcrumb').innerHTML = `${category.name.toUpperCase()} <span class="topline-divider">/</span> UNIDAD ${String(unit?.sequence || 1).padStart(2,'0')}`;
+  const collection = starterCategories.find(item => item.id === currentCollection);
+  const title = currentCollection === 'review' ? 'Repaso inteligente' : collection?.name;
+  $('#current-category-label').textContent = (title || unit?.title || category.name).toUpperCase();
+  $('#category-breadcrumb').innerHTML = currentCollection
+    ? `${currentCollection === 'review' ? 'REPASO' : 'COLECCIÓN'} <span class="topline-divider">/</span> ${(title || '').toUpperCase()}`
+    : `${category.name.toUpperCase()} <span class="topline-divider">/</span> UNIDAD ${String(unit?.sequence || 1).padStart(2,'0')}`;
+}
+function renderCollections() {
+  const due = dueWordKeys();
+  for (const destination of [$('#collection-list'),$('#mobile-collections')]) {
+    destination.replaceChildren();
+    if (destination.id === 'mobile-collections' && due.length) {
+      const reviewButton = document.createElement('button');
+      reviewButton.type = 'button';
+      reviewButton.className = `category-option${currentCollection === 'review' ? ' active' : ''}`;
+      reviewButton.innerHTML = `<span class="category-icon" aria-hidden="true">↻</span><span>Repaso</span><small>${due.length}</small>`;
+      reviewButton.addEventListener('click',startReviewSession);
+      destination.append(reviewButton);
+    }
+    starterCategories.forEach(collection => {
+      const members = words.filter(word => word.collection === collection.id);
+      const learned = members.filter(word => completed.has(word.korean)).length;
+      const button = document.createElement('button');
+      button.type = 'button';
+      const active = currentCollection === collection.id;
+      button.className = `category-option${active ? ' active' : ''}`;
+      button.setAttribute('aria-current',active ? 'true' : 'false');
+      button.setAttribute('aria-label',`${collection.name}, ${learned} de ${members.length} palabras aprendidas`);
+      button.innerHTML = `<span class="category-icon" aria-hidden="true">${collection.icon}</span><span>${collection.name}</span><small>${learned}/${members.length}</small>`;
+      button.addEventListener('click',() => selectCollection(collection.id));
+      destination.append(button);
+    });
+  }
 }
 function renderUnitSelectors(category) {
   const level = Number(category.id.replace('topik',''));
@@ -245,14 +291,28 @@ function renderUnitSelectors(category) {
       select.append(option);
     });
     select.value = currentUnit;
+    select.disabled = Boolean(currentCollection);
   }
+}
+function visibleWordIndexes() {
+  if (currentCollection === 'review') {
+    return reviewQueue.map(korean => words.findIndex(word => word.korean === korean)).filter(index => index >= 0);
+  }
+  if (currentCollection) {
+    return starterWords
+      .filter(word => word.category === currentCollection)
+      .map(starter => words.findIndex(word => word.korean === starter.korean))
+      .filter(index => index >= 0);
+  }
+  return words.map((word,index) => word.unit === currentUnit ? index : -1).filter(index => index >= 0);
 }
 function renderWordButtons() {
   const destinations = [$('#word-list'), $('#mobile-words')];
+  const visible = visibleWordIndexes();
   for (const destination of destinations) {
     destination.replaceChildren();
-    words.forEach((word,index) => {
-      if (word.unit !== currentUnit) return;
+    visible.forEach(index => {
+      const word = words[index];
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'word-option' + (index === currentIndex ? ' active' : '') + (completed.has(word.korean) ? ' done' : '');
@@ -268,9 +328,74 @@ function renderProgress() {
   const count = completed.size;
   $('#lesson-count').textContent = `${String(count).padStart(2,'0')} / ${String(words.length).padStart(2,'0')}`;
   $('#lesson-progress-fill').style.width = `${count / words.length * 100}%`;
+  $('.lesson-progress').setAttribute('aria-valuemax',String(words.length));
   $('.lesson-progress').setAttribute('aria-valuenow',String(count));
   $('#progress-copy').textContent = `${count} de ${words.length} palabras aprendidas`;
+  updateReviewCard();
   renderCategories();
+}
+function dueWordKeys() {
+  const now = Date.now();
+  return Object.entries(reviewState)
+    .filter(([,review]) => Number(review.due) <= now)
+    .sort(([,a],[,b]) => Number(a.due) - Number(b.due))
+    .map(([korean]) => korean)
+    .filter(korean => words.some(word => word.korean === korean));
+}
+function updateReviewCard() {
+  const due = dueWordKeys();
+  const button = $('#start-review');
+  button.disabled = due.length === 0;
+  $('#review-count').textContent = due.length ? `${due.length} ${due.length === 1 ? 'palabra pendiente' : 'palabras pendientes'}` : 'Nada pendiente por ahora';
+}
+function selectCollection(collectionId) {
+  const first = starterWords.find(word => word.category === collectionId);
+  const index = words.findIndex(word => word.korean === first?.korean);
+  if (index < 0) return;
+  currentCollection = collectionId;
+  reviewQueue = [];
+  loadWord(index);
+}
+function startReviewSession() {
+  reviewQueue = dueWordKeys();
+  if (!reviewQueue.length) return;
+  currentCollection = 'review';
+  const index = words.findIndex(word => word.korean === reviewQueue[0]);
+  if (index >= 0) loadWord(index);
+}
+function detectedRating() {
+  if (guidedUsed || mistakeCount >= 2) return 'hard';
+  if (mistakeCount === 1) return 'good';
+  return 'easy';
+}
+function ratingLabel(rating) {
+  return { hard:'Difícil', good:'Bien', easy:'Fácil' }[rating];
+}
+function scheduleReview(rating,baseline=lastReviewBaseline) {
+  const word = words[currentIndex];
+  const previous = baseline || {};
+  const oldInterval = Number(previous.interval) || 0;
+  const firstIntervals = { hard:1, good:3, easy:7 };
+  const factors = { hard:1, good:2, easy:2.5 };
+  const interval = oldInterval
+    ? Math.min(90,Math.max(firstIntervals[rating],Math.round(oldInterval * factors[rating])))
+    : firstIntervals[rating];
+  reviewState[word.korean] = {
+    interval,
+    due:Date.now() + interval * DAY,
+    lastReviewed:Date.now(),
+    rating,
+    reviews:(Number(previous.reviews) || 0) + 1,
+    lapses:(Number(previous.lapses) || 0) + (rating === 'hard' ? 1 : 0)
+  };
+  saveProgress();
+  document.querySelectorAll('[data-rating]').forEach(button => {
+    const active = button.dataset.rating === rating;
+    button.classList.toggle('active',active);
+    button.setAttribute('aria-pressed',String(active));
+  });
+  $('#review-plan').textContent = `Detectamos: ${ratingLabel(rating)} · vuelve en ${interval === 1 ? '1 día' : `${interval} días`}.`;
+  updateReviewCard();
 }
 function renderKeyboard() {
   const keyboard = $('#keyboard');
@@ -393,9 +518,12 @@ function loadWord(index) {
   inputTokens = [];
   successShown = false;
   shiftActive = false;
+  mistakeCount = 0;
+  guidedUsed = guided;
+  lastReviewBaseline = null;
   syncShiftKeys();
   const word = words[index];
-  currentUnit = word.unit;
+  if (!currentCollection) currentUnit = word.unit;
   $('#target-word').textContent = writingFor(word);
   const art = $('#word-art');
   $('#word-picture').hidden = true;
@@ -415,18 +543,21 @@ function loadWord(index) {
   $('#visual-caption').textContent = word.hasVisual ? 'MIRA LA IMAGEN' : 'OBSERVA LA PALABRA';
   $('#word-picture').setAttribute('aria-label',`Ilustración de ${word.imageLabel || word.spanish}`);
   fallback.setAttribute('aria-label',word.hasVisual ? `Ilustración de ${word.spanish}` : `Palabra coreana: ${writingFor(word)}`);
-  $('.picture-side').style.background = categories.find(category => category.id === word.category).tone;
-  const unitIndexes = words.map((item,itemIndex) => item.unit === currentUnit ? itemIndex : -1).filter(itemIndex => itemIndex >= 0);
-  const unitPosition = unitIndexes.indexOf(index);
-  $('#word-number').textContent = String(unitPosition + 1).padStart(2,'0');
-  $('#word-total').textContent = String(unitIndexes.length).padStart(2,'0');
+  const collection = starterCategories.find(item => item.id === currentCollection);
+  $('.picture-side').style.background = collection?.tone || categories.find(category => category.id === word.category).tone;
+  const visible = visibleWordIndexes();
+  const visiblePosition = visible.indexOf(index);
+  $('#word-number').textContent = String(visiblePosition + 1).padStart(2,'0');
+  $('#word-total').textContent = String(visible.length).padStart(2,'0');
   $('#syllable-count').textContent = `${writingFor(word).length} ${writingFor(word).length === 1 ? 'bloque' : 'bloques'}`;
   $('#translation').textContent = word.spanish;
   $('#translation').hidden = true;
   $('#reveal-translation').hidden = false;
   $('#success-card').hidden = true;
-  $('#previous-word').disabled = unitPosition === 0;
-  $('#next-word').innerHTML = unitPosition === unitIndexes.length - 1 ? 'Siguiente unidad <span aria-hidden="true">→</span>' : 'Siguiente palabra <span aria-hidden="true">→</span>';
+  $('#previous-word').disabled = visiblePosition === 0;
+  $('#next-word').innerHTML = visiblePosition === visible.length - 1
+    ? currentCollection ? 'Volver al inicio <span aria-hidden="true">↻</span>' : 'Siguiente unidad <span aria-hidden="true">→</span>'
+    : 'Siguiente palabra <span aria-hidden="true">→</span>';
   setHint(mobileViewport.matches ? 'Toca el cuadro para abrir el teclado Hangul.' : 'Puedes usar el teclado en pantalla o tu teclado físico.');
   renderWordButtons();
   renderProgress();
@@ -437,7 +568,7 @@ function addToken(key) {
   if (guided) {
     const expected = stepsFor(writingFor(words[currentIndex]))[inputTokens.length];
     if (!expected) { setHint('La palabra está completa. Pulsa «Comprobar».'); return; }
-    if (key !== expected.key) { setHint(`Busca la tecla ${expected.key}. La verás resaltada.`, 'error'); return; }
+    if (key !== expected.key) { mistakeCount += 1; guidedUsed = true; setHint(`Busca la tecla ${expected.key}. La verás resaltada.`, 'error'); return; }
   }
   inputTokens.push(key);
   setHint(guided ? '¡Bien! Sigue con la siguiente letra.' : 'Sigue escribiendo o comprueba tu respuesta.');
@@ -457,7 +588,8 @@ function showSuccess() {
   successShown = true;
   closeKeyboard();
   completed.add(words[currentIndex].korean);
-  saveProgress();
+  lastReviewBaseline = reviewState[words[currentIndex].korean] ? { ...reviewState[words[currentIndex].korean] } : null;
+  scheduleReview(detectedRating(),lastReviewBaseline);
   renderWordButtons();
   renderProgress();
   $('#success-korean').textContent = words[currentIndex].korean;
@@ -469,6 +601,7 @@ function checkAnswer() {
   const answer = compose(inputTokens).trim();
   if (!answer) { setHint('Escribe la palabra antes de comprobarla.','error'); return; }
   if (answer === writingFor(words[currentIndex])) { showSuccess(); return; }
+  mistakeCount += 1;
   if (guided) setHint('Todavía faltan letras. Sigue la tecla resaltada.','error');
   else setHint('Aún no coincide. Puedes borrar una letra o activar la guía.','error');
 }
@@ -478,15 +611,20 @@ function speak() {
 function selectUnit(unitId) {
   const index = words.findIndex(word => word.unit === unitId);
   if (index < 0) return;
+  currentCollection = null;
+  reviewQueue = [];
   currentUnit = unitId;
   loadWord(index);
 }
 function moveWord(direction) {
-  const unitIndexes = words.map((word,index) => word.unit === currentUnit ? index : -1).filter(index => index >= 0);
-  const position = unitIndexes.indexOf(currentIndex);
-  if (direction < 0 && position > 0) loadWord(unitIndexes[position - 1]);
-  if (direction > 0 && position < unitIndexes.length - 1) loadWord(unitIndexes[position + 1]);
-  if (direction > 0 && position === unitIndexes.length - 1) loadWord((currentIndex + 1) % words.length);
+  const visible = visibleWordIndexes();
+  const position = visible.indexOf(currentIndex);
+  if (direction < 0 && position > 0) loadWord(visible[position - 1]);
+  if (direction > 0 && position < visible.length - 1) loadWord(visible[position + 1]);
+  if (direction > 0 && position === visible.length - 1) {
+    if (currentCollection) loadWord(visible[0]);
+    else loadWord((currentIndex + 1) % words.length);
+  }
 }
 function speakKorean(text) {
   if (!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)) { setHint('Tu navegador no ofrece pronunciación en este dispositivo.'); return; }
@@ -569,13 +707,15 @@ renderKeyboard();
 loadWord(0);
 renderGrammarLevels();
 renderGrammar(currentGrammarId);
-$('#guide-toggle').addEventListener('change', event => { guided = event.target.checked; saveProgress(); renderGuide(); setHint(guided ? 'La siguiente tecla está resaltada.' : 'Ahora puedes practicar sin guía.'); });
+$('#guide-toggle').addEventListener('change', event => { guided = event.target.checked; if (guided) guidedUsed = true; saveProgress(); renderGuide(); setHint(guided ? 'La siguiente tecla está resaltada.' : 'Ahora puedes practicar sin guía.'); });
 $('#erase-key').addEventListener('click',eraseToken);
 $('#clear-answer').addEventListener('click',() => { inputTokens=[]; successShown=false; $('#success-card').hidden=true; setHint('Empecemos de nuevo.'); renderAnswer(); });
 $('#check-answer').addEventListener('click',checkAnswer);
 $('#previous-word').addEventListener('click',() => moveWord(-1));
 $('#next-word').addEventListener('click',() => moveWord(1));
 $('#success-next').addEventListener('click',() => moveWord(1));
+$('#start-review').addEventListener('click',startReviewSession);
+document.querySelectorAll('[data-rating]').forEach(button => button.addEventListener('click',() => scheduleReview(button.dataset.rating,lastReviewBaseline)));
 $('#unit-select').addEventListener('change',event => selectUnit(event.target.value));
 $('#mobile-unit-select').addEventListener('change',event => selectUnit(event.target.value));
 $('#hear-word').addEventListener('click',speak);
