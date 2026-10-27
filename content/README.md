@@ -1,4 +1,15 @@
-# Lista de vocabulario para TOPIK I
+# Contenido de TOPIK I para Trazo
+
+La fuente maestra está en el proyecto hermano `TOPIK`. Ejecuta `node scripts/build-content.mjs` para regenerar el inventario completo y los archivos de `content/generated/`.
+
+- [`INVENTARIO.md`](INVENTARIO.md) resume las cantidades actuales.
+- `generated/topik-i-vocabulary.json` contiene el vocabulario completo.
+- `generated/topik-i-grammar.json` contiene los bloques didácticos de gramática.
+- `generated/study-units.json` divide el vocabulario en unidades pequeñas.
+
+Los archivos generados no se editan manualmente. La lista siguiente queda como registro histórico de la primera ampliación editorial del prototipo.
+
+## Propuesta inicial de 120 palabras
 
 Esta es una lista de trabajo para ampliar Trazo de forma gradual. TOPIK I comprende los niveles 1 y 2, pero las columnas de nivel de esta lista son **una propuesta editorial**, no una clasificación oficial palabra por palabra. El Diccionario Básico Coreano del Instituto Nacional de la Lengua Coreana distingue vocabulario elemental, intermedio y avanzado; se usará para verificar la escritura y el significado antes de publicar cada lote.
 

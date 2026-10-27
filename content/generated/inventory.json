@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-10-27T01:11:27.818Z",
+  "source": {
+    "project": "TOPIK",
+    "vocabulary": "datos/vocabulario.json",
+    "grammar": "estudio/niveles.js"
+  },
+  "vocabulary": {
+    "total": 1781,
+    "level1": 713,
+    "level2": 1068,
+    "translated": 1781,
+    "units": 75,
+    "countsByType": [
+      {
+        "type": "n",
+        "label": "Sustantivos",
+        "count": 1105
+      },
+      {
+        "type": "v",
+        "label": "Verbos",
+        "count": 271
+      },
+      {
+        "type": "a",
+        "label": "Adjetivos",
+        "count": 137
+      },
+      {
+        "type": "ad",
+        "label": "Adverbios",
+        "count": 119
+      },
+      {
+        "type": "pr",
+        "label": "Pronombres",
+        "count": 33
+      },
+      {
+        "type": "det",
+        "label": "Determinantes",
+        "count": 23
+      },
+      {
+        "type": "nu",
+        "label": "Números",
+        "count": 46
+      },
+      {
+        "type": "cnt",
+        "label": "Contadores",
+        "count": 33
+      },
+      {
+        "type": "ex",
+        "label": "Expresiones",
+        "count": 14
+      }
+    ]
+  },
+  "grammar": {
+    "lessonBlocks": 67,
+    "courseLevels": 10,
+    "examples": 126,
+    "checks": 203
+  }
+}

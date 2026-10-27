@@ -3,11 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fbf7f0">
+  <meta name="theme-color" content="#0047a0">
   <meta name="description" content="Practica la escritura coreana con palabras ilustradas, teclado Hangul y ayuda paso a paso.">
   <title>Trazo — Aprende a escribir coreano</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
+  <script src="data/topik-content.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -99,8 +102,10 @@
         <div class="sidebar-heading"><div><span class="eyebrow">TU RUTA</span><h2>Vocabulario</h2></div><span class="lesson-count" id="lesson-count">00 / 48</span></div>
         <div class="lesson-progress" role="progressbar" aria-label="Palabras completadas" aria-valuemin="0" aria-valuemax="48" aria-valuenow="0"><span id="lesson-progress-fill"></span></div>
         <p class="progress-copy" id="progress-copy">0 de 48 palabras aprendidas</p>
-        <div class="sidebar-section-label">EXPLORA POR TEMAS</div>
+        <div class="sidebar-section-label">NIVEL TOPIK</div>
         <nav class="category-list" id="category-list" aria-label="Elegir tema"></nav>
+        <label class="route-select-label" for="unit-select">UNIDAD DE ESTUDIO</label>
+        <select class="route-select" id="unit-select" aria-label="Elegir unidad de vocabulario"></select>
         <div class="sidebar-section-label" id="current-category-label">COMIDA Y BEBIDA</div>
         <nav class="word-list" id="word-list" aria-label="Elegir palabra"></nav>
         <div class="sidebar-tip"><span class="tip-icon" aria-hidden="true">✦</span><p><strong>Un consejo</strong><br>El Hangul combina consonantes y vocales en bloques. No necesitas memorizar todo de una vez.</p></div>
@@ -109,6 +114,7 @@
       <main class="main-content" id="inicio">
         <div class="lesson-topline"><span class="eyebrow" id="category-breadcrumb">LECCIÓN 01 <span class="topline-divider">/</span> COMIDA Y BEBIDA</span><button class="all-words-button" id="open-words" type="button" aria-expanded="false" aria-controls="mobile-words">Palabras del tema <span aria-hidden="true">⌄</span></button></div>
         <nav class="mobile-categories" id="mobile-categories" aria-label="Elegir tema"></nav>
+        <label class="mobile-route-select" for="mobile-unit-select"><span>Unidad</span><select class="route-select" id="mobile-unit-select" aria-label="Elegir unidad de vocabulario"></select></label>
         <div class="mobile-words" id="mobile-words" hidden></div>
         <h1>Escribir también es <em>descubrir.</em></h1>
         <p class="hero-copy">Observa, escucha y construye cada palabra en coreano con tus propias manos.</p>
@@ -116,7 +122,7 @@
         <section class="practice-card" aria-labelledby="word-label">
           <div class="picture-side">
             <div class="picture-halo"><img class="word-art" id="word-art" src="assets/noto/emoji_u1f34e.svg" alt="Ilustración de una manzana"><svg id="word-picture" viewBox="0 0 360 300" role="img" aria-label="Ilustración de una manzana" hidden><use id="word-picture-use" href="#ill-apple"></use></svg><span class="word-emoji" id="word-emoji" role="img" hidden></span></div>
-            <span class="picture-caption">MIRA LA IMAGEN</span>
+            <span class="picture-caption" id="visual-caption">MIRA LA IMAGEN</span>
             <button class="translation-button" id="reveal-translation" type="button">¿Qué significa? <span aria-hidden="true">↗</span></button>
             <span class="translation" id="translation" hidden>Manzana</span>
           </div>
@@ -146,14 +152,12 @@
 
     <main class="grammar-view" id="grammar-view" hidden>
       <aside class="grammar-sidebar">
-        <span class="eyebrow">GRAMÁTICA INICIAL</span>
+        <span class="eyebrow">GRAMÁTICA TOPIK I</span>
         <h2>Construye sentido</h2>
         <p>La gramática se entiende mejor viendo qué función cumple cada pieza.</p>
-        <nav class="grammar-lessons" aria-label="Lecciones de gramática">
-          <button class="grammar-lesson active" type="button" data-grammar="topic" aria-current="true"><span>01</span><strong>은 / 는</strong><small>El tema</small></button>
-          <button class="grammar-lesson" type="button" data-grammar="subject" aria-current="false"><span>02</span><strong>이 / 가</strong><small>El sujeto</small></button>
-          <button class="grammar-lesson" type="button" data-grammar="object" aria-current="false"><span>03</span><strong>을 / 를</strong><small>El objeto</small></button>
-        </nav>
+        <label class="route-select-label" for="grammar-level-select">NIVEL DEL CURSO</label>
+        <select class="route-select" id="grammar-level-select" aria-label="Elegir nivel de gramática"></select>
+        <nav class="grammar-lessons" id="grammar-lessons" aria-label="Lecciones de gramática"></nav>
       </aside>
       <section class="grammar-content" aria-labelledby="grammar-title">
         <div class="grammar-topline"><span class="eyebrow" id="grammar-step">LECCIÓN 01 / PARTÍCULAS</span><span class="grammar-level">TOPIK I · INICIAL</span></div>

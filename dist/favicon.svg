@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect x="3" y="3" width="58" height="58" rx="18" fill="#dbece5"/>
-  <text x="32" y="43" text-anchor="middle" fill="#245b55" font-family="Malgun Gothic, sans-serif" font-size="37" font-weight="800">ㅎ</text>
-  <circle cx="48" cy="49" r="5" fill="#c67660"/>
+  <circle cx="32" cy="32" r="29" fill="#fff"/>
+  <path d="M5 32a27 27 0 0 1 54 0H5Z" fill="#cd2e3a"/>
+  <path d="M59 32a27 27 0 0 1-54 0h54Z" fill="#0047a0"/>
+  <circle cx="32" cy="19" r="13" fill="#0047a0"/>
+  <circle cx="32" cy="45" r="13" fill="#cd2e3a"/>
+  <text x="32" y="43" text-anchor="middle" fill="#fff" font-family="Malgun Gothic, sans-serif" font-size="32" font-weight="800">ㅎ</text>
 </svg>

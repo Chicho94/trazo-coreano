@@ -1,12 +1,14 @@
 # Trazo — práctica de escritura coreana
 
-Prototipo web adaptable a móvil para aprender a escribir vocabulario básico en Hangul.
+Aplicación web adaptable a móvil para aprender a escribir vocabulario y gramática de TOPIK I en Hangul.
 
 Abre `dist/index.html` en un navegador. No requiere instalación ni conexión para las lecciones y el teclado. La pronunciación usa las voces de síntesis disponibles en el dispositivo; puede no funcionar si el navegador no ofrece una voz compatible.
 
-Incluye 48 palabras en seis temas (comida y bebida, animales, casa y objetos, naturaleza, personas y lugares). Todo el vocabulario usa archivos locales de Noto Emoji con respaldo al pictograma del sistema si una imagen no carga. También ofrece teclado Hangul en pantalla, soporte para teclado físico con distribución coreana de dos juegos (`tkrhk` → `사과`), composición de bloques silábicos, modo guiado que destaca la siguiente letra, corrección inmediata, traducción opcional y progreso guardado en este navegador.
+Incluye 1.781 palabras de TOPIK I divididas en 75 unidades de hasta 24 palabras. Todo el vocabulario concreto que dispone de pictograma usa archivos locales de Noto Emoji; el resto muestra una referencia visual según el tipo de palabra. También ofrece teclado Hangul en pantalla, soporte para teclado físico con distribución coreana de dos juegos (`tkrhk` → `사과`), composición de bloques silábicos —incluidas consonantes finales dobles—, modo guiado, corrección inmediata, traducción opcional y progreso guardado en este navegador.
 
-La navegación incluye una primera sección de gramática con tres partículas básicas (`은/는`, `이/가`, `을/를`). Las reglas se muestran como piezas dentro de la oración y se acompañan con textos cortos; así el aprendizaje gramatical no depende de inventar una imagen literal para conceptos abstractos.
+La sección de gramática contiene 67 bloques didácticos distribuidos en 10 niveles, con 126 ejemplos y 203 comprobaciones breves procedentes del proyecto TOPIK.
+
+Trazo es una PWA instalable. El `service-worker.js` guarda la aplicación y el catálogo principal para que puedan abrirse sin conexión después de la primera visita.
 
 En pantallas de teléfono, el teclado aparece como una bandeja inferior al tocar la respuesta. Tiene tecla de mayúsculas para consonantes dobles, barra espaciadora, borrar y «Listo». Se puede ocultar sin perder lo escrito. El progreso de la primera versión se migra automáticamente cuando se abre esta versión.
 
