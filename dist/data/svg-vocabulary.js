@@ -766,5 +766,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "una clase escolar",
     "emoji": "🏫",
     "provider": "noto-emoji"
+  },
+  "가격": {
+    "path": "assets/svg/noto/emoji_u1f4b5.svg",
+    "label": "dinero que representa el precio",
+    "emoji": "💵",
+    "provider": "noto-emoji"
+  },
+  "수업": {
+    "path": "assets/svg/noto/emoji_u1f3eb.svg",
+    "label": "una clase en la escuela",
+    "emoji": "🏫",
+    "provider": "noto-emoji"
+  },
+  "겨울": {
+    "path": "assets/svg/noto/emoji_u2744.svg",
+    "label": "un copo de nieve que representa el invierno",
+    "emoji": "❄️",
+    "provider": "noto-emoji"
+  },
+  "식사": {
+    "path": "assets/svg/noto/emoji_u1f35a.svg",
+    "label": "una comida servida",
+    "emoji": "🍚",
+    "provider": "noto-emoji"
+  },
+  "텔레비전": {
+    "path": "assets/svg/noto/emoji_u1f4fa.svg",
+    "label": "un televisor",
+    "emoji": "📺",
+    "provider": "noto-emoji"
+  },
+  "팔": {
+    "path": "assets/svg/noto/emoji_u1f4aa.svg",
+    "label": "un brazo",
+    "emoji": "💪",
+    "provider": "noto-emoji"
+  },
+  "봄": {
+    "path": "assets/svg/noto/emoji_u1f338.svg",
+    "label": "una flor que representa la primavera",
+    "emoji": "🌸",
+    "provider": "noto-emoji"
+  },
+  "여행": {
+    "path": "assets/svg/noto/emoji_u2708.svg",
+    "label": "un avión que representa un viaje",
+    "emoji": "✈️",
+    "provider": "noto-emoji"
+  },
+  "오빠": {
+    "path": "assets/svg/noto/emoji_u1f468.svg",
+    "label": "un hermano mayor",
+    "emoji": "👨",
+    "provider": "noto-emoji"
+  },
+  "나중": {
+    "path": "assets/svg/noto/emoji_u23f3.svg",
+    "label": "un reloj de arena que representa más tarde",
+    "emoji": "⏳",
+    "provider": "noto-emoji"
   }
 };
