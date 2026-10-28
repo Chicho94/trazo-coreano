@@ -1,0 +1,6 @@
+[
+  ["click", "[data-example='sa']"],
+  ["until", "document.querySelector('[data-readout]').textContent.includes('sílaba lista')"],
+  ["wait", 300],
+  ["shot", "dist/assets/anatomy/hangul-compositor.png"]
+]

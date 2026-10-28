@@ -1,0 +1,7 @@
+[
+  ["click", "[data-example='ga']"],
+  ["until", "document.querySelector('[data-part=output-glyph]').textContent === '가'"],
+  ["wait", 1400],
+  ["shot", "anatomy-poc/shots/example-ga.png"],
+  ["lines", "anatomy-poc/shots/lines-composed.png"]
+]

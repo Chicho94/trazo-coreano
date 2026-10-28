@@ -24,6 +24,10 @@ Noto Emoji se usa bajo Apache 2.0 y Fluent Emoji bajo MIT. Las tres fotos de est
 
 El sitio se publica con GitHub Pages desde `dist/` mediante el workflow de `.github/workflows/pages.yml`. Cada actualización de la rama `main` vuelve a publicar la versión estática.
 
+## Laboratorio Anatomy
+
+La prueba [Compositor de Hangul](dist/laboratorio-anatomy.html) convierte la regla `ㅅ + ㅏ = 사` en una pequeña prensa tipográfica isométrica. Incluye tres combinaciones, movimiento automático, control mediante clic o teclado, versión clara y oscura y una [captura PNG reutilizable](dist/assets/anatomy/hangul-compositor.png). Su objetivo es evaluar Anatomy para explicaciones de escritura y gramática, no reemplazar el catálogo de pictogramas del vocabulario.
+
 ## Próximo vocabulario
 
 La [lista de trabajo para TOPIK I](content/README.md) organiza 120 palabras candidatas en cinco lotes para incorporarlas de forma gradual. Se suma a las 48 palabras ya disponibles. La división entre niveles 1 y 2 es editorial y provisional; cada palabra se revisará antes de publicarla en la app.

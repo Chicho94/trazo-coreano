@@ -1,4 +1,4 @@
-const CACHE = 'trazo-topik-v7';
+const CACHE = 'trazo-topik-v8';
 const CORE = [
   './',
   './index.html',
@@ -7,6 +7,9 @@ const CORE = [
   './data/topik-content.js',
   './manifest.webmanifest',
   './favicon.svg',
+  './laboratorio-anatomy.html',
+  './laboratorio-anatomy-oscuro.html',
+  './assets/anatomy/hangul-compositor.png',
   './icons/icon-192.png',
   './icons/icon-512.png'
 ];
