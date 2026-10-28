@@ -1426,5 +1426,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "el sábado en el calendario",
     "emoji": "📅",
     "provider": "noto-emoji"
+  },
+  "퇴근": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f4bc.svg",
+    "label": "una persona saliendo del trabajo",
+    "emoji": "🧑‍💼",
+    "provider": "noto-emoji"
+  },
+  "파티": {
+    "path": "assets/svg/noto/emoji_u1f389.svg",
+    "label": "un lanzador de confeti para una fiesta",
+    "emoji": "🎉",
+    "provider": "noto-emoji"
+  },
+  "편의점": {
+    "path": "assets/svg/noto/emoji_u1f3ea.svg",
+    "label": "una tienda de conveniencia",
+    "emoji": "🏪",
+    "provider": "noto-emoji"
+  },
+  "하숙집": {
+    "path": "assets/svg/noto/emoji_u1f3e0.svg",
+    "label": "una casa de huéspedes",
+    "emoji": "🏠",
+    "provider": "noto-emoji"
+  },
+  "학생증": {
+    "path": "assets/svg/noto/emoji_u1f4db.svg",
+    "label": "un carné de estudiante",
+    "emoji": "📛",
+    "provider": "noto-emoji"
+  },
+  "한국": {
+    "path": "assets/svg/noto/emoji_u1f1f0_1f1f7.svg",
+    "label": "la bandera de Corea del Sur",
+    "emoji": "🇰🇷",
+    "provider": "noto-emoji"
+  },
+  "호텔": {
+    "path": "assets/svg/noto/emoji_u1f3e8.svg",
+    "label": "un hotel",
+    "emoji": "🏨",
+    "provider": "noto-emoji"
+  },
+  "화요일": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el martes en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "회사": {
+    "path": "assets/svg/noto/emoji_u1f3d9.svg",
+    "label": "un edificio de empresa",
+    "emoji": "🏙️",
+    "provider": "noto-emoji"
+  },
+  "휴가": {
+    "path": "assets/svg/noto/emoji_u1f3de.svg",
+    "label": "un paisaje de vacaciones",
+    "emoji": "🏞️",
+    "provider": "noto-emoji"
   }
 };
