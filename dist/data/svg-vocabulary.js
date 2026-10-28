@@ -406,5 +406,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un rostro",
     "emoji": "🙂",
     "provider": "noto-emoji"
+  },
+  "어머니": {
+    "path": "assets/svg/noto/emoji_u1f469.svg",
+    "label": "una madre",
+    "emoji": "👩",
+    "provider": "noto-emoji"
+  },
+  "아버지": {
+    "path": "assets/svg/noto/emoji_u1f468.svg",
+    "label": "un padre",
+    "emoji": "👨",
+    "provider": "noto-emoji"
+  },
+  "몸": {
+    "path": "assets/svg/noto/emoji_u1f9cd.svg",
+    "label": "el cuerpo de una persona",
+    "emoji": "🧍",
+    "provider": "noto-emoji"
+  },
+  "쓰다": {
+    "path": "assets/svg/noto/emoji_u270f.svg",
+    "label": "un lápiz escribiendo",
+    "emoji": "✏️",
+    "provider": "noto-emoji"
+  },
+  "밤": {
+    "path": "assets/svg/noto/emoji_u1f319.svg",
+    "label": "la luna durante la noche",
+    "emoji": "🌙",
+    "provider": "noto-emoji"
+  },
+  "방": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "la puerta de una habitación",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "아침": {
+    "path": "assets/svg/noto/emoji_u2600.svg",
+    "label": "el sol de la mañana",
+    "emoji": "☀️",
+    "provider": "noto-emoji"
+  },
+  "노래": {
+    "path": "assets/svg/noto/emoji_u1f3b5.svg",
+    "label": "una nota musical que representa una canción",
+    "emoji": "🎵",
+    "provider": "noto-emoji"
+  },
+  "손": {
+    "path": "assets/svg/noto/emoji_u270b.svg",
+    "label": "una mano levantada",
+    "emoji": "✋",
+    "provider": "noto-emoji"
+  },
+  "입": {
+    "path": "assets/svg/noto/emoji_u1f444.svg",
+    "label": "una boca",
+    "emoji": "👄",
+    "provider": "noto-emoji"
   }
 };
