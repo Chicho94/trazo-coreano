@@ -1126,5 +1126,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "una comida de almuerzo",
     "emoji": "🍚",
     "provider": "noto-emoji"
+  },
+  "가구": {
+    "path": "assets/svg/noto/emoji_u1fa91.svg",
+    "label": "una silla que representa un mueble",
+    "emoji": "🪑",
+    "provider": "noto-emoji"
+  },
+  "가요": {
+    "path": "assets/svg/noto/emoji_u1f3b5.svg",
+    "label": "una nota de canción popular",
+    "emoji": "🎵",
+    "provider": "noto-emoji"
+  },
+  "갈비탕": {
+    "path": "assets/svg/noto/emoji_u1f35a.svg",
+    "label": "un cuenco de sopa de costilla",
+    "emoji": "🍚",
+    "provider": "noto-emoji"
+  },
+  "감": {
+    "path": "assets/svg/noto/emoji_u1f34e.svg",
+    "label": "una fruta de caqui",
+    "emoji": "🍎",
+    "provider": "noto-emoji"
+  },
+  "거실": {
+    "path": "assets/svg/noto/emoji_u1f6cb.svg",
+    "label": "un sofá de sala de estar",
+    "emoji": "🛋️",
+    "provider": "noto-emoji"
+  },
+  "계절": {
+    "path": "assets/svg/noto/emoji_u1f342.svg",
+    "label": "una hoja que representa las estaciones",
+    "emoji": "🍂",
+    "provider": "noto-emoji"
+  },
+  "공항": {
+    "path": "assets/svg/noto/emoji_u2708.svg",
+    "label": "un avión en el aeropuerto",
+    "emoji": "✈️",
+    "provider": "noto-emoji"
+  },
+  "구두": {
+    "path": "assets/svg/noto/emoji_u1f460.svg",
+    "label": "un zapato de vestir",
+    "emoji": "👠",
+    "provider": "noto-emoji"
+  },
+  "극장": {
+    "path": "assets/svg/noto/emoji_u1f3ad.svg",
+    "label": "máscaras que representan un teatro",
+    "emoji": "🎭",
+    "provider": "noto-emoji"
+  },
+  "금요일": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el viernes en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
   }
 };
