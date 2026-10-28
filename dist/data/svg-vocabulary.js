@@ -1366,5 +1366,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un autobús en una parada",
     "emoji": "🚌",
     "provider": "noto-emoji"
+  },
+  "종업원": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f4bc.svg",
+    "label": "una persona empleada en un local",
+    "emoji": "🧑‍💼",
+    "provider": "noto-emoji"
+  },
+  "주소": {
+    "path": "assets/svg/noto/emoji_u1f4cd.svg",
+    "label": "un marcador de dirección",
+    "emoji": "📍",
+    "provider": "noto-emoji"
+  },
+  "주스": {
+    "path": "assets/svg/noto/emoji_u1f964.svg",
+    "label": "un vaso de jugo",
+    "emoji": "🥤",
+    "provider": "noto-emoji"
+  },
+  "지난주": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "la semana pasada en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "지하철역": {
+    "path": "assets/svg/noto/emoji_u1f687.svg",
+    "label": "una estación de metro",
+    "emoji": "🚇",
+    "provider": "noto-emoji"
+  },
+  "취미": {
+    "path": "assets/svg/noto/emoji_u1f3ae.svg",
+    "label": "un juego que representa un pasatiempo",
+    "emoji": "🎮",
+    "provider": "noto-emoji"
+  },
+  "치마": {
+    "path": "assets/svg/noto/emoji_u1f457.svg",
+    "label": "una falda",
+    "emoji": "👗",
+    "provider": "noto-emoji"
+  },
+  "콜라": {
+    "path": "assets/svg/noto/emoji_u1f964.svg",
+    "label": "un vaso de cola",
+    "emoji": "🥤",
+    "provider": "noto-emoji"
+  },
+  "탁구": {
+    "path": "assets/svg/noto/emoji_u1f3d3.svg",
+    "label": "una paleta de tenis de mesa",
+    "emoji": "🏓",
+    "provider": "noto-emoji"
+  },
+  "토요일": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el sábado en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
   }
 };
