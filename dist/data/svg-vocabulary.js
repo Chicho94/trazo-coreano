@@ -1186,5 +1186,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "el viernes en el calendario",
     "emoji": "📅",
     "provider": "noto-emoji"
+  },
+  "기차": {
+    "path": "assets/svg/noto/emoji_u1f686.svg",
+    "label": "un tren",
+    "emoji": "🚆",
+    "provider": "noto-emoji"
+  },
+  "날짜": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "una fecha marcada en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "남대문": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "la puerta histórica del sur de Seúl",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "남동생": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "un hermano menor",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "대학교": {
+    "path": "assets/svg/noto/emoji_u1f3eb.svg",
+    "label": "un edificio universitario",
+    "emoji": "🏫",
+    "provider": "noto-emoji"
+  },
+  "동대문": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "la puerta histórica del este de Seúl",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "동생": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "un hermano o hermana menor",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "딸": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "una hija",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "라면": {
+    "path": "assets/svg/noto/emoji_u1f35c.svg",
+    "label": "un cuenco de ramen",
+    "emoji": "🍜",
+    "provider": "noto-emoji"
+  },
+  "모자": {
+    "path": "assets/svg/noto/emoji_u1f9e2.svg",
+    "label": "un sombrero",
+    "emoji": "🧢",
+    "provider": "noto-emoji"
   }
 };
