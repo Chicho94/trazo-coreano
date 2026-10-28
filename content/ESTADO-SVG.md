@@ -891,7 +891,7 @@
 | 경기 | NO_TIENE |
 | 목적 | NO_TIENE |
 | 태도 | NO_TIENE |
-| 남성 | NO_TIENE |
+| 남성 | ESTA_HECHO |
 | 주위 | NO_TIENE |
 | 그만 | NO_TIENE |
 | 아무 | NO_TIENE |
@@ -915,7 +915,7 @@
 | 완전히 | NO_TIENE |
 | 전하다 | NO_TIENE |
 | 개월 | NO_TIENE |
-| 어린이 | NO_TIENE |
+| 어린이 | ESTA_HECHO |
 | 정하다 | NO_TIENE |
 | 닦다 | NO_TIENE |
 | 눈물 | NO_TIENE |
@@ -938,7 +938,7 @@
 | 줄이다 | NO_TIENE |
 | 비다 | NO_TIENE |
 | 원하다 | NO_TIENE |
-| 모임 | NO_TIENE |
+| 모임 | ESTA_HECHO |
 | 웃음 | NO_TIENE |
 | 아나운서 | NO_TIENE |
 | 펴다 | NO_TIENE |
@@ -950,10 +950,10 @@
 | 센티미터 | NO_TIENE |
 | 분명하다 | NO_TIENE |
 | 지나가다 | NO_TIENE |
-| 상품 | NO_TIENE |
+| 상품 | ESTA_HECHO |
 | 훌륭하다 | NO_TIENE |
 | 새로 | NO_TIENE |
-| 종류 | NO_TIENE |
+| 종류 | ESTA_HECHO |
 | 어깨 | NO_TIENE |
 | 부부 | NO_TIENE |
 | 오래 | NO_TIENE |
@@ -971,7 +971,7 @@
 | 새벽 | NO_TIENE |
 | 쓰레기 | NO_TIENE |
 | 무섭다 | NO_TIENE |
-| 직장 | NO_TIENE |
+| 직장 | ESTA_HECHO |
 | 참다 | NO_TIENE |
 | 크기 | NO_TIENE |
 | 남기다 | NO_TIENE |
@@ -979,11 +979,11 @@
 | 가져오다 | NO_TIENE |
 | 냄새 | NO_TIENE |
 | 부드럽다 | NO_TIENE |
-| 남녀 | NO_TIENE |
+| 남녀 | ESTA_HECHO |
 | 속도 | NO_TIENE |
-| 소식 | NO_TIENE |
+| 소식 | ESTA_HECHO |
 | 허리 | NO_TIENE |
-| 노인 | NO_TIENE |
+| 노인 | ESTA_HECHO |
 | 벌다 | NO_TIENE |
 | 결정 | NO_TIENE |
 | 썰다 | NO_TIENE |
@@ -991,7 +991,7 @@
 | 청소년 | NO_TIENE |
 | 응 | NO_TIENE |
 | 이기다 | NO_TIENE |
-| 사장 | NO_TIENE |
+| 사장 | ESTA_HECHO |
 | 선배 | NO_TIENE |
 | 그러므로 | NO_TIENE |
 | 걱정 | NO_TIENE |

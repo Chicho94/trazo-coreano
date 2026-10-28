@@ -1666,5 +1666,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un cuenco de arroz",
     "emoji": "🍚",
     "provider": "noto-emoji"
+  },
+  "남성": {
+    "path": "assets/svg/noto/emoji_u1f468.svg",
+    "label": "un hombre",
+    "emoji": "👨",
+    "provider": "noto-emoji"
+  },
+  "어린이": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "un niño o niña",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "모임": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f91d_200d_1f9d1.svg",
+    "label": "personas reunidas",
+    "emoji": "🧑‍🤝‍🧑",
+    "provider": "noto-emoji"
+  },
+  "상품": {
+    "path": "assets/svg/noto/emoji_u1f4e6.svg",
+    "label": "un producto empaquetado",
+    "emoji": "📦",
+    "provider": "noto-emoji"
+  },
+  "종류": {
+    "path": "assets/svg/noto/emoji_u1f4cb.svg",
+    "label": "una lista de diferentes tipos",
+    "emoji": "📋",
+    "provider": "noto-emoji"
+  },
+  "직장": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f4bc.svg",
+    "label": "una persona en su lugar de trabajo",
+    "emoji": "🧑‍💼",
+    "provider": "noto-emoji"
+  },
+  "남녀": {
+    "path": "assets/svg/noto/emoji_u1f468_200d_1f469_200d_1f467_200d_1f466.svg",
+    "label": "hombres y mujeres",
+    "emoji": "👨‍👩‍👧‍👦",
+    "provider": "noto-emoji"
+  },
+  "소식": {
+    "path": "assets/svg/noto/emoji_u1f4f0.svg",
+    "label": "un periódico con noticias",
+    "emoji": "📰",
+    "provider": "noto-emoji"
+  },
+  "노인": {
+    "path": "assets/svg/noto/emoji_u1f474.svg",
+    "label": "una persona mayor",
+    "emoji": "👴",
+    "provider": "noto-emoji"
+  },
+  "사장": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f4bc.svg",
+    "label": "una persona que dirige una empresa",
+    "emoji": "🧑‍💼",
+    "provider": "noto-emoji"
   }
 };
