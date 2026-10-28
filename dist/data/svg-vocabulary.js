@@ -1546,5 +1546,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "el mundo y la sociedad",
     "emoji": "🌏",
     "provider": "noto-emoji"
+  },
+  "아들": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "un hijo",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "애": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "un niño o bebé",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "하늘": {
+    "path": "assets/svg/noto/emoji_u2601.svg",
+    "label": "una nube en el cielo",
+    "emoji": "☁️",
+    "provider": "noto-emoji"
+  },
+  "자연": {
+    "path": "assets/svg/noto/emoji_u1f3de.svg",
+    "label": "un paisaje natural",
+    "emoji": "🏞️",
+    "provider": "noto-emoji"
+  },
+  "교수": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f3eb.svg",
+    "label": "una persona profesora universitaria",
+    "emoji": "🧑‍🏫",
+    "provider": "noto-emoji"
+  },
+  "차": {
+    "path": "assets/svg/noto/emoji_u1f697.svg",
+    "label": "un automóvil",
+    "emoji": "🚗",
+    "provider": "noto-emoji"
+  },
+  "국내": {
+    "path": "assets/svg/noto/emoji_u1f1f0_1f1f7.svg",
+    "label": "la bandera que representa el territorio nacional",
+    "emoji": "🇰🇷",
+    "provider": "noto-emoji"
+  },
+  "교사": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f3eb.svg",
+    "label": "una persona docente",
+    "emoji": "🧑‍🏫",
+    "provider": "noto-emoji"
+  },
+  "마을": {
+    "path": "assets/svg/noto/emoji_u1f3e0.svg",
+    "label": "una casa que representa un pueblo",
+    "emoji": "🏠",
+    "provider": "noto-emoji"
+  },
+  "방향": {
+    "path": "assets/svg/noto/emoji_u1f9ed.svg",
+    "label": "una brújula que indica dirección",
+    "emoji": "🧭",
+    "provider": "noto-emoji"
   }
 };
