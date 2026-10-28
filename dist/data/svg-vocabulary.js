@@ -1246,5 +1246,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un sombrero",
     "emoji": "🧢",
     "provider": "noto-emoji"
+  },
+  "목요일": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el jueves en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "바지": {
+    "path": "assets/svg/noto/emoji_u1f456.svg",
+    "label": "un pantalón",
+    "emoji": "👖",
+    "provider": "noto-emoji"
+  },
+  "사전": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "un libro de diccionario",
+    "emoji": "📖",
+    "provider": "noto-emoji"
+  },
+  "삼계탕": {
+    "path": "assets/svg/noto/emoji_u1f357.svg",
+    "label": "pollo que representa una sopa samgyetang",
+    "emoji": "🍗",
+    "provider": "noto-emoji"
+  },
+  "세수": {
+    "path": "assets/svg/noto/emoji_u1f4a7.svg",
+    "label": "agua para lavarse la cara",
+    "emoji": "💧",
+    "provider": "noto-emoji"
+  },
+  "수요일": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el miércoles en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "아르바이트": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f4bc.svg",
+    "label": "una persona en un trabajo de medio tiempo",
+    "emoji": "🧑‍💼",
+    "provider": "noto-emoji"
+  },
+  "안경": {
+    "path": "assets/svg/noto/emoji_u1f453.svg",
+    "label": "unas gafas",
+    "emoji": "👓",
+    "provider": "noto-emoji"
+  },
+  "안내": {
+    "path": "assets/svg/noto/emoji_u2139.svg",
+    "label": "un símbolo de información",
+    "emoji": "ℹ️",
+    "provider": "noto-emoji"
+  },
+  "약국": {
+    "path": "assets/svg/noto/emoji_u1f48a.svg",
+    "label": "una cápsula que representa una farmacia",
+    "emoji": "💊",
+    "provider": "noto-emoji"
   }
 };
