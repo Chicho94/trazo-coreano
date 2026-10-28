@@ -526,5 +526,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un huevo",
     "emoji": "🥚",
     "provider": "noto-emoji"
+  },
+  "문화": {
+    "path": "assets/svg/noto/emoji_u1f3ad.svg",
+    "label": "máscaras teatrales que representan la cultura",
+    "emoji": "🎭",
+    "provider": "noto-emoji"
+  },
+  "곳": {
+    "path": "assets/svg/noto/emoji_u1f4cd.svg",
+    "label": "un marcador de lugar",
+    "emoji": "📍",
+    "provider": "noto-emoji"
+  },
+  "날": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "un día marcado en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "마음": {
+    "path": "assets/svg/noto/emoji_u2764.svg",
+    "label": "un corazón que representa la mente y los sentimientos",
+    "emoji": "❤️",
+    "provider": "noto-emoji"
+  },
+  "이야기": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "un globo de conversación que representa una historia",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "나라": {
+    "path": "assets/svg/noto/emoji_u1f30f.svg",
+    "label": "el globo terrestre que representa un país",
+    "emoji": "🌏",
+    "provider": "noto-emoji"
+  },
+  "이름": {
+    "path": "assets/svg/noto/emoji_u1f4db.svg",
+    "label": "una identificación con un nombre",
+    "emoji": "📛",
+    "provider": "noto-emoji"
+  },
+  "남편": {
+    "path": "assets/svg/noto/emoji_u1f468.svg",
+    "label": "un esposo",
+    "emoji": "👨",
+    "provider": "noto-emoji"
+  },
+  "하루": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "un día completo en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "맛": {
+    "path": "assets/svg/noto/emoji_u1f60b.svg",
+    "label": "un rostro saboreando comida",
+    "emoji": "😋",
+    "provider": "noto-emoji"
   }
 };
