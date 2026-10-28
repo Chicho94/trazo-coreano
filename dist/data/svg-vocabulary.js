@@ -346,5 +346,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "una cápsula medicinal",
     "emoji": "💊",
     "provider": "noto-emoji"
+  },
+  "여자": {
+    "path": "assets/svg/noto/emoji_u1f469.svg",
+    "label": "una mujer",
+    "emoji": "👩",
+    "provider": "noto-emoji"
+  },
+  "남자": {
+    "path": "assets/svg/noto/emoji_u1f468.svg",
+    "label": "un hombre",
+    "emoji": "👨",
+    "provider": "noto-emoji"
+  },
+  "시간": {
+    "path": "assets/svg/noto/emoji_u23f0.svg",
+    "label": "un reloj despertador",
+    "emoji": "⏰",
+    "provider": "noto-emoji"
+  },
+  "길": {
+    "path": "assets/svg/noto/emoji_u1f6e3.svg",
+    "label": "una carretera",
+    "emoji": "🛣️",
+    "provider": "noto-emoji"
+  },
+  "운동": {
+    "path": "assets/svg/noto/emoji_u1f3c3.svg",
+    "label": "una persona corriendo",
+    "emoji": "🏃",
+    "provider": "noto-emoji"
+  },
+  "영화": {
+    "path": "assets/svg/noto/emoji_u1f3ac.svg",
+    "label": "una claqueta de cine",
+    "emoji": "🎬",
+    "provider": "noto-emoji"
+  },
+  "술": {
+    "path": "assets/svg/noto/emoji_u1f376.svg",
+    "label": "una bebida alcohólica",
+    "emoji": "🍶",
+    "provider": "noto-emoji"
+  },
+  "게임": {
+    "path": "assets/svg/noto/emoji_u1f3ae.svg",
+    "label": "un control de videojuegos",
+    "emoji": "🎮",
+    "provider": "noto-emoji"
+  },
+  "편지": {
+    "path": "assets/svg/noto/emoji_u2709.svg",
+    "label": "una carta en un sobre",
+    "emoji": "✉️",
+    "provider": "noto-emoji"
+  },
+  "얼굴": {
+    "path": "assets/svg/noto/emoji_u1f642.svg",
+    "label": "un rostro",
+    "emoji": "🙂",
+    "provider": "noto-emoji"
   }
 };

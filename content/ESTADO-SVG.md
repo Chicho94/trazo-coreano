@@ -51,7 +51,7 @@
 | 명 | NO_TIENE |
 | 다시 | NO_TIENE |
 | 다른 | NO_TIENE |
-| 여자 | NO_TIENE |
+| 여자 | EN_PROCESO |
 | 개 | ESTA_HECHO |
 | 다 | NO_TIENE |
 | 좀 | NO_TIENE |
@@ -60,7 +60,7 @@
 | 아이 | ESTA_HECHO |
 | 지나다 | NO_TIENE |
 | 많이 | NO_TIENE |
-| 시간 | NO_TIENE |
+| 시간 | EN_PROCESO |
 | 너 | NO_TIENE |
 | 나다 | NO_TIENE |
 | 어머니 | NO_TIENE |
@@ -72,7 +72,7 @@
 | 여러 | NO_TIENE |
 | 하나 | NO_TIENE |
 | 위 | NO_TIENE |
-| 운동 | NO_TIENE |
+| 운동 | EN_PROCESO |
 | 학교 | ESTA_HECHO |
 | 가장 | NO_TIENE |
 | 가지 | NO_TIENE |
@@ -90,10 +90,10 @@
 | 마음 | NO_TIENE |
 | 후 | NO_TIENE |
 | 아버지 | NO_TIENE |
-| 남자 | NO_TIENE |
+| 남자 | EN_PROCESO |
 | 어디 | NO_TIENE |
 | 몸 | NO_TIENE |
-| 얼굴 | NO_TIENE |
+| 얼굴 | EN_PROCESO |
 | 왜 | NO_TIENE |
 | 다르다 | NO_TIENE |
 | 물 | ESTA_HECHO |
@@ -101,7 +101,7 @@
 | 쓰다 | NO_TIENE |
 | 이것 | NO_TIENE |
 | 이번 | NO_TIENE |
-| 길 | NO_TIENE |
+| 길 | EN_PROCESO |
 | 생활 | NO_TIENE |
 | 사이 | NO_TIENE |
 | 앉다 | NO_TIENE |
@@ -162,7 +162,7 @@
 | 그래 | NO_TIENE |
 | 아름답다 | NO_TIENE |
 | 입 | NO_TIENE |
-| 영화 | NO_TIENE |
+| 영화 | EN_PROCESO |
 | 필요 | NO_TIENE |
 | 정말 | NO_TIENE |
 | 밥 | ESTA_HECHO |
@@ -174,7 +174,7 @@
 | 마시다 | NO_TIENE |
 | 치다 | NO_TIENE |
 | 혼자 | NO_TIENE |
-| 술 | NO_TIENE |
+| 술 | EN_PROCESO |
 | 사랑 | NO_TIENE |
 | 전화 | ESTA_HECHO |
 | 끝나다 | NO_TIENE |
@@ -295,7 +295,7 @@
 | 바쁘다 | NO_TIENE |
 | 나쁘다 | NO_TIENE |
 | 시키다 | NO_TIENE |
-| 게임 | NO_TIENE |
+| 게임 | EN_PROCESO |
 | 잔 | NO_TIENE |
 | 언제 | NO_TIENE |
 | 가격 | NO_TIENE |
@@ -308,7 +308,7 @@
 | 텔레비전 | NO_TIENE |
 | 씻다 | NO_TIENE |
 | 늦다 | NO_TIENE |
-| 편지 | NO_TIENE |
+| 편지 | EN_PROCESO |
 | 팔 | NO_TIENE |
 | 설명 | NO_TIENE |
 | 봄 | NO_TIENE |
