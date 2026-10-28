@@ -826,5 +826,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un reloj de arena que representa más tarde",
     "emoji": "⏳",
     "provider": "noto-emoji"
+  },
+  "사이": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f91d_200d_1f9d1.svg",
+    "label": "dos personas relacionadas",
+    "emoji": "🧑‍🤝‍🧑",
+    "provider": "noto-emoji"
+  },
+  "며칠": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "varios días en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "사용": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "herramientas en uso",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "작년": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el calendario del año pasado",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "고기": {
+    "path": "assets/svg/noto/emoji_u1f356.svg",
+    "label": "un trozo de carne",
+    "emoji": "🍖",
+    "provider": "noto-emoji"
+  },
+  "영어": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "un libro de inglés",
+    "emoji": "📖",
+    "provider": "noto-emoji"
+  },
+  "키": {
+    "path": "assets/svg/noto/emoji_u1f4cf.svg",
+    "label": "una regla para medir la estatura",
+    "emoji": "📏",
+    "provider": "noto-emoji"
+  },
+  "누나": {
+    "path": "assets/svg/noto/emoji_u1f469.svg",
+    "label": "una hermana mayor",
+    "emoji": "👩",
+    "provider": "noto-emoji"
+  },
+  "질문": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "un signo de interrogación",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "낮": {
+    "path": "assets/svg/noto/emoji_u2600.svg",
+    "label": "el sol durante el día",
+    "emoji": "☀️",
+    "provider": "noto-emoji"
   }
 };
