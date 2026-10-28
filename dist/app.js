@@ -136,6 +136,7 @@ let reviewQueue = [];
 let currentCollection = null;
 let currentVocabularyCategory = 'all';
 let guided = false;
+let autoSpeak = true;
 let successShown = false;
 let shiftActive = false;
 let mistakeCount = 0;
@@ -153,10 +154,11 @@ function loadProgress() {
     completed = new Set(Array.isArray(saved.completed) ? saved.completed.map(item => typeof item === 'number' ? previousWords[item] : item).filter(item => knownWords.has(item)) : []);
     reviewState = saved.review && typeof saved.review === 'object' ? saved.review : {};
     guided = saved.guided === true;
+    autoSpeak = saved.autoSpeak !== false;
   } catch { completed = new Set(); reviewState = {}; }
 }
 function saveProgress() {
-  try { localStorage.setItem('trazo-coreano-v2', JSON.stringify({ completed:[...completed], guided, review:reviewState })); } catch { /* La práctica sigue funcionando sin almacenamiento. */ }
+  try { localStorage.setItem('trazo-coreano-v2', JSON.stringify({ completed:[...completed], guided, autoSpeak, review:reviewState })); } catch { /* La práctica sigue funcionando sin almacenamiento. */ }
 }
 function stepsFor(word) {
   const steps = [];
@@ -624,6 +626,12 @@ function loadWord(index) {
   renderWordButtons();
   renderProgress();
   renderAnswer();
+  if (autoSpeak) {
+    const loadedIndex = index;
+    setTimeout(() => {
+      if (autoSpeak && currentIndex === loadedIndex && !$('.layout').hidden) speakKorean(writingFor(words[loadedIndex]));
+    },120);
+  }
 }
 function addToken(key) {
   if (successShown) { inputTokens = []; successShown = false; $('#success-card').hidden = true; }
@@ -669,6 +677,15 @@ function checkAnswer() {
 }
 function speak() {
   speakKorean(writingFor(words[currentIndex]));
+}
+function renderAutoSpeak() {
+  const toggle = $('#auto-audio-toggle');
+  toggle.checked = autoSpeak;
+  $('#auto-audio-state').textContent = autoSpeak ? 'Activado' : 'Desactivado';
+  toggle.setAttribute('aria-checked',String(autoSpeak));
+  toggle.closest('label').title = autoSpeak
+    ? 'Desactivar la pronunciación automática'
+    : 'Activar la pronunciación automática';
 }
 function selectUnit(unitId) {
   const index = words.findIndex(word => word.unit === unitId);
@@ -719,7 +736,7 @@ function setMode(mode) {
   const wordsMode = mode === 'words';
   $('.layout').hidden = !wordsMode;
   $('#grammar-view').hidden = wordsMode;
-  $('#hear-word').hidden = !wordsMode;
+  $('#word-audio-controls').hidden = !wordsMode;
   $('#show-words').classList.toggle('active',wordsMode);
   $('#show-grammar').classList.toggle('active',!wordsMode);
   $('#show-words').setAttribute('aria-pressed',String(wordsMode));
@@ -781,6 +798,7 @@ function renderGrammar(id) {
 }
 
 loadProgress();
+renderAutoSpeak();
 renderKeyboard();
 loadWord(0);
 renderGrammarLevels();
@@ -800,6 +818,18 @@ $('#vocabulary-category-select').addEventListener('change',event => selectVocabu
 $('#mobile-vocabulary-category-select').addEventListener('change',event => selectVocabularyCategory(event.target.value));
 $('#hear-word').addEventListener('click',speak);
 $('#hear-word-inline').addEventListener('click',speak);
+$('#auto-audio-toggle').addEventListener('change',event => {
+  autoSpeak = event.target.checked;
+  saveProgress();
+  renderAutoSpeak();
+  if (autoSpeak) {
+    speak();
+    setHint('El audio automático está activado.');
+  } else {
+    if ('speechSynthesis' in window) speechSynthesis.cancel();
+    setHint('El audio automático está desactivado. Puedes usar «Escuchar» cuando quieras.');
+  }
+});
 $('#reveal-translation').addEventListener('click',() => { $('#translation').hidden=false; $('#reveal-translation').hidden=true; });
 $('#show-words').addEventListener('click',() => setMode('words'));
 $('#show-grammar').addEventListener('click',() => setMode('grammar'));

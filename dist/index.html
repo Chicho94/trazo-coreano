@@ -9,10 +9,10 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="styles.css?v=33">
+  <link rel="stylesheet" href="styles.css?v=34">
   <script src="data/topik-content.js?v=14" defer></script>
-  <script src="data/svg-vocabulary.js?v=33" defer></script>
-  <script src="app.js?v=33" defer></script>
+  <script src="data/svg-vocabulary.js?v=34" defer></script>
+  <script src="app.js?v=34" defer></script>
 </head>
 <body>
   <svg class="asset-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -95,7 +95,14 @@
         <button class="mode-button active" id="show-words" type="button" aria-pressed="true">Palabras</button>
         <button class="mode-button" id="show-grammar" type="button" aria-pressed="false">Gramática</button>
       </nav>
-      <button class="audio-button" id="hear-word" type="button" aria-label="Escuchar la palabra actual"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Zm13-2c2 1 3 3 3 5s-1 4-3 5m-2-7c1 .5 1.5 1.2 1.5 2S16 13.5 15 14"/></svg><span>Escuchar</span></button>
+      <div class="audio-controls" id="word-audio-controls">
+        <button class="audio-button" id="hear-word" type="button" aria-label="Escuchar la palabra actual"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Zm13-2c2 1 3 3 3 5s-1 4-3 5m-2-7c1 .5 1.5 1.2 1.5 2S16 13.5 15 14"/></svg><span>Escuchar</span></button>
+        <label class="auto-audio-switch" title="Reproducir automáticamente cada palabra nueva">
+          <span>Audio automático <small id="auto-audio-state">Activado</small></span>
+          <input id="auto-audio-toggle" type="checkbox" role="switch" aria-label="Reproducir automáticamente cada palabra nueva">
+          <span class="switch-track" aria-hidden="true"></span>
+        </label>
+      </div>
     </header>
 
     <div class="layout">
