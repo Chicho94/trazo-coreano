@@ -67,7 +67,16 @@ El archivo `ESTADO-SVG.md` es la fuente de verdad para el avance de las ilustrac
 - `EN_PROCESO`: el SVG está siendo investigado, diseñado o implementado.
 - `ESTA_HECHO`: el SVG está terminado, integrado y verificado.
 
-Antes de investigar o modificar el SVG de una palabra, su estado debe cambiarse de `NO_TIENE` a `EN_PROCESO` y guardarse en Git. Solo después de verificar el SVG en la aplicación puede cambiarse a `ESTA_HECHO`. Si el trabajo se interrumpe, debe permanecer como `EN_PROCESO` para poder retomarlo.
+El trabajo se realiza palabra por palabra:
+
+1. Crear, descargar o seleccionar un SVG semánticamente útil.
+2. Registrar inmediatamente la asociación en el manifiesto.
+3. Actualizar esa palabra a `ESTA_HECHO` en `ESTADO-SVG.md`.
+4. Repetir el ciclo.
+
+La herramienta `scripts/register-svg-word.mjs` comprueba que el archivo exista y contenga un SVG antes de actualizar el manifiesto y el inventario. Si una palabra queda interrumpida antes de completar el registro, debe permanecer como `EN_PROCESO`.
+
+Los lotes de trabajo contienen 50 palabras. Al completar cada lote se debe actualizar la versión de caché, validar el inventario y todos los archivos, crear un único commit y publicarlo. Las comprobaciones intermedias pueden ejecutarse durante el lote, pero no generan commits ni publicaciones adicionales.
 
 ## Próximo experimento
 
