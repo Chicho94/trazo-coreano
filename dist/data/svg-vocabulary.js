@@ -706,5 +706,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un conjunto de edificios",
     "emoji": "🏙️",
     "provider": "noto-emoji"
+  },
+  "외국": {
+    "path": "assets/svg/noto/emoji_u1f30f.svg",
+    "label": "un país extranjero en el globo",
+    "emoji": "🌏",
+    "provider": "noto-emoji"
+  },
+  "할아버지": {
+    "path": "assets/svg/noto/emoji_u1f474.svg",
+    "label": "un abuelo",
+    "emoji": "👴",
+    "provider": "noto-emoji"
+  },
+  "대화": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "un diálogo entre personas",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "올해": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el calendario de este año",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "형": {
+    "path": "assets/svg/noto/emoji_u1f468.svg",
+    "label": "un hermano mayor",
+    "emoji": "👨",
+    "provider": "noto-emoji"
+  },
+  "다리": {
+    "path": "assets/svg/noto/emoji_u1f9b5.svg",
+    "label": "una pierna",
+    "emoji": "🦵",
+    "provider": "noto-emoji"
+  },
+  "여름": {
+    "path": "assets/svg/noto/emoji_u2600.svg",
+    "label": "un sol que representa el verano",
+    "emoji": "☀️",
+    "provider": "noto-emoji"
+  },
+  "값": {
+    "path": "assets/svg/noto/emoji_u1f4b5.svg",
+    "label": "dinero que representa un precio",
+    "emoji": "💵",
+    "provider": "noto-emoji"
+  },
+  "말씀": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "un globo con palabras respetuosas",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "반": {
+    "path": "assets/svg/noto/emoji_u1f3eb.svg",
+    "label": "una clase escolar",
+    "emoji": "🏫",
+    "provider": "noto-emoji"
   }
 };
