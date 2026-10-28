@@ -646,5 +646,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un objeto dentro de una caja",
     "emoji": "📦",
     "provider": "noto-emoji"
+  },
+  "발": {
+    "path": "assets/svg/noto/emoji_u1f9b6.svg",
+    "label": "un pie",
+    "emoji": "🦶",
+    "provider": "noto-emoji"
+  },
+  "고향": {
+    "path": "assets/svg/noto/emoji_u1f3e0.svg",
+    "label": "una casa que representa el lugar natal",
+    "emoji": "🏠",
+    "provider": "noto-emoji"
+  },
+  "은행": {
+    "path": "assets/svg/noto/emoji_u1f3e6.svg",
+    "label": "un banco",
+    "emoji": "🏦",
+    "provider": "noto-emoji"
+  },
+  "오후": {
+    "path": "assets/svg/noto/emoji_u2600.svg",
+    "label": "el sol de la tarde",
+    "emoji": "☀️",
+    "provider": "noto-emoji"
+  },
+  "아기": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "un bebé",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "아저씨": {
+    "path": "assets/svg/noto/emoji_u1f468.svg",
+    "label": "un señor",
+    "emoji": "👨",
+    "provider": "noto-emoji"
+  },
+  "저녁": {
+    "path": "assets/svg/noto/emoji_u1f307.svg",
+    "label": "una puesta de sol al anochecer",
+    "emoji": "🌇",
+    "provider": "noto-emoji"
+  },
+  "시험": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "un libro abierto para un examen",
+    "emoji": "📖",
+    "provider": "noto-emoji"
+  },
+  "건강": {
+    "path": "assets/svg/noto/emoji_u2764.svg",
+    "label": "un corazón saludable",
+    "emoji": "❤️",
+    "provider": "noto-emoji"
+  },
+  "건물": {
+    "path": "assets/svg/noto/emoji_u1f3d9.svg",
+    "label": "un conjunto de edificios",
+    "emoji": "🏙️",
+    "provider": "noto-emoji"
   }
 };
