@@ -1306,5 +1306,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "una cápsula que representa una farmacia",
     "emoji": "💊",
     "provider": "noto-emoji"
+  },
+  "여동생": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "una hermana menor",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "영화관": {
+    "path": "assets/svg/noto/emoji_u1f3ac.svg",
+    "label": "una claqueta que representa una sala de cine",
+    "emoji": "🎬",
+    "provider": "noto-emoji"
+  },
+  "영화배우": {
+    "path": "assets/svg/noto/emoji_u1f3ad.svg",
+    "label": "una persona que actúa en el cine",
+    "emoji": "🎭",
+    "provider": "noto-emoji"
+  },
+  "외국어": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "un libro de idioma extranjero",
+    "emoji": "📖",
+    "provider": "noto-emoji"
+  },
+  "요일": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "los días de la semana en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "우체국": {
+    "path": "assets/svg/noto/emoji_u2709.svg",
+    "label": "un sobre que representa la oficina de correos",
+    "emoji": "✉️",
+    "provider": "noto-emoji"
+  },
+  "월요일": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el lunes en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "음료수": {
+    "path": "assets/svg/noto/emoji_u1f964.svg",
+    "label": "un vaso de bebida",
+    "emoji": "🥤",
+    "provider": "noto-emoji"
+  },
+  "전화번호": {
+    "path": "assets/svg/noto/emoji_u260e.svg",
+    "label": "un teléfono que representa un número telefónico",
+    "emoji": "☎️",
+    "provider": "noto-emoji"
+  },
+  "정류장": {
+    "path": "assets/svg/noto/emoji_u1f68c.svg",
+    "label": "un autobús en una parada",
+    "emoji": "🚌",
+    "provider": "noto-emoji"
   }
 };
