@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T01:11:27.818Z",
+  "generatedAt": "2026-10-28T02:21:11.357Z",
   "source": {
     "project": "TOPIK",
     "vocabulary": "datos/vocabulario.json",
@@ -56,6 +56,103 @@
         "type": "ex",
         "label": "Expresiones",
         "count": 14
+      }
+    ],
+    "countsByCategory": [
+      {
+        "id": "personas",
+        "label": "Personas y relaciones",
+        "count": 82
+      },
+      {
+        "id": "comida",
+        "label": "Comida y bebida",
+        "count": 54
+      },
+      {
+        "id": "hogar",
+        "label": "Hogar y objetos",
+        "count": 36
+      },
+      {
+        "id": "naturaleza",
+        "label": "Naturaleza y clima",
+        "count": 39
+      },
+      {
+        "id": "lugares",
+        "label": "Lugares y ciudad",
+        "count": 41
+      },
+      {
+        "id": "transporte",
+        "label": "Transporte y viajes",
+        "count": 24
+      },
+      {
+        "id": "tiempo",
+        "label": "Tiempo y calendario",
+        "count": 62
+      },
+      {
+        "id": "educacion",
+        "label": "Educación y estudio",
+        "count": 36
+      },
+      {
+        "id": "trabajo",
+        "label": "Trabajo y profesiones",
+        "count": 18
+      },
+      {
+        "id": "salud",
+        "label": "Cuerpo y salud",
+        "count": 28
+      },
+      {
+        "id": "ropa",
+        "label": "Ropa y apariencia",
+        "count": 13
+      },
+      {
+        "id": "cultura",
+        "label": "Cultura y ocio",
+        "count": 24
+      },
+      {
+        "id": "dinero",
+        "label": "Dinero y compras",
+        "count": 13
+      },
+      {
+        "id": "numeros",
+        "label": "Números y cantidades",
+        "count": 85
+      },
+      {
+        "id": "comunicacion",
+        "label": "Comunicación y lenguaje",
+        "count": 15
+      },
+      {
+        "id": "sociedad",
+        "label": "Sociedad y comunidad",
+        "count": 6
+      },
+      {
+        "id": "acciones",
+        "label": "Acciones",
+        "count": 271
+      },
+      {
+        "id": "cualidades",
+        "label": "Cualidades y estados",
+        "count": 144
+      },
+      {
+        "id": "conceptos",
+        "label": "Conceptos y expresiones",
+        "count": 790
       }
     ]
   },

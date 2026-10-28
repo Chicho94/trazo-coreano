@@ -61,6 +61,11 @@ const categories = [
   { id:'topik1', name:'TOPIK 1', icon:'한', tone:'#fff1f2' },
   { id:'topik2', name:'TOPIK 2', icon:'둘', tone:'#eef4ff' }
 ];
+const vocabularyCategories = window.TRAZO_CONTENT?.vocabularyCategories || starterCategories.map(category => ({
+  id:category.id === 'casa' ? 'hogar' : category.id,
+  label:category.name,
+  count:starterWords.filter(word => word.category === category.id).length
+}));
 const starterVisuals = Object.fromEntries(starterWords.map(word => [word.korean,word]));
 const masterVocabulary = window.TRAZO_CONTENT?.vocabulary || starterWords.map((word,index) => ({ ...word, level:1, type:'n', unit:'topik-1-01', frequency:index + 1 }));
 const words = masterVocabulary.map(word => {
@@ -69,6 +74,7 @@ const words = masterVocabulary.map(word => {
     ...word,
     spanish:visual.spanish || word.spanish,
     fullSpanish:word.spanish,
+    vocabularyCategory:word.category || (visual.category === 'casa' ? 'hogar' : visual.category) || 'conceptos',
     category:`topik${word.level || 1}`,
     collection:visual.category || null,
     emoji:visual.emoji || '',
@@ -122,6 +128,7 @@ let completed = new Set();
 let reviewState = {};
 let reviewQueue = [];
 let currentCollection = null;
+let currentVocabularyCategory = 'all';
 let guided = false;
 let successShown = false;
 let shiftActive = false;
@@ -232,9 +239,16 @@ function renderCategories() {
       button.addEventListener('click', () => {
         currentCollection = null;
         reviewQueue = [];
-        const firstUnit = studyUnits.find(unit => `topik${unit.level}` === category.id);
-        if (firstUnit) currentUnit = firstUnit.id;
-        loadWord(words.findIndex(word => word.unit === currentUnit));
+        const firstFiltered = words.findIndex(word => word.category === category.id && (currentVocabularyCategory === 'all' || word.vocabularyCategory === currentVocabularyCategory));
+        if (firstFiltered >= 0) {
+          currentUnit = words[firstFiltered].unit;
+          loadWord(firstFiltered);
+        } else {
+          currentVocabularyCategory = 'all';
+          const firstUnit = studyUnits.find(unit => `topik${unit.level}` === category.id);
+          if (firstUnit) currentUnit = firstUnit.id;
+          loadWord(words.findIndex(word => word.unit === currentUnit));
+        }
         $('#mobile-words').hidden = true;
         $('#open-words').setAttribute('aria-expanded','false');
       });
@@ -243,13 +257,17 @@ function renderCategories() {
   }
   const category = categories.find(item => item.id === activeCategory);
   renderCollections();
+  renderVocabularyCategorySelectors(category);
   renderUnitSelectors(category);
   const unit = studyUnits.find(item => item.id === currentUnit);
   const collection = starterCategories.find(item => item.id === currentCollection);
-  const title = currentCollection === 'review' ? 'Repaso inteligente' : collection?.name;
+  const filteredCategory = vocabularyCategories.find(item => item.id === currentVocabularyCategory);
+  const title = currentCollection === 'review' ? 'Repaso inteligente' : collection?.name || filteredCategory?.label;
   $('#current-category-label').textContent = (title || unit?.title || category.name).toUpperCase();
   $('#category-breadcrumb').innerHTML = currentCollection
     ? `${currentCollection === 'review' ? 'REPASO' : 'COLECCIÓN'} <span class="topline-divider">/</span> ${(title || '').toUpperCase()}`
+    : currentVocabularyCategory !== 'all'
+      ? `${category.name.toUpperCase()} <span class="topline-divider">/</span> ${(filteredCategory?.label || '').toUpperCase()}`
     : `${category.name.toUpperCase()} <span class="topline-divider">/</span> UNIDAD ${String(unit?.sequence || 1).padStart(2,'0')}`;
 }
 function renderCollections() {
@@ -291,6 +309,26 @@ function renderUnitSelectors(category) {
       select.append(option);
     });
     select.value = currentUnit;
+    select.disabled = Boolean(currentCollection) || currentVocabularyCategory !== 'all';
+  }
+}
+function renderVocabularyCategorySelectors(category) {
+  const level = Number(category.id.replace('topik',''));
+  for (const select of [$('#vocabulary-category-select'),$('#mobile-vocabulary-category-select')]) {
+    select.replaceChildren();
+    const allOption = document.createElement('option');
+    allOption.value = 'all';
+    allOption.textContent = 'Todas las categorías';
+    select.append(allOption);
+    vocabularyCategories.forEach(vocabularyCategory => {
+      const count = words.filter(word => word.level === level && word.vocabularyCategory === vocabularyCategory.id).length;
+      if (!count) return;
+      const option = document.createElement('option');
+      option.value = vocabularyCategory.id;
+      option.textContent = `${vocabularyCategory.label} · ${count}`;
+      select.append(option);
+    });
+    select.value = currentVocabularyCategory;
     select.disabled = Boolean(currentCollection);
   }
 }
@@ -303,6 +341,10 @@ function visibleWordIndexes() {
       .filter(word => word.category === currentCollection)
       .map(starter => words.findIndex(word => word.korean === starter.korean))
       .filter(index => index >= 0);
+  }
+  if (currentVocabularyCategory !== 'all') {
+    const activeLevel = words[currentIndex]?.level || 1;
+    return words.map((word,index) => word.level === activeLevel && word.vocabularyCategory === currentVocabularyCategory ? index : -1).filter(index => index >= 0);
   }
   return words.map((word,index) => word.unit === currentUnit ? index : -1).filter(index => index >= 0);
 }
@@ -353,6 +395,7 @@ function selectCollection(collectionId) {
   const index = words.findIndex(word => word.korean === first?.korean);
   if (index < 0) return;
   currentCollection = collectionId;
+  currentVocabularyCategory = 'all';
   reviewQueue = [];
   loadWord(index);
 }
@@ -360,6 +403,7 @@ function startReviewSession() {
   reviewQueue = dueWordKeys();
   if (!reviewQueue.length) return;
   currentCollection = 'review';
+  currentVocabularyCategory = 'all';
   const index = words.findIndex(word => word.korean === reviewQueue[0]);
   if (index >= 0) loadWord(index);
 }
@@ -612,9 +656,24 @@ function selectUnit(unitId) {
   const index = words.findIndex(word => word.unit === unitId);
   if (index < 0) return;
   currentCollection = null;
+  currentVocabularyCategory = 'all';
   reviewQueue = [];
   currentUnit = unitId;
   loadWord(index);
+}
+function selectVocabularyCategory(categoryId) {
+  const activeLevel = words[currentIndex]?.level || 1;
+  const index = categoryId === 'all'
+    ? words.findIndex(word => word.unit === currentUnit)
+    : words.findIndex(word => word.level === activeLevel && word.vocabularyCategory === categoryId);
+  if (index < 0) return;
+  currentCollection = null;
+  reviewQueue = [];
+  currentVocabularyCategory = categoryId;
+  if (categoryId !== 'all') currentUnit = words[index].unit;
+  loadWord(index);
+  $('#mobile-words').hidden = true;
+  $('#open-words').setAttribute('aria-expanded','false');
 }
 function moveWord(direction) {
   const visible = visibleWordIndexes();
@@ -718,6 +777,8 @@ $('#start-review').addEventListener('click',startReviewSession);
 document.querySelectorAll('[data-rating]').forEach(button => button.addEventListener('click',() => scheduleReview(button.dataset.rating,lastReviewBaseline)));
 $('#unit-select').addEventListener('change',event => selectUnit(event.target.value));
 $('#mobile-unit-select').addEventListener('change',event => selectUnit(event.target.value));
+$('#vocabulary-category-select').addEventListener('change',event => selectVocabularyCategory(event.target.value));
+$('#mobile-vocabulary-category-select').addEventListener('change',event => selectVocabularyCategory(event.target.value));
 $('#hear-word').addEventListener('click',speak);
 $('#hear-word-inline').addEventListener('click',speak);
 $('#reveal-translation').addEventListener('click',() => { $('#translation').hidden=false; $('#reveal-translation').hidden=true; });

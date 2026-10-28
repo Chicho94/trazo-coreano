@@ -24,11 +24,11 @@ button:disabled { cursor:not-allowed; opacity:.42; }
 .sidebar-heading { display:flex; align-items:end; justify-content:space-between; gap:10px; }
 .eyebrow { color:var(--teal); font-size:11px; font-weight:800; letter-spacing:.14em; }
 .sidebar-heading h2 { margin:6px 0 0; font-size:20px; line-height:1.2; letter-spacing:-.03em; }
-.lesson-count { color:#a1a9a2; font-size:11px; font-weight:800; letter-spacing:.08em; white-space:nowrap; }
+.lesson-count { color:#657080; font-size:11px; font-weight:800; letter-spacing:.08em; white-space:nowrap; }
 .lesson-progress { height:7px; margin:27px 0 11px; overflow:hidden; border-radius:99px; background:#e1e6dd; }
 .lesson-progress span { width:0; height:100%; display:block; border-radius:inherit; background:var(--teal); transition:width .35s ease; }
 .progress-copy { margin:0; color:var(--muted); font-size:12px; }
-.route-select-label { margin:25px 0 8px; display:block; color:var(--muted); font-size:10px; font-weight:800; letter-spacing:.12em; }
+.route-select-label { margin:25px 0 8px; display:block; color:#566579; font-size:11px; font-weight:800; letter-spacing:.1em; }
 .route-select { width:100%; min-height:42px; padding:0 34px 0 12px; border:1px solid #c7d2e2; border-radius:11px; background:white; color:var(--ink); font-size:12px; font-weight:700; }
 .route-select:hover { border-color:var(--complement); }
 .mobile-route-select { display:none; }
@@ -157,7 +157,7 @@ h1 em { color:var(--teal); font-style:normal; }
 @media (max-width:760px) { .mobile-route-select { margin:10px 0 14px; display:grid; grid-template-columns:auto minmax(0,1fr); align-items:center; gap:10px; color:var(--muted); font-size:11px; font-weight:800; }.mobile-route-select .route-select { min-height:38px; }.grammar-sidebar .route-select-label,.grammar-sidebar .route-select { display:block; } }
 @media (max-width:420px) { .topbar { padding:0 15px; }.brand-name { font-size:21px; }.audio-button { width:40px; padding:0; justify-content:center; }.audio-button span { display:none; }.main-content { padding-left:15px; padding-right:15px; }.keyboard-section { padding-left:12px; padding-right:12px; }.keyboard-heading { align-items:flex-start; gap:7px; }.keyboard-heading h2 { font-size:18px; }.guide-switch { gap:7px; }.guide-switch > span:first-child { font-size:10px; }.guide-switch small { font-size:9px; }.keyboard-footer { gap:7px 12px; }.keyboard-footer span:first-child { display:none; }.success-card { right:15px; bottom:15px; } }
 /* Un catálogo más amplio sin obligar a recorrer todas las palabras de una vez. */
-.sidebar-section-label { margin:27px 6px 9px; color:#86938b; font-size:10px; font-weight:800; letter-spacing:.13em; }
+.sidebar-section-label { margin:27px 6px 9px; color:#566579; font-size:11px; font-weight:800; letter-spacing:.1em; }
 .category-list,.collection-list { display:grid; gap:4px; }
 .category-option { width:100%; min-height:39px; padding:5px 8px; display:flex; align-items:center; gap:8px; border:1px solid transparent; border-radius:10px; background:transparent; color:var(--ink); text-align:left; font-size:12px; font-weight:700; transition:background-color 130ms ease,border-color 130ms ease; }
 .category-option.active { border-color:#c9dfd4; background:#e2eee6; color:var(--teal-dark); }
