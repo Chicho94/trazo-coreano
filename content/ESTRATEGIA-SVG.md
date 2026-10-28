@@ -76,11 +76,20 @@ El trabajo se realiza palabra por palabra:
 
 La herramienta `scripts/register-svg-word.mjs` comprueba que el archivo exista y contenga un SVG antes de actualizar el manifiesto y el inventario. Si una palabra queda interrumpida antes de completar el registro, debe permanecer como `EN_PROCESO`.
 
-Los lotes de trabajo contienen 50 palabras. Al completar cada lote se debe actualizar la versión de caché, validar el inventario y todos los archivos, crear un único commit y publicarlo. Las comprobaciones intermedias pueden ejecutarse durante el lote, pero no generan commits ni publicaciones adicionales.
+El trabajo restante se agrupará en solo dos publicaciones de SVG. Las comprobaciones intermedias pueden ejecutarse durante cada lote, pero no generan commits ni publicaciones adicionales.
 
 ### Último hito completado
 
 El hito de 500 palabras en `ESTA_HECHO` acumuló 163 asociaciones nuevas desde la publicación anterior, que contenía 337. Después de publicar este hito se retomará la cadencia que indique el usuario.
+
+### Hitos finales
+
+Quedan 1.281 palabras pendientes y se publicarán en dos únicos commits:
+
+1. Lote de 640 palabras completado, con 1.140 palabras en `ESTA_HECHO`.
+2. Pendiente un lote final de 641 palabras, para completar las 1.781 palabras del inventario.
+
+No se actualizará la versión de caché ni se ejecutará `commit` o `push` durante el desarrollo interno de cada lote. Cada publicación se realizará únicamente después de validar el inventario completo, el manifiesto y todos los SVG asociados.
 
 ## Próximo experimento
 
