@@ -466,5 +466,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "una boca",
     "emoji": "👄",
     "provider": "noto-emoji"
+  },
+  "대학": {
+    "path": "assets/svg/noto/emoji_u1f3eb.svg",
+    "label": "un edificio universitario",
+    "emoji": "🏫",
+    "provider": "noto-emoji"
+  },
+  "머리": {
+    "path": "assets/svg/noto/emoji_u1f642.svg",
+    "label": "la cabeza de una persona",
+    "emoji": "🙂",
+    "provider": "noto-emoji"
+  },
+  "오늘": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "un calendario marcado en el día de hoy",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "프로그램": {
+    "path": "assets/svg/noto/emoji_u1f4bb.svg",
+    "label": "un programa en una computadora",
+    "emoji": "💻",
+    "provider": "noto-emoji"
+  },
+  "그림": {
+    "path": "assets/svg/noto/emoji_u1f5bc.svg",
+    "label": "una imagen enmarcada",
+    "emoji": "🖼️",
+    "provider": "noto-emoji"
+  },
+  "사랑": {
+    "path": "assets/svg/noto/emoji_u2764.svg",
+    "label": "un corazón que representa el amor",
+    "emoji": "❤️",
+    "provider": "noto-emoji"
+  },
+  "음식": {
+    "path": "assets/svg/noto/emoji_u1f35a.svg",
+    "label": "un plato de comida",
+    "emoji": "🍚",
+    "provider": "noto-emoji"
+  },
+  "계획": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "un calendario con un plan",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "공부": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "un libro abierto para estudiar",
+    "emoji": "📖",
+    "provider": "noto-emoji"
+  },
+  "계란": {
+    "path": "assets/svg/noto/emoji_u1f95a.svg",
+    "label": "un huevo",
+    "emoji": "🥚",
+    "provider": "noto-emoji"
   }
 };
