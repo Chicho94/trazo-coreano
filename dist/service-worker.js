@@ -1,4 +1,4 @@
-const CACHE = 'trazo-topik-v38';
+const CACHE = 'trazo-topik-v39';
 const CORE = [
   './',
   './index.html',

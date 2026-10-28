@@ -2026,5 +2026,983 @@ window.TRAZO_SVG_VISUALS={
     "label": "un rostro con dolor de cabeza",
     "emoji": "🤕",
     "provider": "noto-emoji"
+  },
+  "땅": {
+    "path": "assets/svg/noto/emoji_u1f3de.svg",
+    "label": "un paisaje de tierra",
+    "emoji": "🏞️",
+    "provider": "noto-emoji"
+  },
+  "떡": {
+    "path": "assets/svg/noto/emoji_u1f358.svg",
+    "label": "un pastel de arroz",
+    "emoji": "🍘",
+    "provider": "noto-emoji"
+  },
+  "떡국": {
+    "path": "assets/svg/noto/emoji_u1f35c.svg",
+    "label": "un cuenco de sopa de pastel de arroz",
+    "emoji": "🍜",
+    "provider": "noto-emoji"
+  },
+  "라디오": {
+    "path": "assets/svg/noto/emoji_u1f4fb.svg",
+    "label": "una radio",
+    "emoji": "📻",
+    "provider": "noto-emoji"
+  },
+  "레스토랑": {
+    "path": "assets/svg/noto/emoji_u1f374.svg",
+    "label": "cubiertos que representan un restaurante",
+    "emoji": "🍴",
+    "provider": "noto-emoji"
+  },
+  "막걸리": {
+    "path": "assets/svg/noto/emoji_u1f376.svg",
+    "label": "una bebida de arroz makgeolli",
+    "emoji": "🍶",
+    "provider": "noto-emoji"
+  },
+  "매표소": {
+    "path": "assets/svg/noto/emoji_u1f3ab.svg",
+    "label": "un billete vendido en taquilla",
+    "emoji": "🎫",
+    "provider": "noto-emoji"
+  },
+  "맥주": {
+    "path": "assets/svg/noto/emoji_u1f37a.svg",
+    "label": "una jarra de cerveza",
+    "emoji": "🍺",
+    "provider": "noto-emoji"
+  },
+  "머리카락": {
+    "path": "assets/svg/noto/emoji_u1f642.svg",
+    "label": "la cabeza y el cabello de una persona",
+    "emoji": "🙂",
+    "provider": "noto-emoji"
+  },
+  "메시지": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "un mensaje en un globo de conversación",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "메일": {
+    "path": "assets/svg/noto/emoji_u2709.svg",
+    "label": "un correo electrónico",
+    "emoji": "✉️",
+    "provider": "noto-emoji"
+  },
+  "명절": {
+    "path": "assets/svg/noto/emoji_u1f389.svg",
+    "label": "una celebración tradicional",
+    "emoji": "🎉",
+    "provider": "noto-emoji"
+  },
+  "무궁화": {
+    "path": "assets/svg/noto/emoji_u1f338.svg",
+    "label": "una flor de hibisco de Siria",
+    "emoji": "🌸",
+    "provider": "noto-emoji"
+  },
+  "미술관": {
+    "path": "assets/svg/noto/emoji_u1f5bc.svg",
+    "label": "una obra en un museo de arte",
+    "emoji": "🖼️",
+    "provider": "noto-emoji"
+  },
+  "미역국": {
+    "path": "assets/svg/noto/emoji_u1f35c.svg",
+    "label": "un cuenco de sopa de algas",
+    "emoji": "🍜",
+    "provider": "noto-emoji"
+  },
+  "바닷가": {
+    "path": "assets/svg/noto/emoji_u1f30a.svg",
+    "label": "las olas junto a la playa",
+    "emoji": "🌊",
+    "provider": "noto-emoji"
+  },
+  "반바지": {
+    "path": "assets/svg/noto/emoji_u1fa73.svg",
+    "label": "un pantalón corto",
+    "emoji": "🩳",
+    "provider": "noto-emoji"
+  },
+  "발가락": {
+    "path": "assets/svg/noto/emoji_u1f9b6.svg",
+    "label": "los dedos de un pie",
+    "emoji": "🦶",
+    "provider": "noto-emoji"
+  },
+  "발바닥": {
+    "path": "assets/svg/noto/emoji_u1f9b6.svg",
+    "label": "la planta de un pie",
+    "emoji": "🦶",
+    "provider": "noto-emoji"
+  },
+  "배탈": {
+    "path": "assets/svg/noto/emoji_u1f922.svg",
+    "label": "un rostro con dolor de estómago",
+    "emoji": "🤢",
+    "provider": "noto-emoji"
+  },
+  "볶음밥": {
+    "path": "assets/svg/noto/emoji_u1f35a.svg",
+    "label": "un cuenco de arroz frito",
+    "emoji": "🍚",
+    "provider": "noto-emoji"
+  },
+  "봉투": {
+    "path": "assets/svg/noto/emoji_u2709.svg",
+    "label": "un sobre de carta",
+    "emoji": "✉️",
+    "provider": "noto-emoji"
+  },
+  "부자": {
+    "path": "assets/svg/noto/emoji_u1f4b5.svg",
+    "label": "dinero que representa riqueza",
+    "emoji": "💵",
+    "provider": "noto-emoji"
+  },
+  "부장": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f4bc.svg",
+    "label": "una persona jefa de departamento",
+    "emoji": "🧑‍💼",
+    "provider": "noto-emoji"
+  },
+  "분식": {
+    "path": "assets/svg/noto/emoji_u1f35c.svg",
+    "label": "un plato de comida rápida coreana",
+    "emoji": "🍜",
+    "provider": "noto-emoji"
+  },
+  "빌딩": {
+    "path": "assets/svg/noto/emoji_u1f3d9.svg",
+    "label": "un edificio alto",
+    "emoji": "🏙️",
+    "provider": "noto-emoji"
+  },
+  "빨래": {
+    "path": "assets/svg/noto/emoji_u1f455.svg",
+    "label": "ropa para lavar",
+    "emoji": "👕",
+    "provider": "noto-emoji"
+  },
+  "삼겹살": {
+    "path": "assets/svg/noto/emoji_u1f437.svg",
+    "label": "un cerdo que representa panceta",
+    "emoji": "🐷",
+    "provider": "noto-emoji"
+  },
+  "상": {
+    "path": "assets/svg/noto/emoji_u1f3c6.svg",
+    "label": "un premio",
+    "emoji": "🏆",
+    "provider": "noto-emoji"
+  },
+  "새해": {
+    "path": "assets/svg/noto/emoji_u1f389.svg",
+    "label": "una celebración de Año Nuevo",
+    "emoji": "🎉",
+    "provider": "noto-emoji"
+  },
+  "생선": {
+    "path": "assets/svg/noto/emoji_u1f41f.svg",
+    "label": "un pescado para comer",
+    "emoji": "🐟",
+    "provider": "noto-emoji"
+  },
+  "설날": {
+    "path": "assets/svg/noto/emoji_u1f389.svg",
+    "label": "una celebración del Año Nuevo lunar",
+    "emoji": "🎉",
+    "provider": "noto-emoji"
+  },
+  "설렁탕": {
+    "path": "assets/svg/noto/emoji_u1f35c.svg",
+    "label": "un cuenco de sopa de res",
+    "emoji": "🍜",
+    "provider": "noto-emoji"
+  },
+  "성함": {
+    "path": "assets/svg/noto/emoji_u1f4db.svg",
+    "label": "una identificación con nombre honorífico",
+    "emoji": "📛",
+    "provider": "noto-emoji"
+  },
+  "세배": {
+    "path": "assets/svg/noto/emoji_u1f647.svg",
+    "label": "una persona haciendo una reverencia",
+    "emoji": "🙇",
+    "provider": "noto-emoji"
+  },
+  "세탁": {
+    "path": "assets/svg/noto/emoji_u1f455.svg",
+    "label": "una prenda para lavar",
+    "emoji": "👕",
+    "provider": "noto-emoji"
+  },
+  "소고기": {
+    "path": "assets/svg/noto/emoji_u1f42e.svg",
+    "label": "una vaca que representa carne de res",
+    "emoji": "🐮",
+    "provider": "noto-emoji"
+  },
+  "소화제": {
+    "path": "assets/svg/noto/emoji_u1f48a.svg",
+    "label": "una medicina digestiva",
+    "emoji": "💊",
+    "provider": "noto-emoji"
+  },
+  "속옷": {
+    "path": "assets/svg/noto/emoji_u1fa72.svg",
+    "label": "ropa interior",
+    "emoji": "🩲",
+    "provider": "noto-emoji"
+  },
+  "손바닥": {
+    "path": "assets/svg/noto/emoji_u270b.svg",
+    "label": "la palma de una mano",
+    "emoji": "✋",
+    "provider": "noto-emoji"
+  },
+  "송편": {
+    "path": "assets/svg/noto/emoji_u1f358.svg",
+    "label": "un pastel de arroz songpyeon",
+    "emoji": "🍘",
+    "provider": "noto-emoji"
+  },
+  "수고": {
+    "path": "assets/svg/noto/emoji_u1f4aa.svg",
+    "label": "un brazo que representa esfuerzo",
+    "emoji": "💪",
+    "provider": "noto-emoji"
+  },
+  "스키장": {
+    "path": "assets/svg/noto/emoji_u26f7.svg",
+    "label": "una persona esquiando en una estación",
+    "emoji": "⛷️",
+    "provider": "noto-emoji"
+  },
+  "시내": {
+    "path": "assets/svg/noto/emoji_u1f3d9.svg",
+    "label": "el centro de una ciudad",
+    "emoji": "🏙️",
+    "provider": "noto-emoji"
+  },
+  "식빵": {
+    "path": "assets/svg/noto/emoji_u1f35e.svg",
+    "label": "una rebanada de pan de molde",
+    "emoji": "🍞",
+    "provider": "noto-emoji"
+  },
+  "식탁": {
+    "path": "assets/svg/noto/emoji_u1fa91.svg",
+    "label": "una mesa de comedor con asiento",
+    "emoji": "🪑",
+    "provider": "noto-emoji"
+  },
+  "신혼여행": {
+    "path": "assets/svg/noto/emoji_u2708.svg",
+    "label": "un viaje de luna de miel",
+    "emoji": "✈️",
+    "provider": "noto-emoji"
+  },
+  "아버님": {
+    "path": "assets/svg/noto/emoji_u1f468.svg",
+    "label": "un padre, en forma honorífica",
+    "emoji": "👨",
+    "provider": "noto-emoji"
+  },
+  "아줌마": {
+    "path": "assets/svg/noto/emoji_u1f469.svg",
+    "label": "una señora",
+    "emoji": "👩",
+    "provider": "noto-emoji"
+  },
+  "야채": {
+    "path": "assets/svg/noto/emoji_u1f966.svg",
+    "label": "una verdura",
+    "emoji": "🥦",
+    "provider": "noto-emoji"
+  },
+  "약사": {
+    "path": "assets/svg/noto/emoji_u1f48a.svg",
+    "label": "medicinas de una farmacia",
+    "emoji": "💊",
+    "provider": "noto-emoji"
+  },
+  "양말": {
+    "path": "assets/svg/noto/emoji_u1f9e6.svg",
+    "label": "un par de calcetines",
+    "emoji": "🧦",
+    "provider": "noto-emoji"
+  },
+  "양복": {
+    "path": "assets/svg/noto/emoji_u1f935.svg",
+    "label": "una persona con traje formal",
+    "emoji": "🤵",
+    "provider": "noto-emoji"
+  },
+  "양식집": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "una mesa de restaurante occidental",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "양치질": {
+    "path": "assets/svg/noto/emoji_u1faa5.svg",
+    "label": "un cepillo de dientes",
+    "emoji": "🪥",
+    "provider": "noto-emoji"
+  },
+  "어린아이": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "un niño pequeño",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "어머님": {
+    "path": "assets/svg/noto/emoji_u1f469.svg",
+    "label": "una madre",
+    "emoji": "👩",
+    "provider": "noto-emoji"
+  },
+  "어젯밤": {
+    "path": "assets/svg/noto/emoji_u1f303.svg",
+    "label": "una ciudad durante la noche",
+    "emoji": "🌃",
+    "provider": "noto-emoji"
+  },
+  "얼음": {
+    "path": "assets/svg/noto/emoji_u1f9ca.svg",
+    "label": "un cubo de hielo",
+    "emoji": "🧊",
+    "provider": "noto-emoji"
+  },
+  "엉덩이": {
+    "path": "assets/svg/noto/emoji_u1f351.svg",
+    "label": "un melocotón que representa el trasero",
+    "emoji": "🍑",
+    "provider": "noto-emoji"
+  },
+  "엘리베이터": {
+    "path": "assets/svg/noto/emoji_u1f6d7.svg",
+    "label": "un ascensor",
+    "emoji": "🛗",
+    "provider": "noto-emoji"
+  },
+  "여학생": {
+    "path": "assets/svg/noto/emoji_u1f393.svg",
+    "label": "un birrete de estudiante",
+    "emoji": "🎓",
+    "provider": "noto-emoji"
+  },
+  "여행지": {
+    "path": "assets/svg/noto/emoji_u1f5fa.svg",
+    "label": "un mapa de viaje",
+    "emoji": "🗺️",
+    "provider": "noto-emoji"
+  },
+  "연결": {
+    "path": "assets/svg/noto/emoji_u1f517.svg",
+    "label": "dos eslabones conectados",
+    "emoji": "🔗",
+    "provider": "noto-emoji"
+  },
+  "연락처": {
+    "path": "assets/svg/noto/emoji_u1f4c7.svg",
+    "label": "una agenda de contactos",
+    "emoji": "📇",
+    "provider": "noto-emoji"
+  },
+  "연말": {
+    "path": "assets/svg/noto/emoji_u1f386.svg",
+    "label": "fuegos artificiales de fin de año",
+    "emoji": "🎆",
+    "provider": "noto-emoji"
+  },
+  "연세": {
+    "path": "assets/svg/noto/emoji_u1f382.svg",
+    "label": "un pastel de cumpleaños para representar la edad",
+    "emoji": "🎂",
+    "provider": "noto-emoji"
+  },
+  "연예인": {
+    "path": "assets/svg/noto/emoji_u1f31f.svg",
+    "label": "una estrella famosa",
+    "emoji": "🌟",
+    "provider": "noto-emoji"
+  },
+  "연휴": {
+    "path": "assets/svg/noto/emoji_u1f3d6.svg",
+    "label": "unas vacaciones en la playa",
+    "emoji": "🏖️",
+    "provider": "noto-emoji"
+  },
+  "열차": {
+    "path": "assets/svg/noto/emoji_u1f686.svg",
+    "label": "un tren",
+    "emoji": "🚆",
+    "provider": "noto-emoji"
+  },
+  "열흘": {
+    "path": "assets/svg/noto/emoji_u1f5d3.svg",
+    "label": "una página de calendario",
+    "emoji": "🗓️",
+    "provider": "noto-emoji"
+  },
+  "엽서": {
+    "path": "assets/svg/noto/emoji_u1f48c.svg",
+    "label": "una postal con un corazón",
+    "emoji": "💌",
+    "provider": "noto-emoji"
+  },
+  "영수증": {
+    "path": "assets/svg/noto/emoji_u1f9fe.svg",
+    "label": "un recibo de compra",
+    "emoji": "🧾",
+    "provider": "noto-emoji"
+  },
+  "영하": {
+    "path": "assets/svg/noto/emoji_u1f976.svg",
+    "label": "una cara congelada bajo cero",
+    "emoji": "🥶",
+    "provider": "noto-emoji"
+  },
+  "옆집": {
+    "path": "assets/svg/noto/emoji_u1f3d8.svg",
+    "label": "dos casas vecinas",
+    "emoji": "🏘️",
+    "provider": "noto-emoji"
+  },
+  "예매": {
+    "path": "assets/svg/noto/emoji_u1f39f.svg",
+    "label": "unas entradas reservadas",
+    "emoji": "🎟️",
+    "provider": "noto-emoji"
+  },
+  "예습": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "un libro abierto para estudiar antes",
+    "emoji": "📖",
+    "provider": "noto-emoji"
+  },
+  "예약": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "una fecha reservada en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "오래간만": {
+    "path": "assets/svg/noto/emoji_u1f91d.svg",
+    "label": "un reencuentro después de mucho tiempo",
+    "emoji": "🤝",
+    "provider": "noto-emoji"
+  },
+  "오랜만": {
+    "path": "assets/svg/noto/emoji_u1f91d.svg",
+    "label": "un reencuentro después de mucho tiempo",
+    "emoji": "🤝",
+    "provider": "noto-emoji"
+  },
+  "오른손": {
+    "path": "assets/svg/noto/emoji_u1f449.svg",
+    "label": "una mano apuntando a la derecha",
+    "emoji": "👉",
+    "provider": "noto-emoji"
+  },
+  "오이": {
+    "path": "assets/svg/noto/emoji_u1f952.svg",
+    "label": "un pepino",
+    "emoji": "🥒",
+    "provider": "noto-emoji"
+  },
+  "온도": {
+    "path": "assets/svg/noto/emoji_u1f321.svg",
+    "label": "un termómetro",
+    "emoji": "🌡️",
+    "provider": "noto-emoji"
+  },
+  "올림": {
+    "path": "assets/svg/noto/emoji_u270d.svg",
+    "label": "una mano firmando una carta",
+    "emoji": "✍️",
+    "provider": "noto-emoji"
+  },
+  "옷걸이": {
+    "path": "assets/svg/noto/emoji_u1f9e5.svg",
+    "label": "un abrigo colgado",
+    "emoji": "🧥",
+    "provider": "noto-emoji"
+  },
+  "옷장": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "la puerta de un armario",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "와이셔츠": {
+    "path": "assets/svg/noto/emoji_u1f454.svg",
+    "label": "una camisa de vestir con corbata",
+    "emoji": "👔",
+    "provider": "noto-emoji"
+  },
+  "외출": {
+    "path": "assets/svg/noto/emoji_u1f6b6.svg",
+    "label": "una persona saliendo a caminar",
+    "emoji": "🚶",
+    "provider": "noto-emoji"
+  },
+  "왼손": {
+    "path": "assets/svg/noto/emoji_u1f448.svg",
+    "label": "una mano apuntando a la izquierda",
+    "emoji": "👈",
+    "provider": "noto-emoji"
+  },
+  "요리사": {
+    "path": "assets/svg/noto/emoji_u1f373.svg",
+    "label": "una sartén usada por un cocinero",
+    "emoji": "🍳",
+    "provider": "noto-emoji"
+  },
+  "우동": {
+    "path": "assets/svg/noto/emoji_u1f35c.svg",
+    "label": "un tazón de fideos udon",
+    "emoji": "🍜",
+    "provider": "noto-emoji"
+  },
+  "우리나라": {
+    "path": "assets/svg/noto/emoji_u1f5fa.svg",
+    "label": "un mapa que representa Corea",
+    "emoji": "🗺️",
+    "provider": "noto-emoji"
+  },
+  "운동복": {
+    "path": "assets/svg/noto/emoji_u1f3c3.svg",
+    "label": "una persona corriendo con ropa deportiva",
+    "emoji": "🏃",
+    "provider": "noto-emoji"
+  },
+  "운전사": {
+    "path": "assets/svg/noto/emoji_u1f697.svg",
+    "label": "un automóvil conducido por un conductor",
+    "emoji": "🚗",
+    "provider": "noto-emoji"
+  },
+  "울산": {
+    "path": "assets/svg/noto/emoji_u1f306.svg",
+    "label": "el paisaje urbano de Ulsan",
+    "emoji": "🌆",
+    "provider": "noto-emoji"
+  },
+  "울음": {
+    "path": "assets/svg/noto/emoji_u1f62d.svg",
+    "label": "una cara llorando",
+    "emoji": "😭",
+    "provider": "noto-emoji"
+  },
+  "원피스": {
+    "path": "assets/svg/noto/emoji_u1f457.svg",
+    "label": "un vestido de una pieza",
+    "emoji": "👗",
+    "provider": "noto-emoji"
+  },
+  "월급": {
+    "path": "assets/svg/noto/emoji_u1f4b5.svg",
+    "label": "billetes que representan el sueldo mensual",
+    "emoji": "💵",
+    "provider": "noto-emoji"
+  },
+  "위쪽": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "una flecha que apunta hacia arriba",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "유리": {
+    "path": "assets/svg/noto/emoji_u1fa9f.svg",
+    "label": "una ventana de vidrio",
+    "emoji": "🪟",
+    "provider": "noto-emoji"
+  },
+  "유치원": {
+    "path": "assets/svg/noto/emoji_u1f3eb.svg",
+    "label": "un jardín de infancia",
+    "emoji": "🏫",
+    "provider": "noto-emoji"
+  },
+  "유학": {
+    "path": "assets/svg/noto/emoji_u2708.svg",
+    "label": "un viaje para estudiar en el extranjero",
+    "emoji": "✈️",
+    "provider": "noto-emoji"
+  },
+  "유학생": {
+    "path": "assets/svg/noto/emoji_u1f393.svg",
+    "label": "un estudiante extranjero",
+    "emoji": "🎓",
+    "provider": "noto-emoji"
+  },
+  "유행": {
+    "path": "assets/svg/noto/emoji_u1f457.svg",
+    "label": "un vestido de moda",
+    "emoji": "👗",
+    "provider": "noto-emoji"
+  },
+  "육교": {
+    "path": "assets/svg/noto/emoji_u1f309.svg",
+    "label": "un paso elevado peatonal",
+    "emoji": "🌉",
+    "provider": "noto-emoji"
+  },
+  "윷놀이": {
+    "path": "assets/svg/noto/emoji_u1f3b2.svg",
+    "label": "dados que representan un juego tradicional",
+    "emoji": "🎲",
+    "provider": "noto-emoji"
+  },
+  "음식점": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "una mesa de restaurante",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "음악가": {
+    "path": "assets/svg/noto/emoji_u1f3b5.svg",
+    "label": "una nota musical de un músico",
+    "emoji": "🎵",
+    "provider": "noto-emoji"
+  },
+  "이마": {
+    "path": "assets/svg/noto/emoji_u1f915.svg",
+    "label": "una frente vendada",
+    "emoji": "🤕",
+    "provider": "noto-emoji"
+  },
+  "이모": {
+    "path": "assets/svg/noto/emoji_u1f469.svg",
+    "label": "una tía materna",
+    "emoji": "👩",
+    "provider": "noto-emoji"
+  },
+  "이불": {
+    "path": "assets/svg/noto/emoji_u1f6cf.svg",
+    "label": "una cama con edredón",
+    "emoji": "🛏️",
+    "provider": "noto-emoji"
+  },
+  "이삿짐": {
+    "path": "assets/svg/noto/emoji_u1f4e6.svg",
+    "label": "una caja de mudanza",
+    "emoji": "📦",
+    "provider": "noto-emoji"
+  },
+  "이틀": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "dos días en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "인삼": {
+    "path": "assets/svg/noto/emoji_u1f33f.svg",
+    "label": "una planta de ginseng",
+    "emoji": "🌿",
+    "provider": "noto-emoji"
+  },
+  "인형": {
+    "path": "assets/svg/noto/emoji_u1fa86.svg",
+    "label": "una muñeca",
+    "emoji": "🪆",
+    "provider": "noto-emoji"
+  },
+  "일기": {
+    "path": "assets/svg/noto/emoji_u1f4d4.svg",
+    "label": "un diario personal",
+    "emoji": "📔",
+    "provider": "noto-emoji"
+  },
+  "일식": {
+    "path": "assets/svg/noto/emoji_u1f363.svg",
+    "label": "comida japonesa",
+    "emoji": "🍣",
+    "provider": "noto-emoji"
+  },
+  "일식집": {
+    "path": "assets/svg/noto/emoji_u1f363.svg",
+    "label": "un restaurante japonés",
+    "emoji": "🍣",
+    "provider": "noto-emoji"
+  },
+  "입원": {
+    "path": "assets/svg/noto/emoji_u1f3e5.svg",
+    "label": "un hospital para una hospitalización",
+    "emoji": "🏥",
+    "provider": "noto-emoji"
+  },
+  "입장권": {
+    "path": "assets/svg/noto/emoji_u1f3ab.svg",
+    "label": "un boleto de entrada",
+    "emoji": "🎫",
+    "provider": "noto-emoji"
+  },
+  "자기소개": {
+    "path": "assets/svg/noto/emoji_u1f64b.svg",
+    "label": "una persona que se presenta",
+    "emoji": "🙋",
+    "provider": "noto-emoji"
+  },
+  "자동판매기": {
+    "path": "assets/svg/noto/emoji_u1f964.svg",
+    "label": "una bebida de máquina expendedora",
+    "emoji": "🥤",
+    "provider": "noto-emoji"
+  },
+  "자랑": {
+    "path": "assets/svg/noto/emoji_u1f99a.svg",
+    "label": "un pavo real orgulloso",
+    "emoji": "🦚",
+    "provider": "noto-emoji"
+  },
+  "자장면": {
+    "path": "assets/svg/noto/emoji_u1f35c.svg",
+    "label": "un tazón de jajangmyeon",
+    "emoji": "🍜",
+    "provider": "noto-emoji"
+  },
+  "자판기": {
+    "path": "assets/svg/noto/emoji_u1f964.svg",
+    "label": "una bebida de máquina expendedora",
+    "emoji": "🥤",
+    "provider": "noto-emoji"
+  },
+  "잔치": {
+    "path": "assets/svg/noto/emoji_u1f389.svg",
+    "label": "una celebración o banquete",
+    "emoji": "🎉",
+    "provider": "noto-emoji"
+  },
+  "장갑": {
+    "path": "assets/svg/noto/emoji_u1f9e4.svg",
+    "label": "un par de guantes",
+    "emoji": "🧤",
+    "provider": "noto-emoji"
+  },
+  "장난감": {
+    "path": "assets/svg/noto/emoji_u1f9f8.svg",
+    "label": "un oso de juguete",
+    "emoji": "🧸",
+    "provider": "noto-emoji"
+  },
+  "장마": {
+    "path": "assets/svg/noto/emoji_u1f327.svg",
+    "label": "una nube de lluvia intensa",
+    "emoji": "🌧️",
+    "provider": "noto-emoji"
+  },
+  "장미": {
+    "path": "assets/svg/noto/emoji_u1f339.svg",
+    "label": "una rosa roja",
+    "emoji": "🌹",
+    "provider": "noto-emoji"
+  },
+  "재채기": {
+    "path": "assets/svg/noto/emoji_u1f927.svg",
+    "label": "una cara estornudando",
+    "emoji": "🤧",
+    "provider": "noto-emoji"
+  },
+  "저금": {
+    "path": "assets/svg/noto/emoji_u1f437.svg",
+    "label": "una alcancía para ahorrar",
+    "emoji": "🐷",
+    "provider": "noto-emoji"
+  },
+  "저번": {
+    "path": "assets/svg/noto/emoji_u23ea.svg",
+    "label": "una flecha hacia una vez pasada",
+    "emoji": "⏪",
+    "provider": "noto-emoji"
+  },
+  "전철": {
+    "path": "assets/svg/noto/emoji_u1f687.svg",
+    "label": "un tren de metro urbano",
+    "emoji": "🚇",
+    "provider": "noto-emoji"
+  },
+  "전화기": {
+    "path": "assets/svg/noto/emoji_u260e.svg",
+    "label": "un teléfono",
+    "emoji": "☎️",
+    "provider": "noto-emoji"
+  },
+  "점수": {
+    "path": "assets/svg/noto/emoji_u1f4af.svg",
+    "label": "una puntuación de cien",
+    "emoji": "💯",
+    "provider": "noto-emoji"
+  },
+  "점심시간": {
+    "path": "assets/svg/noto/emoji_u1f371.svg",
+    "label": "una caja de almuerzo",
+    "emoji": "🍱",
+    "provider": "noto-emoji"
+  },
+  "접시": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "un plato servido en la mesa",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "젓가락": {
+    "path": "assets/svg/noto/emoji_u1f962.svg",
+    "label": "un par de palillos",
+    "emoji": "🥢",
+    "provider": "noto-emoji"
+  },
+  "정거장": {
+    "path": "assets/svg/noto/emoji_u1f68f.svg",
+    "label": "una parada de autobús",
+    "emoji": "🚏",
+    "provider": "noto-emoji"
+  },
+  "정리": {
+    "path": "assets/svg/noto/emoji_u1f5c2.svg",
+    "label": "un archivo organizado",
+    "emoji": "🗂️",
+    "provider": "noto-emoji"
+  },
+  "정문": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "una puerta principal",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "정원": {
+    "path": "assets/svg/noto/emoji_u1f3e1.svg",
+    "label": "una casa con jardín",
+    "emoji": "🏡",
+    "provider": "noto-emoji"
+  },
+  "정확": {
+    "path": "assets/svg/noto/emoji_u1f3af.svg",
+    "label": "un blanco alcanzado con precisión",
+    "emoji": "🎯",
+    "provider": "noto-emoji"
+  },
+  "조심": {
+    "path": "assets/svg/noto/emoji_u26a0.svg",
+    "label": "una señal de precaución",
+    "emoji": "⚠️",
+    "provider": "noto-emoji"
+  },
+  "조카": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "un sobrino pequeño",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "주머니": {
+    "path": "assets/svg/noto/emoji_u1f456.svg",
+    "label": "un bolsillo de pantalón",
+    "emoji": "👖",
+    "provider": "noto-emoji"
+  },
+  "주문": {
+    "path": "assets/svg/noto/emoji_u1f9fe.svg",
+    "label": "un recibo de pedido",
+    "emoji": "🧾",
+    "provider": "noto-emoji"
+  },
+  "주사": {
+    "path": "assets/svg/noto/emoji_u1f489.svg",
+    "label": "una jeringa para una inyección",
+    "emoji": "💉",
+    "provider": "noto-emoji"
+  },
+  "주차": {
+    "path": "assets/svg/noto/emoji_u1f17f.svg",
+    "label": "una señal de aparcamiento",
+    "emoji": "🅿️",
+    "provider": "noto-emoji"
+  },
+  "주차장": {
+    "path": "assets/svg/noto/emoji_u1f17f.svg",
+    "label": "un estacionamiento",
+    "emoji": "🅿️",
+    "provider": "noto-emoji"
+  },
+  "주황색": {
+    "path": "assets/svg/noto/emoji_u1f7e0.svg",
+    "label": "un círculo de color naranja",
+    "emoji": "🟠",
+    "provider": "noto-emoji"
+  },
+  "중국집": {
+    "path": "assets/svg/noto/emoji_u1f961.svg",
+    "label": "una caja de comida china",
+    "emoji": "🥡",
+    "provider": "noto-emoji"
+  },
+  "중요": {
+    "path": "assets/svg/noto/emoji_u2757.svg",
+    "label": "un signo de exclamación importante",
+    "emoji": "❗",
+    "provider": "noto-emoji"
+  },
+  "중학생": {
+    "path": "assets/svg/noto/emoji_u1f392.svg",
+    "label": "una mochila de estudiante de secundaria",
+    "emoji": "🎒",
+    "provider": "noto-emoji"
+  },
+  "지각": {
+    "path": "assets/svg/noto/emoji_u23f0.svg",
+    "label": "un despertador que indica tardanza",
+    "emoji": "⏰",
+    "provider": "noto-emoji"
+  },
+  "지난번": {
+    "path": "assets/svg/noto/emoji_u23ee.svg",
+    "label": "un botón para volver a la vez anterior",
+    "emoji": "⏮️",
+    "provider": "noto-emoji"
+  },
+  "지하도": {
+    "path": "assets/svg/noto/emoji_u1f687.svg",
+    "label": "un paso subterráneo urbano",
+    "emoji": "🚇",
+    "provider": "noto-emoji"
+  },
+  "짐": {
+    "path": "assets/svg/noto/emoji_u1f9f3.svg",
+    "label": "una maleta de equipaje",
+    "emoji": "🧳",
+    "provider": "noto-emoji"
+  },
+  "집들이": {
+    "path": "assets/svg/noto/emoji_u1f3e0.svg",
+    "label": "una casa nueva para celebrar",
+    "emoji": "🏠",
+    "provider": "noto-emoji"
+  },
+  "집안일": {
+    "path": "assets/svg/noto/emoji_u1f9f9.svg",
+    "label": "una escoba para las tareas del hogar",
+    "emoji": "🧹",
+    "provider": "noto-emoji"
+  },
+  "짜증": {
+    "path": "assets/svg/noto/emoji_u1f624.svg",
+    "label": "una cara irritada",
+    "emoji": "😤",
+    "provider": "noto-emoji"
+  },
+  "짬뽕": {
+    "path": "assets/svg/noto/emoji_u1f35c.svg",
+    "label": "un tazón de jjamppong picante",
+    "emoji": "🍜",
+    "provider": "noto-emoji"
   }
 };

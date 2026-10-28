@@ -78,6 +78,10 @@ La herramienta `scripts/register-svg-word.mjs` comprueba que el archivo exista y
 
 Los lotes de trabajo contienen 50 palabras. Al completar cada lote se debe actualizar la versión de caché, validar el inventario y todos los archivos, crear un único commit y publicarlo. Las comprobaciones intermedias pueden ejecutarse durante el lote, pero no generan commits ni publicaciones adicionales.
 
+### Último hito completado
+
+El hito de 500 palabras en `ESTA_HECHO` acumuló 163 asociaciones nuevas desde la publicación anterior, que contenía 337. Después de publicar este hito se retomará la cadencia que indique el usuario.
+
 ## Próximo experimento
 
 Tomar una categoría pequeña —por ejemplo, `Comida y bebida`— y buscar automáticamente una imagen para cada palabra en este orden:
