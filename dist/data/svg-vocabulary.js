@@ -586,5 +586,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un rostro saboreando comida",
     "emoji": "😋",
     "provider": "noto-emoji"
+  },
+  "요즘": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "un calendario que representa estos días",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "아내": {
+    "path": "assets/svg/noto/emoji_u1f469.svg",
+    "label": "una esposa",
+    "emoji": "👩",
+    "provider": "noto-emoji"
+  },
+  "배": {
+    "path": "assets/svg/noto/emoji_u1f6a2.svg",
+    "label": "un barco",
+    "emoji": "🚢",
+    "provider": "noto-emoji"
+  },
+  "바람": {
+    "path": "assets/svg/noto/emoji_u1f32c.svg",
+    "label": "una ráfaga de viento",
+    "emoji": "🌬️",
+    "provider": "noto-emoji"
+  },
+  "언니": {
+    "path": "assets/svg/noto/emoji_u1f469.svg",
+    "label": "una hermana mayor",
+    "emoji": "👩",
+    "provider": "noto-emoji"
+  },
+  "지난해": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el calendario del año pasado",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "옷": {
+    "path": "assets/svg/noto/emoji_u1f455.svg",
+    "label": "una prenda de ropa",
+    "emoji": "👕",
+    "provider": "noto-emoji"
+  },
+  "할머니": {
+    "path": "assets/svg/noto/emoji_u1f475.svg",
+    "label": "una abuela",
+    "emoji": "👵",
+    "provider": "noto-emoji"
+  },
+  "회의": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f91d_200d_1f9d1.svg",
+    "label": "dos personas reunidas",
+    "emoji": "🧑‍🤝‍🧑",
+    "provider": "noto-emoji"
+  },
+  "물건": {
+    "path": "assets/svg/noto/emoji_u1f4e6.svg",
+    "label": "un objeto dentro de una caja",
+    "emoji": "📦",
+    "provider": "noto-emoji"
   }
 };
