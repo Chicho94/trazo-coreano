@@ -1066,5 +1066,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un taxi",
     "emoji": "🚕",
     "provider": "noto-emoji"
+  },
+  "주말": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el fin de semana en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "내년": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el calendario del próximo año",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "대학생": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f393.svg",
+    "label": "una persona universitaria",
+    "emoji": "🧑‍🎓",
+    "provider": "noto-emoji"
+  },
+  "백화점": {
+    "path": "assets/svg/noto/emoji_u1f3ec.svg",
+    "label": "una tienda por departamentos",
+    "emoji": "🏬",
+    "provider": "noto-emoji"
+  },
+  "부엌": {
+    "path": "assets/svg/noto/emoji_u1f373.svg",
+    "label": "una cocina",
+    "emoji": "🍳",
+    "provider": "noto-emoji"
+  },
+  "카드": {
+    "path": "assets/svg/noto/emoji_u1f4b3.svg",
+    "label": "una tarjeta de pago",
+    "emoji": "💳",
+    "provider": "noto-emoji"
+  },
+  "단어": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "un globo que contiene una palabra",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "신발": {
+    "path": "assets/svg/noto/emoji_u1f45f.svg",
+    "label": "un zapato",
+    "emoji": "👟",
+    "provider": "noto-emoji"
+  },
+  "김치": {
+    "path": "assets/svg/noto/emoji_u1f35a.svg",
+    "label": "un cuenco de comida que representa kimchi",
+    "emoji": "🍚",
+    "provider": "noto-emoji"
+  },
+  "점심": {
+    "path": "assets/svg/noto/emoji_u1f35a.svg",
+    "label": "una comida de almuerzo",
+    "emoji": "🍚",
+    "provider": "noto-emoji"
   }
 };
