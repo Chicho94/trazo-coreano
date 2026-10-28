@@ -1486,5 +1486,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un paisaje de vacaciones",
     "emoji": "🏞️",
     "provider": "noto-emoji"
+  },
+  "소리": {
+    "path": "assets/svg/noto/emoji_u1f50a.svg",
+    "label": "un altavoz que emite sonido",
+    "emoji": "🔊",
+    "provider": "noto-emoji"
+  },
+  "세계": {
+    "path": "assets/svg/noto/emoji_u1f30f.svg",
+    "label": "el mundo",
+    "emoji": "🌏",
+    "provider": "noto-emoji"
+  },
+  "여성": {
+    "path": "assets/svg/noto/emoji_u1f469.svg",
+    "label": "una mujer",
+    "emoji": "👩",
+    "provider": "noto-emoji"
+  },
+  "관계": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f91d_200d_1f9d1.svg",
+    "label": "dos personas conectadas por una relación",
+    "emoji": "🧑‍🤝‍🧑",
+    "provider": "noto-emoji"
+  },
+  "교육": {
+    "path": "assets/svg/noto/emoji_u1f3eb.svg",
+    "label": "una escuela que representa la educación",
+    "emoji": "🏫",
+    "provider": "noto-emoji"
+  },
+  "예술": {
+    "path": "assets/svg/noto/emoji_u1f5bc.svg",
+    "label": "una obra de arte enmarcada",
+    "emoji": "🖼️",
+    "provider": "noto-emoji"
+  },
+  "역사": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "un libro abierto de historia",
+    "emoji": "📖",
+    "provider": "noto-emoji"
+  },
+  "자리": {
+    "path": "assets/svg/noto/emoji_u1fa91.svg",
+    "label": "un asiento",
+    "emoji": "🪑",
+    "provider": "noto-emoji"
+  },
+  "얘기": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "un globo de charla",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "세상": {
+    "path": "assets/svg/noto/emoji_u1f30f.svg",
+    "label": "el mundo y la sociedad",
+    "emoji": "🌏",
+    "provider": "noto-emoji"
   }
 };
