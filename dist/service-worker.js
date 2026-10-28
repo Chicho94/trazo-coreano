@@ -1,10 +1,11 @@
-const CACHE = 'trazo-topik-v11';
+const CACHE = 'trazo-topik-v12';
 const CORE = [
   './',
   './index.html',
   './styles.css',
   './app.js',
   './data/topik-content.js',
+  './data/svg-vocabulary.js',
   './manifest.webmanifest',
   './favicon.svg',
   './laboratorio-anatomy.html',

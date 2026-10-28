@@ -70,9 +70,11 @@ function vocabularyCategoryLabel(categoryId) {
   return vocabularyCategories.find(category => category.id === categoryId)?.label || 'Conceptos y expresiones';
 }
 const starterVisuals = Object.fromEntries(starterWords.map(word => [word.korean,word]));
+const svgVisuals = window.TRAZO_SVG_VISUALS || {};
 const masterVocabulary = window.TRAZO_CONTENT?.vocabulary || starterWords.map((word,index) => ({ ...word, level:1, type:'n', unit:'topik-1-01', frequency:index + 1 }));
 const words = masterVocabulary.map(word => {
   const visual = starterVisuals[word.korean] || {};
+  const svgVisual = svgVisuals[word.korean] || {};
   return {
     ...word,
     spanish:visual.spanish || word.spanish,
@@ -80,10 +82,11 @@ const words = masterVocabulary.map(word => {
     vocabularyCategory:word.category || (visual.category === 'casa' ? 'hogar' : visual.category) || 'conceptos',
     category:`topik${word.level || 1}`,
     collection:visual.category || null,
-    emoji:visual.emoji || '',
-    hasVisual:Boolean(visual.emoji),
+    emoji:svgVisual.emoji || visual.emoji || '',
+    assetPath:svgVisual.path || '',
+    hasVisual:Boolean(svgVisual.path || visual.emoji),
     image:visual.image,
-    imageLabel:visual.imageLabel || word.spanish
+    imageLabel:svgVisual.label || visual.imageLabel || word.spanish
   };
 });
 const studyUnits = window.TRAZO_CONTENT?.studyUnits || [{ id:'topik-1-01', level:1, sequence:1, title:'TOPIK 1 · Unidad 01', wordCount:words.length, words:words.map(word => word.korean) }];
@@ -222,7 +225,7 @@ function compose(tokens) {
 
 function emojiAsset(emoji) {
   const points = [...emoji].map(character => character.codePointAt(0)).filter(code => code !== 0xFE0F).map(code => code.toString(16));
-  return `assets/noto/emoji_u${points.join('_')}.svg`;
+  return `assets/svg/noto/emoji_u${points.join('_')}.svg`;
 }
 
 function renderCategories() {
@@ -592,7 +595,7 @@ function loadWord(index) {
     fallback.hidden = true;
     art.alt = `Ilustración de ${word.imageLabel || word.spanish}, Noto Emoji`;
     art.onerror = () => { art.hidden = true; fallback.hidden = false; fallback.textContent = word.emoji; };
-    art.src = emojiAsset(word.emoji);
+    art.src = word.assetPath || emojiAsset(word.emoji);
   } else {
     art.hidden = true;
     fallback.hidden = false;

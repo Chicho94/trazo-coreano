@@ -49,7 +49,7 @@ La estrategia será híbrida:
   "word": "사과",
   "provider": "noto-emoji",
   "assetId": "emoji_u1f34e",
-  "localPath": "assets/noto/emoji_u1f34e.svg",
+  "localPath": "assets/svg/noto/emoji_u1f34e.svg",
   "license": "Apache-2.0",
   "attribution": "Google Noto Emoji",
   "sense": "manzana, fruta",
@@ -58,6 +58,16 @@ La estrategia será híbrida:
 ```
 
 Los recursos se descargarán y guardarán localmente. La aplicación publicada no dependerá de una API externa ni expondrá claves.
+
+## Control de avance obligatorio
+
+El archivo `ESTADO-SVG.md` es la fuente de verdad para el avance de las ilustraciones. Contiene una fila por cada palabra del vocabulario y solo admite estos estados:
+
+- `NO_TIENE`: todavía no se ha iniciado el SVG.
+- `EN_PROCESO`: el SVG está siendo investigado, diseñado o implementado.
+- `ESTA_HECHO`: el SVG está terminado, integrado y verificado.
+
+Antes de investigar o modificar el SVG de una palabra, su estado debe cambiarse de `NO_TIENE` a `EN_PROCESO` y guardarse en Git. Solo después de verificar el SVG en la aplicación puede cambiarse a `ESTA_HECHO`. Si el trabajo se interrumpe, debe permanecer como `EN_PROCESO` para poder retomarlo.
 
 ## Próximo experimento
 
