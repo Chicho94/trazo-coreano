@@ -66,6 +66,9 @@ const vocabularyCategories = window.TRAZO_CONTENT?.vocabularyCategories || start
   label:category.name,
   count:starterWords.filter(word => word.category === category.id).length
 }));
+function vocabularyCategoryLabel(categoryId) {
+  return vocabularyCategories.find(category => category.id === categoryId)?.label || 'Conceptos y expresiones';
+}
 const starterVisuals = Object.fromEntries(starterWords.map(word => [word.korean,word]));
 const masterVocabulary = window.TRAZO_CONTENT?.vocabulary || starterWords.map((word,index) => ({ ...word, level:1, type:'n', unit:'topik-1-01', frequency:index + 1 }));
 const words = masterVocabulary.map(word => {
@@ -328,8 +331,17 @@ function renderVocabularyCategorySelectors(category) {
       option.textContent = `${vocabularyCategory.label} · ${count}`;
       select.append(option);
     });
-    select.value = currentVocabularyCategory;
-    select.disabled = Boolean(currentCollection);
+    if (currentCollection) {
+      const routeOption = document.createElement('option');
+      routeOption.value = '__collection';
+      routeOption.textContent = 'Elegir una categoría';
+      routeOption.disabled = true;
+      routeOption.selected = true;
+      select.prepend(routeOption);
+    } else {
+      select.value = currentVocabularyCategory;
+    }
+    select.disabled = false;
   }
 }
 function visibleWordIndexes() {
@@ -355,12 +367,14 @@ function renderWordButtons() {
     destination.replaceChildren();
     visible.forEach(index => {
       const word = words[index];
+      const categoryLabel = vocabularyCategoryLabel(word.vocabularyCategory);
+      const wordDetail = completed.has(word.korean) ? `${categoryLabel} · ${word.spanish}` : categoryLabel;
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'word-option' + (index === currentIndex ? ' active' : '') + (completed.has(word.korean) ? ' done' : '');
       button.setAttribute('aria-current', index === currentIndex ? 'step' : 'false');
       button.setAttribute('aria-label', `${word.korean}, ${word.spanish}${completed.has(word.korean) ? ', completada' : ''}`);
-      button.innerHTML = `<span class="word-index">${String(destination.childElementCount + 1).padStart(2,'0')}</span><span class="word-name"><strong lang="ko">${word.korean}</strong><small>${completed.has(word.korean) ? word.spanish : 'Por practicar'}</small></span><span class="word-status" aria-hidden="true">✓</span>`;
+      button.innerHTML = `<span class="word-index">${String(destination.childElementCount + 1).padStart(2,'0')}</span><span class="word-name"><strong lang="ko">${word.korean}</strong><small>${wordDetail}</small></span><span class="word-status" aria-hidden="true">✓</span>`;
       button.addEventListener('click', () => { loadWord(index); $('#mobile-words').hidden = true; $('#open-words').setAttribute('aria-expanded','false'); });
       destination.append(button);
     });
@@ -593,6 +607,7 @@ function loadWord(index) {
   const visiblePosition = visible.indexOf(index);
   $('#word-number').textContent = String(visiblePosition + 1).padStart(2,'0');
   $('#word-total').textContent = String(visible.length).padStart(2,'0');
+  $('#word-category').textContent = vocabularyCategoryLabel(word.vocabularyCategory);
   $('#syllable-count').textContent = `${writingFor(word).length} ${writingFor(word).length === 1 ? 'bloque' : 'bloques'}`;
   $('#translation').textContent = word.spanish;
   $('#translation').hidden = true;
@@ -662,6 +677,7 @@ function selectUnit(unitId) {
   loadWord(index);
 }
 function selectVocabularyCategory(categoryId) {
+  if (categoryId === '__collection') return;
   const activeLevel = words[currentIndex]?.level || 1;
   const index = categoryId === 'all'
     ? words.findIndex(word => word.unit === currentUnit)
