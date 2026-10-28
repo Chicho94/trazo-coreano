@@ -946,5 +946,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "cubiertos que representan un restaurante",
     "emoji": "🍴",
     "provider": "noto-emoji"
+  },
+  "대답": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "un globo con una respuesta",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "일주일": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "una semana en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "춤": {
+    "path": "assets/svg/noto/emoji_u1f483.svg",
+    "label": "una persona bailando",
+    "emoji": "💃",
+    "provider": "noto-emoji"
+  },
+  "과일": {
+    "path": "assets/svg/noto/emoji_u1f34e.svg",
+    "label": "una fruta",
+    "emoji": "🍎",
+    "provider": "noto-emoji"
+  },
+  "가방": {
+    "path": "assets/svg/noto/emoji_u1f392.svg",
+    "label": "una mochila",
+    "emoji": "🎒",
+    "provider": "noto-emoji"
+  },
+  "직업": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f4bc.svg",
+    "label": "una persona en su profesión",
+    "emoji": "🧑‍💼",
+    "provider": "noto-emoji"
+  },
+  "방학": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "vacaciones escolares en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "요리": {
+    "path": "assets/svg/noto/emoji_u1f373.svg",
+    "label": "una sartén cocinando",
+    "emoji": "🍳",
+    "provider": "noto-emoji"
+  },
+  "외국인": {
+    "path": "assets/svg/noto/emoji_u1f30f.svg",
+    "label": "una persona de otro país",
+    "emoji": "🌏",
+    "provider": "noto-emoji"
+  },
+  "숙제": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "un libro de tareas",
+    "emoji": "📖",
+    "provider": "noto-emoji"
   }
 };
