@@ -1606,5 +1606,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "una brújula que indica dirección",
     "emoji": "🧭",
     "provider": "noto-emoji"
+  },
+  "목소리": {
+    "path": "assets/svg/noto/emoji_u1f50a.svg",
+    "label": "un altavoz que representa la voz",
+    "emoji": "🔊",
+    "provider": "noto-emoji"
+  },
+  "자식": {
+    "path": "assets/svg/noto/emoji_u1f468_200d_1f469_200d_1f467_200d_1f466.svg",
+    "label": "una familia con hijos",
+    "emoji": "👨‍👩‍👧‍👦",
+    "provider": "noto-emoji"
+  },
+  "학년": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "un año escolar en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "사업": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f4bc.svg",
+    "label": "una persona dedicada a un negocio",
+    "emoji": "🧑‍💼",
+    "provider": "noto-emoji"
+  },
+  "이날": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "este día en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "경찰": {
+    "path": "assets/svg/noto/emoji_u1f46e.svg",
+    "label": "una persona policía",
+    "emoji": "👮",
+    "provider": "noto-emoji"
+  },
+  "언어": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "un globo que representa un idioma",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "그날": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "aquel día en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "공장": {
+    "path": "assets/svg/noto/emoji_u1f3ed.svg",
+    "label": "una fábrica",
+    "emoji": "🏭",
+    "provider": "noto-emoji"
+  },
+  "쌀": {
+    "path": "assets/svg/noto/emoji_u1f35a.svg",
+    "label": "un cuenco de arroz",
+    "emoji": "🍚",
+    "provider": "noto-emoji"
   }
 };
