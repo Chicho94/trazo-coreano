@@ -886,5 +886,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "el sol durante el día",
     "emoji": "☀️",
     "provider": "noto-emoji"
+  },
+  "직원": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f4bc.svg",
+    "label": "una persona empleada",
+    "emoji": "🧑‍💼",
+    "provider": "noto-emoji"
+  },
+  "오전": {
+    "path": "assets/svg/noto/emoji_u2600.svg",
+    "label": "el sol de la mañana",
+    "emoji": "☀️",
+    "provider": "noto-emoji"
+  },
+  "교통": {
+    "path": "assets/svg/noto/emoji_u1f68c.svg",
+    "label": "un autobús que representa el transporte",
+    "emoji": "🚌",
+    "provider": "noto-emoji"
+  },
+  "가을": {
+    "path": "assets/svg/noto/emoji_u1f342.svg",
+    "label": "una hoja caída que representa el otoño",
+    "emoji": "🍂",
+    "provider": "noto-emoji"
+  },
+  "내일": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el día de mañana en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "날씨": {
+    "path": "assets/svg/noto/emoji_u26c5.svg",
+    "label": "sol y nubes que representan el clima",
+    "emoji": "⛅",
+    "provider": "noto-emoji"
+  },
+  "의사": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_2695.svg",
+    "label": "una persona médica",
+    "emoji": "🧑‍⚕️",
+    "provider": "noto-emoji"
+  },
+  "장소": {
+    "path": "assets/svg/noto/emoji_u1f4cd.svg",
+    "label": "un marcador de lugar",
+    "emoji": "📍",
+    "provider": "noto-emoji"
+  },
+  "코": {
+    "path": "assets/svg/noto/emoji_u1f443.svg",
+    "label": "una nariz",
+    "emoji": "👃",
+    "provider": "noto-emoji"
+  },
+  "식당": {
+    "path": "assets/svg/noto/emoji_u1f374.svg",
+    "label": "cubiertos que representan un restaurante",
+    "emoji": "🍴",
+    "provider": "noto-emoji"
   }
 };
