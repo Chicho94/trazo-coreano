@@ -1006,5 +1006,65 @@ window.TRAZO_SVG_VISUALS={
     "label": "un libro de tareas",
     "emoji": "📖",
     "provider": "noto-emoji"
+  },
+  "우산": {
+    "path": "assets/svg/noto/emoji_u2614.svg",
+    "label": "un paraguas bajo la lluvia",
+    "emoji": "☔",
+    "provider": "noto-emoji"
+  },
+  "지난달": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el calendario del mes pasado",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "책상": {
+    "path": "assets/svg/noto/emoji_u1fa91.svg",
+    "label": "una silla frente a un escritorio",
+    "emoji": "🪑",
+    "provider": "noto-emoji"
+  },
+  "역": {
+    "path": "assets/svg/noto/emoji_u1f687.svg",
+    "label": "una estación de tren o metro",
+    "emoji": "🚇",
+    "provider": "noto-emoji"
+  },
+  "도서관": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "libros abiertos que representan una biblioteca",
+    "emoji": "📖",
+    "provider": "noto-emoji"
+  },
+  "아주머니": {
+    "path": "assets/svg/noto/emoji_u1f469.svg",
+    "label": "una señora",
+    "emoji": "👩",
+    "provider": "noto-emoji"
+  },
+  "주부": {
+    "path": "assets/svg/noto/emoji_u1f3e0.svg",
+    "label": "una persona que cuida el hogar",
+    "emoji": "🏠",
+    "provider": "noto-emoji"
+  },
+  "사무실": {
+    "path": "assets/svg/noto/emoji_u1f9d1_200d_1f4bc.svg",
+    "label": "una persona trabajando en una oficina",
+    "emoji": "🧑‍💼",
+    "provider": "noto-emoji"
+  },
+  "일요일": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "el domingo en el calendario",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "택시": {
+    "path": "assets/svg/noto/emoji_u1f695.svg",
+    "label": "un taxi",
+    "emoji": "🚕",
+    "provider": "noto-emoji"
   }
 };
