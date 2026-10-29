@@ -6844,5 +6844,3851 @@ window.TRAZO_SVG_VISUALS={
     "label": "una olla para cocer al vapor",
     "emoji": "🍲",
     "provider": "noto-emoji"
+  },
+  "것": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cosa, objeto»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "하다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «hacer»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "있다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «haber/estar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "나": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «yo (informal)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "없다": {
+    "path": "assets/svg/noto/emoji_u274c.svg",
+    "label": "referencia visual para «no haber, no existir»",
+    "emoji": "❌",
+    "provider": "noto-emoji"
+  },
+  "우리": {
+    "path": "assets/svg/noto/emoji_u1f308.svg",
+    "label": "referencia visual para «nosotros, nuestro»",
+    "emoji": "🌈",
+    "provider": "noto-emoji"
+  },
+  "그": {
+    "path": "assets/svg/noto/emoji_u1f449.svg",
+    "label": "referencia visual para «ese/él»",
+    "emoji": "👉",
+    "provider": "noto-emoji"
+  },
+  "아니다": {
+    "path": "assets/svg/noto/emoji_u274c.svg",
+    "label": "referencia visual para «no ser»",
+    "emoji": "❌",
+    "provider": "noto-emoji"
+  },
+  "보다": {
+    "path": "assets/svg/noto/emoji_u1f621.svg",
+    "label": "referencia visual para «ver, mirar; rendir (un examen)»",
+    "emoji": "😡",
+    "provider": "noto-emoji"
+  },
+  "같다": {
+    "path": "assets/svg/noto/emoji_u2696.svg",
+    "label": "referencia visual para «ser igual, parecerse»",
+    "emoji": "⚖️",
+    "provider": "noto-emoji"
+  },
+  "주다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «dar»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "가다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «ir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "년": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «año»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "한": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «uno, un solo»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "이": {
+    "path": "assets/svg/noto/emoji_u1f449.svg",
+    "label": "referencia visual para «este; dos (sino); diente»",
+    "emoji": "👉",
+    "provider": "noto-emoji"
+  },
+  "오다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «venir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "알다": {
+    "path": "assets/svg/noto/emoji_u1f9e0.svg",
+    "label": "referencia visual para «saber»",
+    "emoji": "🧠",
+    "provider": "noto-emoji"
+  },
+  "씨": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «señor/a (tras el nombre)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "그렇다": {
+    "path": "assets/svg/noto/emoji_u2705.svg",
+    "label": "referencia visual para «ser así, es correcto»",
+    "emoji": "✅",
+    "provider": "noto-emoji"
+  },
+  "크다": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «ser grande»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "많다": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «ser mucho, abundante»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "좋다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «ser bueno, gustar (con 이/가; el verbo es 좋아하다)»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "더": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «más»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "받다": {
+    "path": "assets/svg/noto/emoji_u1f4e5.svg",
+    "label": "referencia visual para «recibir»",
+    "emoji": "📥",
+    "provider": "noto-emoji"
+  },
+  "그것": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «eso (forma escrita o formal)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "나오다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «salir (viniendo hacia el hablante)»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "그리고": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «y, además»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "살다": {
+    "path": "assets/svg/noto/emoji_u1f3e0.svg",
+    "label": "referencia visual para «vivir»",
+    "emoji": "🏠",
+    "provider": "noto-emoji"
+  },
+  "저": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «yo (formal); aquel, aquello»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "못하다": {
+    "path": "assets/svg/noto/emoji_u1f9e0.svg",
+    "label": "referencia visual para «no saber hacer/hacer mal»",
+    "emoji": "🧠",
+    "provider": "noto-emoji"
+  },
+  "모르다": {
+    "path": "assets/svg/noto/emoji_u1f9e0.svg",
+    "label": "referencia visual para «no saber»",
+    "emoji": "🧠",
+    "provider": "noto-emoji"
+  },
+  "만들다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «hacer/fabricar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "중": {
+    "path": "assets/svg/noto/emoji_u23f3.svg",
+    "label": "referencia visual para «centro, medio; durante»",
+    "emoji": "⏳",
+    "provider": "noto-emoji"
+  },
+  "어떤": {
+    "path": "assets/svg/noto/emoji_u1f449.svg",
+    "label": "referencia visual para «qué tipo de, algún»",
+    "emoji": "👉",
+    "provider": "noto-emoji"
+  },
+  "잘": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «bien»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "먹다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «comer»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "원": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «won»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "어떻다": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «cómo ser, qué tal»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "명": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «contador de personas»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "다시": {
+    "path": "assets/svg/noto/emoji_u1f504.svg",
+    "label": "referencia visual para «de nuevo, otra vez»",
+    "emoji": "🔄",
+    "provider": "noto-emoji"
+  },
+  "다른": {
+    "path": "assets/svg/noto/emoji_u1f308.svg",
+    "label": "referencia visual para «otro, diferente»",
+    "emoji": "🌈",
+    "provider": "noto-emoji"
+  },
+  "다": {
+    "path": "assets/svg/noto/emoji_u1f465.svg",
+    "label": "referencia visual para «todo/todos»",
+    "emoji": "👥",
+    "provider": "noto-emoji"
+  },
+  "좀": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «un poco; por favor (suaviza la petición)»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "가지다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «tener, poseer»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "함께": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «junto, con»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "지나다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «pasar, transcurrir»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "많이": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «mucho»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "너": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «tú»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "나다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «salir, ocurrir; nacer»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "뭐": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «qué; algo»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "누구": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «quién»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "여러": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «varios, muchos»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "하나": {
+    "path": "assets/svg/noto/emoji_u1f947.svg",
+    "label": "referencia visual para «uno (nativo)»",
+    "emoji": "🥇",
+    "provider": "noto-emoji"
+  },
+  "가장": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «lo más, el más»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "가지": {
+    "path": "assets/svg/noto/emoji_u1f3eb.svg",
+    "label": "referencia visual para «tipo, clase; rama»",
+    "emoji": "🏫",
+    "provider": "noto-emoji"
+  },
+  "바로": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «justo, precisamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "어느": {
+    "path": "assets/svg/noto/emoji_u1f308.svg",
+    "label": "referencia visual para «cierto, cuál (de varios)»",
+    "emoji": "🌈",
+    "provider": "noto-emoji"
+  },
+  "그래서": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «así que (consecuencia)»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "무엇": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «qué, lo que sea»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "번": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «vez, número (de veces)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "그런데": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «pero/por cierto»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "여기": {
+    "path": "assets/svg/noto/emoji_u1f4cd.svg",
+    "label": "referencia visual para «aquí»",
+    "emoji": "📍",
+    "provider": "noto-emoji"
+  },
+  "어디": {
+    "path": "assets/svg/noto/emoji_u1f4cd.svg",
+    "label": "referencia visual para «dónde»",
+    "emoji": "📍",
+    "provider": "noto-emoji"
+  },
+  "왜": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «por qué»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "다르다": {
+    "path": "assets/svg/noto/emoji_u1f308.svg",
+    "label": "referencia visual para «ser diferente»",
+    "emoji": "🌈",
+    "provider": "noto-emoji"
+  },
+  "만나다": {
+    "path": "assets/svg/noto/emoji_u1f50d.svg",
+    "label": "referencia visual para «encontrarse con, ver (a alguien)»",
+    "emoji": "🔍",
+    "provider": "noto-emoji"
+  },
+  "이것": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «esto (forma escrita o formal)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "앉다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «sentarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "몇": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cuántos»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "찾다": {
+    "path": "assets/svg/noto/emoji_u1f50d.svg",
+    "label": "referencia visual para «buscar; encontrar»",
+    "emoji": "🔍",
+    "provider": "noto-emoji"
+  },
+  "특히": {
+    "path": "assets/svg/noto/emoji_u1f308.svg",
+    "label": "referencia visual para «especialmente, sobre todo (entre varios)»",
+    "emoji": "🌈",
+    "provider": "noto-emoji"
+  },
+  "지금": {
+    "path": "assets/svg/noto/emoji_u1f550.svg",
+    "label": "referencia visual para «ahora»",
+    "emoji": "🕐",
+    "provider": "noto-emoji"
+  },
+  "나가다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «salir (alejándose del hablante)»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "사다": {
+    "path": "assets/svg/noto/emoji_u1f6d2.svg",
+    "label": "referencia visual para «comprar»",
+    "emoji": "🛒",
+    "provider": "noto-emoji"
+  },
+  "아직": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «todavía»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "같이": {
+    "path": "assets/svg/noto/emoji_u1f465.svg",
+    "label": "referencia visual para «juntos, con»",
+    "emoji": "👥",
+    "provider": "noto-emoji"
+  },
+  "못": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «no poder»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "읽다": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "referencia visual para «leer»",
+    "emoji": "📖",
+    "provider": "noto-emoji"
+  },
+  "일어나다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «levantarse; ocurrir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "넣다": {
+    "path": "assets/svg/noto/emoji_u1f4e5.svg",
+    "label": "referencia visual para «meter, poner dentro»",
+    "emoji": "📥",
+    "provider": "noto-emoji"
+  },
+  "무슨": {
+    "path": "assets/svg/noto/emoji_u1f449.svg",
+    "label": "referencia visual para «qué, qué tipo de»",
+    "emoji": "👉",
+    "provider": "noto-emoji"
+  },
+  "어렵다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser difícil»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "너무": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «demasiado»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "부르다": {
+    "path": "assets/svg/noto/emoji_u1f3b5.svg",
+    "label": "referencia visual para «llamar; cantar; estar lleno (배가 부르다)»",
+    "emoji": "🎵",
+    "provider": "noto-emoji"
+  },
+  "쪽": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «lado, dirección; página»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "내리다": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «bajar, descender»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "쉽다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser fácil»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "작다": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «ser pequeño»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "타다": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «subir/montar; quemarse»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "보내다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «enviar; pasar (tiempo)»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "아주": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «muy, extremadamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "높다": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «ser alto»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "먼저": {
+    "path": "assets/svg/noto/emoji_u23f3.svg",
+    "label": "referencia visual para «primero, antes que nada (en el tiempo)»",
+    "emoji": "⏳",
+    "provider": "noto-emoji"
+  },
+  "다니다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «ir regularmente a, asistir (학교에 다니다)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "얼마나": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «cuánto, qué tanto»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "열다": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "referencia visual para «abrir»",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "묻다": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «preguntar (물어요, irregular ㄷ); enterrar (묻어요, regular)»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "아": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «ah (interjección)»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "분": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «minuto; persona (honorífico)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "웃다": {
+    "path": "assets/svg/noto/emoji_u1f604.svg",
+    "label": "referencia visual para «reír, sonreír»",
+    "emoji": "😄",
+    "provider": "noto-emoji"
+  },
+  "그래": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «sí, está bien, ajá»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "아름답다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser hermoso»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "정말": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «de verdad»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "입다": {
+    "path": "assets/svg/noto/emoji_u1f9fa.svg",
+    "label": "referencia visual para «vestir, ponerse (ropa)»",
+    "emoji": "🧺",
+    "provider": "noto-emoji"
+  },
+  "네": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «sí; cuatro (ante contador); tu (informal)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "마시다": {
+    "path": "assets/svg/noto/emoji_u1f964.svg",
+    "label": "referencia visual para «beber»",
+    "emoji": "🥤",
+    "provider": "noto-emoji"
+  },
+  "치다": {
+    "path": "assets/svg/noto/emoji_u1f517.svg",
+    "label": "referencia visual para «golpear, pegar; tocar (instrumento)»",
+    "emoji": "🔗",
+    "provider": "noto-emoji"
+  },
+  "끝나다": {
+    "path": "assets/svg/noto/emoji_u1f51a.svg",
+    "label": "referencia visual para «terminarse, acabarse (algo termina solo)»",
+    "emoji": "🔚",
+    "provider": "noto-emoji"
+  },
+  "맞다": {
+    "path": "assets/svg/noto/emoji_u1f4e5.svg",
+    "label": "referencia visual para «ser correcto; encajar; recibir (golpe)»",
+    "emoji": "📥",
+    "provider": "noto-emoji"
+  },
+  "걸리다": {
+    "path": "assets/svg/noto/emoji_u1f912.svg",
+    "label": "referencia visual para «colgar; tardar; contraer (enfermedad)»",
+    "emoji": "🤒",
+    "provider": "noto-emoji"
+  },
+  "길다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser largo»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "꼭": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «sin falta, seguramente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "계속": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «continuamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "세": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «tres (ante contador); edad (años)»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "놀다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «jugar; pasar el rato, divertirse»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "바꾸다": {
+    "path": "assets/svg/noto/emoji_u1f504.svg",
+    "label": "referencia visual para «cambiar, intercambiar»",
+    "emoji": "🔄",
+    "provider": "noto-emoji"
+  },
+  "좋아하다": {
+    "path": "assets/svg/noto/emoji_u2764.svg",
+    "label": "referencia visual para «gustar de, querer (con 을/를)»",
+    "emoji": "❤️",
+    "provider": "noto-emoji"
+  },
+  "그리다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «dibujar, pintar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "배우다": {
+    "path": "assets/svg/noto/emoji_u1f9e0.svg",
+    "label": "referencia visual para «aprender»",
+    "emoji": "🧠",
+    "provider": "noto-emoji"
+  },
+  "예": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «ejemplo; sí (cortés)»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "그럼": {
+    "path": "assets/svg/noto/emoji_u26aa.svg",
+    "label": "referencia visual para «claro, por supuesto; entonces»",
+    "emoji": "⚪",
+    "provider": "noto-emoji"
+  },
+  "내": {
+    "path": "assets/svg/noto/emoji_u1f4e5.svg",
+    "label": "referencia visual para «mi (de 나); dentro de»",
+    "emoji": "📥",
+    "provider": "noto-emoji"
+  },
+  "하지만": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «pero, sin embargo»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "잘하다": {
+    "path": "assets/svg/noto/emoji_u2705.svg",
+    "label": "referencia visual para «hacer bien, ser bueno en»",
+    "emoji": "✅",
+    "provider": "noto-emoji"
+  },
+  "힘들다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser duro»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "자다": {
+    "path": "assets/svg/noto/emoji_u1f634.svg",
+    "label": "referencia visual para «dormir»",
+    "emoji": "😴",
+    "provider": "noto-emoji"
+  },
+  "걷다": {
+    "path": "assets/svg/noto/emoji_u1f6b6.svg",
+    "label": "referencia visual para «caminar»",
+    "emoji": "🚶",
+    "provider": "noto-emoji"
+  },
+  "빨리": {
+    "path": "assets/svg/noto/emoji_u1f3ce.svg",
+    "label": "referencia visual para «rápido, deprisa»",
+    "emoji": "🏎️",
+    "provider": "noto-emoji"
+  },
+  "말다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «dejar de, cesar; no (prohibición)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "살": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «contador de edad (años); carne, piel»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "아프다": {
+    "path": "assets/svg/noto/emoji_u1f912.svg",
+    "label": "referencia visual para «doler, estar enfermo»",
+    "emoji": "🤒",
+    "provider": "noto-emoji"
+  },
+  "적다": {
+    "path": "assets/svg/noto/emoji_u270d.svg",
+    "label": "referencia visual para «ser poco/escaso; anotar»",
+    "emoji": "✍️",
+    "provider": "noto-emoji"
+  },
+  "울다": {
+    "path": "assets/svg/noto/emoji_u1f622.svg",
+    "label": "referencia visual para «llorar»",
+    "emoji": "😢",
+    "provider": "noto-emoji"
+  },
+  "지내다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «pasar (el tiempo), vivir, llevarse»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "빠르다": {
+    "path": "assets/svg/noto/emoji_u1f3ce.svg",
+    "label": "referencia visual para «ser rápido»",
+    "emoji": "🏎️",
+    "provider": "noto-emoji"
+  },
+  "참": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «de verdad, realmente; ¡vaya!»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "그러면": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «entonces»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "넓다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser ancho, amplio»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "주로": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «principalmente, sobre todo»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "가깝다": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «estar cerca, ser cercano»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "팔다": {
+    "path": "assets/svg/noto/emoji_u1f4b5.svg",
+    "label": "referencia visual para «vender»",
+    "emoji": "💵",
+    "provider": "noto-emoji"
+  },
+  "열심히": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «con empeño, aplicadamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "올라가다": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «subir, ir hacia arriba (moverse)»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "자주": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «a menudo»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "재미있다": {
+    "path": "assets/svg/noto/emoji_u1f604.svg",
+    "label": "referencia visual para «ser divertido, interesante»",
+    "emoji": "😄",
+    "provider": "noto-emoji"
+  },
+  "가르치다": {
+    "path": "assets/svg/noto/emoji_u1f3eb.svg",
+    "label": "referencia visual para «enseñar»",
+    "emoji": "🏫",
+    "provider": "noto-emoji"
+  },
+  "걸다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «colgar; apostar; entablar (conversación)»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "멀다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar lejos»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "잠시": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «un instante»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "제일": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «el más/lo que más»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "조금": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «un poco, una cantidad pequeña»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "싫다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «no gustar, detestar (con 이/가; el verbo es 싫어하다)»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "그러니까": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «o sea, por eso (explicando o insistiendo)»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "별로": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «no mucho, no especialmente (con negación)»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "만": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «diez mil»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "괜찮다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «estar bien, no pasar nada»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "고맙다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «estar agradecido, dar las gracias»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "바쁘다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar ocupado»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "나쁘다": {
+    "path": "assets/svg/noto/emoji_u274c.svg",
+    "label": "referencia visual para «ser malo»",
+    "emoji": "❌",
+    "provider": "noto-emoji"
+  },
+  "시키다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «hacer que (alguien haga); pedir (comida)»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "언제": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «cuándo»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "씻다": {
+    "path": "assets/svg/noto/emoji_u1f9fa.svg",
+    "label": "referencia visual para «lavar»",
+    "emoji": "🧺",
+    "provider": "noto-emoji"
+  },
+  "늦다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser tarde; llegar tarde»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "낮다": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «ser bajo»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "쉬다": {
+    "path": "assets/svg/noto/emoji_u1f964.svg",
+    "label": "referencia visual para «descansar; tomar aire»",
+    "emoji": "🥤",
+    "provider": "noto-emoji"
+  },
+  "알리다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «avisar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "예쁘다": {
+    "path": "assets/svg/noto/emoji_u1f31f.svg",
+    "label": "referencia visual para «ser bonito, lindo»",
+    "emoji": "🌟",
+    "provider": "noto-emoji"
+  },
+  "맛있다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser rico, delicioso»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "맑다": {
+    "path": "assets/svg/noto/emoji_u26aa.svg",
+    "label": "referencia visual para «estar despejado, ser claro/limpio»",
+    "emoji": "⚪",
+    "provider": "noto-emoji"
+  },
+  "찾아보다": {
+    "path": "assets/svg/noto/emoji_u1f50d.svg",
+    "label": "referencia visual para «buscar, consultar»",
+    "emoji": "🔍",
+    "provider": "noto-emoji"
+  },
+  "그렇지만": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «sin embargo»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "계시다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «estar (honorífico)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "마리": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «contador de animales»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "일찍": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «temprano»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "찍다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «sacar (foto); estampar, marcar; mojar (en salsa)»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "가볍다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser ligero»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "피우다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «fumar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "불다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «soplar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "매일": {
+    "path": "assets/svg/noto/emoji_u1f465.svg",
+    "label": "referencia visual para «todos los días»",
+    "emoji": "👥",
+    "provider": "noto-emoji"
+  },
+  "여러분": {
+    "path": "assets/svg/noto/emoji_u1f465.svg",
+    "label": "referencia visual para «ustedes/todos»",
+    "emoji": "👥",
+    "provider": "noto-emoji"
+  },
+  "빌리다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «pedir prestado (prestar es 빌려주다)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "보통": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «normalmente/normal»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "깨끗하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar limpio»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "음": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «mmm… (duda)»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "고르다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «elegir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "어서": {
+    "path": "assets/svg/noto/emoji_u1f3ce.svg",
+    "label": "referencia visual para «pronto/adelante (어서 오세요)»",
+    "emoji": "🏎️",
+    "provider": "noto-emoji"
+  },
+  "호": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «número (de revista, de habitación: 101호)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "기쁘다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar contento»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "춥다": {
+    "path": "assets/svg/noto/emoji_u1f9ca.svg",
+    "label": "referencia visual para «hacer frío»",
+    "emoji": "🧊",
+    "provider": "noto-emoji"
+  },
+  "무겁다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser pesado»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "권": {
+    "path": "assets/svg/noto/emoji_u1f4d6.svg",
+    "label": "referencia visual para «volumen (contador de libros)»",
+    "emoji": "📖",
+    "provider": "noto-emoji"
+  },
+  "천천히": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «despacio»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "저기": {
+    "path": "assets/svg/noto/emoji_u1f4cd.svg",
+    "label": "referencia visual para «allí»",
+    "emoji": "📍",
+    "provider": "noto-emoji"
+  },
+  "특별하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser especial»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "잘못": {
+    "path": "assets/svg/noto/emoji_u274c.svg",
+    "label": "referencia visual para «error/equivocadamente»",
+    "emoji": "❌",
+    "provider": "noto-emoji"
+  },
+  "비싸다": {
+    "path": "assets/svg/noto/emoji_u1f4b5.svg",
+    "label": "referencia visual para «ser caro»",
+    "emoji": "💵",
+    "provider": "noto-emoji"
+  },
+  "열": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «diez (nativo); fiebre»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "시원하다": {
+    "path": "assets/svg/noto/emoji_u1f9ca.svg",
+    "label": "referencia visual para «ser fresco/refrescante»",
+    "emoji": "🧊",
+    "provider": "noto-emoji"
+  },
+  "반갑다": {
+    "path": "assets/svg/noto/emoji_u1f604.svg",
+    "label": "referencia visual para «ser grato, alegrarse de ver»",
+    "emoji": "😄",
+    "provider": "noto-emoji"
+  },
+  "다녀오다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «ir y volver»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "달다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser dulce»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "이쪽": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «este lado»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "닫다": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "referencia visual para «cerrar»",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "저쪽": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «aquel lado»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "싸다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «ser barato; envolver»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "어제": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «ayer»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "도와주다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «ayudar, echar una mano (hacer el favor)»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "슬프다": {
+    "path": "assets/svg/noto/emoji_u1f622.svg",
+    "label": "referencia visual para «estar triste»",
+    "emoji": "😢",
+    "provider": "noto-emoji"
+  },
+  "갈아타다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «hacer transbordo»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "거기": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «ahí»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "고프다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «tener hambre (배가 고프다)»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "구": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «nueve (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "구십": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «noventa (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "그저께": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «anteayer»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "그쪽": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «ese lado»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "글쎄요": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «pues no sé…»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "기다리다": {
+    "path": "assets/svg/noto/emoji_u23f3.svg",
+    "label": "referencia visual para «esperar»",
+    "emoji": "⏳",
+    "provider": "noto-emoji"
+  },
+  "끄다": {
+    "path": "assets/svg/noto/emoji_u1f4b5.svg",
+    "label": "referencia visual para «apagar»",
+    "emoji": "💵",
+    "provider": "noto-emoji"
+  },
+  "넷": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cuatro (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "다섯": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cinco (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "덥다": {
+    "path": "assets/svg/noto/emoji_u1f525.svg",
+    "label": "referencia visual para «hacer calor»",
+    "emoji": "🔥",
+    "provider": "noto-emoji"
+  },
+  "돌아가다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «volver (allá)»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "돌아오다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «volver (acá)»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "돕다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «ayudar»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "되다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «llegar a ser, convertirse en; poder, funcionar»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "두": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «dos (nativo, ante contador)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "둘": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «dos (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "드리다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «dar (humilde)»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "듣다": {
+    "path": "assets/svg/noto/emoji_u1f442.svg",
+    "label": "referencia visual para «escuchar/oír»",
+    "emoji": "👂",
+    "provider": "noto-emoji"
+  },
+  "들다": {
+    "path": "assets/svg/noto/emoji_u1f4e5.svg",
+    "label": "referencia visual para «levantar; costar; entrar; sostener»",
+    "emoji": "📥",
+    "provider": "noto-emoji"
+  },
+  "들어가다": {
+    "path": "assets/svg/noto/emoji_u1f4e5.svg",
+    "label": "referencia visual para «entrar (alejándose del hablante)»",
+    "emoji": "📥",
+    "provider": "noto-emoji"
+  },
+  "들어오다": {
+    "path": "assets/svg/noto/emoji_u1f4e5.svg",
+    "label": "referencia visual para «entrar (viniendo hacia el hablante)»",
+    "emoji": "📥",
+    "provider": "noto-emoji"
+  },
+  "따뜻하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar templado»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "때": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «momento»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "또": {
+    "path": "assets/svg/noto/emoji_u1f504.svg",
+    "label": "referencia visual para «otra vez/además»",
+    "emoji": "🔄",
+    "provider": "noto-emoji"
+  },
+  "마흔": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cuarenta (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "맛없다": {
+    "path": "assets/svg/noto/emoji_u274c.svg",
+    "label": "referencia visual para «estar malo (de sabor)»",
+    "emoji": "❌",
+    "provider": "noto-emoji"
+  },
+  "맵다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser picante, picar»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "멋있다": {
+    "path": "assets/svg/noto/emoji_u1f31f.svg",
+    "label": "referencia visual para «ser guapo/tener estilo»",
+    "emoji": "🌟",
+    "provider": "noto-emoji"
+  },
+  "모레": {
+    "path": "assets/svg/noto/emoji_u23ee.svg",
+    "label": "referencia visual para «pasado mañana»",
+    "emoji": "⏮️",
+    "provider": "noto-emoji"
+  },
+  "백": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cien»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "백만": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «un millón»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "사": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cuatro (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "사귀다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «hacer amistad/salir con»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "사십": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cuarenta (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "삼": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «tres (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "삼십": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «treinta (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "서른": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «treinta (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "셋": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «tres (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "스물": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «veinte (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "시다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser ácido»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "신다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «calzarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "싫어하다": {
+    "path": "assets/svg/noto/emoji_u2764.svg",
+    "label": "referencia visual para «detestar, no gustar (con 을/를)»",
+    "emoji": "❤️",
+    "provider": "noto-emoji"
+  },
+  "십": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «diez (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "십만": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cien mil»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "싱겁다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar soso»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "아니요": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «no»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "아홉": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «nueve (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "아흔": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «noventa (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "안녕": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «hola/adiós (informal)»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "안녕히": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «en paz (안녕히 가세요)»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "억": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cien millones»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "여덟": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «ocho (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "여든": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «ochenta (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "여보세요": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «¿aló? (al teléfono)»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "여섯": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «seis (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "오": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cinco (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "오십": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cincuenta (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "와": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «¡guau!»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "월": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «mes (contador)»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "육": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «seis (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "육십": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «sesenta (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "이따가": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «más tarde (hoy)»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "이십": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «veinte (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "인분": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «ración (contador de porciones)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "일곱": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «siete (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "일흔": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «setenta (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "잠깐": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «un momento»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "잡수시다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «comer (honorífico)»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "재미없다": {
+    "path": "assets/svg/noto/emoji_u1f604.svg",
+    "label": "referencia visual para «no tener gracia, no ser divertido»",
+    "emoji": "😄",
+    "provider": "noto-emoji"
+  },
+  "저것": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «aquello (forma escrita o formal)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "제": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «mi (formal)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "조용하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar en silencio»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "죄송하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «lamentarlo (formal)»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "주": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «semana (unidad: 2주, 지난주)»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "주무시다": {
+    "path": "assets/svg/noto/emoji_u1f634.svg",
+    "label": "referencia visual para «dormir (honorífico)»",
+    "emoji": "😴",
+    "provider": "noto-emoji"
+  },
+  "주일": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «semana (casi solo en 일주일 = una semana)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "짜다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar salado»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "천": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «mil»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "천만": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «diez millones»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "추다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «bailar (춤을 추다)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "춤추다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «bailar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "친하다": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «ser cercano (amigos)»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "칠": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «siete (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "칠십": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «setenta (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "켜다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «encender; tocar (violín)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "팔십": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «ochenta (sino)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "한가하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar desocupado»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "흐리다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar nublado»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "거": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «eso, cosa (coloquial)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "그러나": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «pero»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "그런": {
+    "path": "assets/svg/noto/emoji_u1f449.svg",
+    "label": "referencia visual para «tal, así»",
+    "emoji": "👉",
+    "provider": "noto-emoji"
+  },
+  "이런": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «tal, así (como esto)»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "보이다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «verse; mostrar»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "이렇다": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «ser así (como esto)»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "버리다": {
+    "path": "assets/svg/noto/emoji_u1f621.svg",
+    "label": "referencia visual para «tirar, botar; (tras verbo) acabar de hacer»",
+    "emoji": "😡",
+    "provider": "noto-emoji"
+  },
+  "모든": {
+    "path": "assets/svg/noto/emoji_u1f449.svg",
+    "label": "referencia visual para «todo, cada»",
+    "emoji": "👉",
+    "provider": "noto-emoji"
+  },
+  "그거": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «eso (forma hablada)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "놓다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «poner, colocar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "나타나다": {
+    "path": "assets/svg/noto/emoji_u2696.svg",
+    "label": "referencia visual para «aparecer, surgir»",
+    "emoji": "⚖️",
+    "provider": "noto-emoji"
+  },
+  "내다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «sacar, producir; lograr»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "새롭다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser nuevo»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "갖다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «tener, sostener»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "잡다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «agarrar, atrapar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "서다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «pararse, ponerse de pie»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "물론": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «por supuesto»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "느끼다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «sentir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "죽다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «morir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "이미": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «ya (hecho consumado, neutro)»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "짓다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «construir, hacer; formar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "생기다": {
+    "path": "assets/svg/noto/emoji_u2696.svg",
+    "label": "referencia visual para «surgir, aparecer; ocurrir»",
+    "emoji": "⚖️",
+    "provider": "noto-emoji"
+  },
+  "더욱": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «aún más»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "남다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «quedar, sobrar»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "그냥": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «solo, simplemente, así nomás»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "나누다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «dividir, repartir; compartir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "거의": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «casi»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "곧": {
+    "path": "assets/svg/noto/emoji_u1f3ce.svg",
+    "label": "referencia visual para «pronto, en seguida»",
+    "emoji": "🏎️",
+    "provider": "noto-emoji"
+  },
+  "서로": {
+    "path": "assets/svg/noto/emoji_u1f308.svg",
+    "label": "referencia visual para «mutuamente, uno a otro»",
+    "emoji": "🌈",
+    "provider": "noto-emoji"
+  },
+  "역시": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «como era de esperar, también»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "이거": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «esto (forma hablada)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "이르다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «ser temprano (일러요); llegar, alcanzar (otro verbo: 이르러요)»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "얻다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «obtener, conseguir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "그대로": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «tal cual, así como está»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "이제": {
+    "path": "assets/svg/noto/emoji_u1f550.svg",
+    "label": "referencia visual para «ahora/ya»",
+    "emoji": "🕐",
+    "provider": "noto-emoji"
+  },
+  "지키다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «proteger, mantener, cumplir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "바라보다": {
+    "path": "assets/svg/noto/emoji_u1f621.svg",
+    "label": "referencia visual para «mirar, contemplar»",
+    "emoji": "😡",
+    "provider": "noto-emoji"
+  },
+  "알아보다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «averiguar, reconocer»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "매우": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «muy»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "오르다": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «subir (precio, temperatura); escalar»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "세우다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «levantar, erigir; detener»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "현재": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «actualmente, el presente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "우선": {
+    "path": "assets/svg/noto/emoji_u1f947.svg",
+    "label": "referencia visual para «primero que todo, ante todo»",
+    "emoji": "🥇",
+    "provider": "noto-emoji"
+  },
+  "믿다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «creer, confiar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "열리다": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "referencia visual para «abrirse, celebrarse»",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "어": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «eh, ah (interjección)»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "흐르다": {
+    "path": "assets/svg/noto/emoji_u1f3c3.svg",
+    "label": "referencia visual para «fluir, correr (líquido/tiempo)»",
+    "emoji": "🏃",
+    "provider": "noto-emoji"
+  },
+  "깊다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser profundo»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "올리다": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «subir, alzar; publicar»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "갑자기": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «de repente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "넘다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «cruzar, pasar; superar»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "어리다": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «ser (muy) joven, pequeño»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "움직이다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «moverse, mover»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "전혀": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «en absoluto, para nada»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "모으다": {
+    "path": "assets/svg/noto/emoji_u1f517.svg",
+    "label": "referencia visual para «reunir, juntar»",
+    "emoji": "🔗",
+    "provider": "noto-emoji"
+  },
+  "대": {
+    "path": "assets/svg/noto/emoji_u1f4cd.svg",
+    "label": "referencia visual para «contador de vehículos y máquinas; década de edad (20대 = veintitantos)»",
+    "emoji": "📍",
+    "provider": "noto-emoji"
+  },
+  "젊다": {
+    "path": "assets/svg/noto/emoji_u1f9d2.svg",
+    "label": "referencia visual para «ser joven»",
+    "emoji": "🧒",
+    "provider": "noto-emoji"
+  },
+  "풀다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «desatar, soltar; resolver»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "직접": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «directamente, en persona»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "바라다": {
+    "path": "assets/svg/noto/emoji_u23f3.svg",
+    "label": "referencia visual para «esperar/desear»",
+    "emoji": "⏳",
+    "provider": "noto-emoji"
+  },
+  "강하다": {
+    "path": "assets/svg/noto/emoji_u1f4aa.svg",
+    "label": "referencia visual para «ser fuerte, potente»",
+    "emoji": "💪",
+    "provider": "noto-emoji"
+  },
+  "놀라다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «sorprenderse, asustarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "모이다": {
+    "path": "assets/svg/noto/emoji_u1f517.svg",
+    "label": "referencia visual para «reunirse, juntarse»",
+    "emoji": "🔗",
+    "provider": "noto-emoji"
+  },
+  "스스로": {
+    "path": "assets/svg/noto/emoji_u2696.svg",
+    "label": "referencia visual para «por sí mismo, uno mismo»",
+    "emoji": "⚖️",
+    "provider": "noto-emoji"
+  },
+  "던지다": {
+    "path": "assets/svg/noto/emoji_u1f621.svg",
+    "label": "referencia visual para «lanzar, tirar»",
+    "emoji": "😡",
+    "provider": "noto-emoji"
+  },
+  "이곳": {
+    "path": "assets/svg/noto/emoji_u1f4cd.svg",
+    "label": "referencia visual para «este lugar, aquí»",
+    "emoji": "📍",
+    "provider": "noto-emoji"
+  },
+  "훨씬": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «mucho más, con creces»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "약간": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «un poco, algo»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "첫": {
+    "path": "assets/svg/noto/emoji_u1f947.svg",
+    "label": "referencia visual para «primer, primero»",
+    "emoji": "🥇",
+    "provider": "noto-emoji"
+  },
+  "태어나다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «nacer»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "벌써": {
+    "path": "assets/svg/noto/emoji_u23ee.svg",
+    "label": "referencia visual para «ya (antes de lo esperado; con sorpresa)»",
+    "emoji": "⏮️",
+    "provider": "noto-emoji"
+  },
+  "즐기다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «disfrutar, gozar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "변하다": {
+    "path": "assets/svg/noto/emoji_u1f504.svg",
+    "label": "referencia visual para «cambiar, transformarse»",
+    "emoji": "🔄",
+    "provider": "noto-emoji"
+  },
+  "아무리": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «por mucho que, por más que»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "맞추다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «ajustar, acertar; hacer coincidir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "붙이다": {
+    "path": "assets/svg/noto/emoji_u1f517.svg",
+    "label": "referencia visual para «pegar, adherir»",
+    "emoji": "🔗",
+    "provider": "noto-emoji"
+  },
+  "늘": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «siempre (coloquial)»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "마치다": {
+    "path": "assets/svg/noto/emoji_u1f51a.svg",
+    "label": "referencia visual para «terminar algo (lleva objeto: 수업을 마치다)»",
+    "emoji": "🔚",
+    "provider": "noto-emoji"
+  },
+  "빠지다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «caer en; faltar; salirse»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "붙다": {
+    "path": "assets/svg/noto/emoji_u1f517.svg",
+    "label": "referencia visual para «pegarse, adherirse; aprobar (un examen)»",
+    "emoji": "🔗",
+    "provider": "noto-emoji"
+  },
+  "아마": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «probablemente, tal vez»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "그만": {
+    "path": "assets/svg/noto/emoji_u2764.svg",
+    "label": "referencia visual para «basta, hasta ahí; sin querer»",
+    "emoji": "❤️",
+    "provider": "noto-emoji"
+  },
+  "아무": {
+    "path": "assets/svg/noto/emoji_u1f449.svg",
+    "label": "referencia visual para «cualquiera, nadie (con negación)»",
+    "emoji": "👉",
+    "provider": "noto-emoji"
+  },
+  "각각": {
+    "path": "assets/svg/noto/emoji_u1f947.svg",
+    "label": "referencia visual para «cada uno, respectivamente»",
+    "emoji": "🥇",
+    "provider": "noto-emoji"
+  },
+  "항상": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «siempre (neutro, algo más formal)»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "잃다": {
+    "path": "assets/svg/noto/emoji_u1f50d.svg",
+    "label": "referencia visual para «perder, extraviar»",
+    "emoji": "🔍",
+    "provider": "noto-emoji"
+  },
+  "바뀌다": {
+    "path": "assets/svg/noto/emoji_u1f504.svg",
+    "label": "referencia visual para «cambiar (ser cambiado)»",
+    "emoji": "🔄",
+    "provider": "noto-emoji"
+  },
+  "비슷하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser parecido, similar»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "심하다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «ser intenso, severo, grave»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "아니": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «¡no!; eh (interjección)»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "자라다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «crecer, criarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "회": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «vez, ronda; sashimi (pescado crudo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "번째": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «(ordinal) la … vez, -º»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "반드시": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «sin falta, necesariamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "꺼내다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «sacar, extraer»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "언제나": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «siempre, en todo momento»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "완전히": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «completamente, del todo»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "전하다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «transmitir, comunicar; entregar»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "개월": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «(contador) meses»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "정하다": {
+    "path": "assets/svg/noto/emoji_u1f51a.svg",
+    "label": "referencia visual para «fijar, determinar, decidir»",
+    "emoji": "🔚",
+    "provider": "noto-emoji"
+  },
+  "닦다": {
+    "path": "assets/svg/noto/emoji_u1f9f9.svg",
+    "label": "referencia visual para «limpiar, frotar; cepillarse (los dientes)»",
+    "emoji": "🧹",
+    "provider": "noto-emoji"
+  },
+  "야": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «¡oye! (llamar la atención)»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "미터": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «metro (unidad de longitud)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "어떠하다": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «ser cómo, ser de tal manera»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "가끔": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «a veces, de vez en cuando»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "짧다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser corto, breve»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "그곳": {
+    "path": "assets/svg/noto/emoji_u1f4cd.svg",
+    "label": "referencia visual para «ese lugar, allí»",
+    "emoji": "📍",
+    "provider": "noto-emoji"
+  },
+  "달리다": {
+    "path": "assets/svg/noto/emoji_u1f3c3.svg",
+    "label": "referencia visual para «correr; colgar»",
+    "emoji": "🏃",
+    "provider": "noto-emoji"
+  },
+  "기르다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «criar, cultivar, educar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "내려오다": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «bajar (venir hacia abajo)»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "줄이다": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «reducir, disminuir»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "비다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «estar vacío, desocupado»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "원하다": {
+    "path": "assets/svg/noto/emoji_u2764.svg",
+    "label": "referencia visual para «querer, desear (+ sustantivo: 물을 원하다)»",
+    "emoji": "❤️",
+    "provider": "noto-emoji"
+  },
+  "펴다": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "referencia visual para «extender, desplegar, abrir»",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "장": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «hoja (contador de papel, entradas, fotos); capítulo»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "안다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «abrazar, sostener»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "잊다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «olvidar»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "센티미터": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «centímetro»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "분명하다": {
+    "path": "assets/svg/noto/emoji_u26aa.svg",
+    "label": "referencia visual para «ser claro, evidente»",
+    "emoji": "⚪",
+    "provider": "noto-emoji"
+  },
+  "지나가다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «pasar (por), transcurrir»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "훌륭하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser excelente, magnífico»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "새로": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «de nuevo, nuevamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "오래": {
+    "path": "assets/svg/noto/emoji_u23f3.svg",
+    "label": "referencia visual para «mucho tiempo, largamente»",
+    "emoji": "⏳",
+    "provider": "noto-emoji"
+  },
+  "키우다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «criar, cultivar, hacer crecer»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "눕다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «acostarse, tumbarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "어울리다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «quedar bien, combinar; llevarse bien»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "차다": {
+    "path": "assets/svg/noto/emoji_u1f9ca.svg",
+    "label": "referencia visual para «estar lleno; patear; ser frío»",
+    "emoji": "🧊",
+    "provider": "noto-emoji"
+  },
+  "멀리": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «lejos, a lo lejos»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "빼다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «sacar, quitar, restar»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "즐겁다": {
+    "path": "assets/svg/noto/emoji_u1f604.svg",
+    "label": "referencia visual para «ser agradable, divertido»",
+    "emoji": "😄",
+    "provider": "noto-emoji"
+  },
+  "싸우다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «pelear, luchar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "찾아오다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «venir a ver, visitar»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "내려가다": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «bajar (ir hacia abajo)»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "무섭다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «dar miedo, ser aterrador»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "참다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «aguantar, soportar, contenerse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "남기다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «dejar (atrás), guardar»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "가져오다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «traer»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "부드럽다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser suave, tierno»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "벌다": {
+    "path": "assets/svg/noto/emoji_u1f4b5.svg",
+    "label": "referencia visual para «ganar (dinero)»",
+    "emoji": "💵",
+    "provider": "noto-emoji"
+  },
+  "썰다": {
+    "path": "assets/svg/noto/emoji_u2702.svg",
+    "label": "referencia visual para «cortar (en rodajas), picar»",
+    "emoji": "✂️",
+    "provider": "noto-emoji"
+  },
+  "벗다": {
+    "path": "assets/svg/noto/emoji_u1f9fa.svg",
+    "label": "referencia visual para «quitarse (ropa), desvestirse»",
+    "emoji": "🧺",
+    "provider": "noto-emoji"
+  },
+  "응": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «sí, ajá (informal)»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "이기다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «ganar, vencer»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "그러므로": {
+    "path": "assets/svg/noto/emoji_u23e9.svg",
+    "label": "referencia visual para «por lo tanto, por consiguiente»",
+    "emoji": "⏩",
+    "provider": "noto-emoji"
+  },
+  "바르다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «aplicar/untar; ser recto»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "점점": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cada vez más»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "그치다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «cesar/parar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "자르다": {
+    "path": "assets/svg/noto/emoji_u2702.svg",
+    "label": "referencia visual para «cortar»",
+    "emoji": "✂️",
+    "provider": "noto-emoji"
+  },
+  "무척": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «muchísimo»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "옳다": {
+    "path": "assets/svg/noto/emoji_u2705.svg",
+    "label": "referencia visual para «ser correcto»",
+    "emoji": "✅",
+    "provider": "noto-emoji"
+  },
+  "초": {
+    "path": "assets/svg/noto/emoji_u23f3.svg",
+    "label": "referencia visual para «segundo (tiempo); principio»",
+    "emoji": "⏳",
+    "provider": "noto-emoji"
+  },
+  "가득": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «lleno/a rebosar»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "도": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «grado»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "쳐다보다": {
+    "path": "assets/svg/noto/emoji_u1f621.svg",
+    "label": "referencia visual para «mirar hacia arriba/fijamente»",
+    "emoji": "😡",
+    "provider": "noto-emoji"
+  },
+  "푸르다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «ser azul/verde (irregular 러: 푸르러요, no 풀러요)»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "흔들다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «agitar/sacudir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "뽑다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «sacar/elegir»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "미리": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «con antelación»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "저희": {
+    "path": "assets/svg/noto/emoji_u1f308.svg",
+    "label": "referencia visual para «nosotros (humilde)»",
+    "emoji": "🌈",
+    "provider": "noto-emoji"
+  },
+  "왜냐하면": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «porque»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "흘리다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «derramar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "밝다": {
+    "path": "assets/svg/noto/emoji_u26aa.svg",
+    "label": "referencia visual para «ser claro/luminoso»",
+    "emoji": "⚪",
+    "provider": "noto-emoji"
+  },
+  "심다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «plantar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "간단하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser sencillo»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "막히다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «atascarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "복잡하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser complicado/estar concurrido»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "아까": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «hace un rato»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "알맞다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser apropiado»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "가리키다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «señalar/indicar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "모시다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «acompañar (honorífico)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "자꾸": {
+    "path": "assets/svg/noto/emoji_u1f504.svg",
+    "label": "referencia visual para «una y otra vez»",
+    "emoji": "🔄",
+    "provider": "noto-emoji"
+  },
+  "잘되다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «salir bien»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "끓이다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «hervir/preparar (sopa)»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "멈추다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «detenerse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "찾아가다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «ir a visitar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "혹시": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «por casualidad/acaso»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "늘다": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «aumentar/mejorar»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "옛": {
+    "path": "assets/svg/noto/emoji_u1f3fa.svg",
+    "label": "referencia visual para «antiguo»",
+    "emoji": "🏺",
+    "provider": "noto-emoji"
+  },
+  "편하다": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «ser cómodo, estar a gusto»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "끝내다": {
+    "path": "assets/svg/noto/emoji_u1f51a.svg",
+    "label": "referencia visual para «terminar (algo)»",
+    "emoji": "🔚",
+    "provider": "noto-emoji"
+  },
+  "젖다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «mojarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "어둡다": {
+    "path": "assets/svg/noto/emoji_u26ab.svg",
+    "label": "referencia visual para «ser oscuro»",
+    "emoji": "⚫",
+    "provider": "noto-emoji"
+  },
+  "물어보다": {
+    "path": "assets/svg/noto/emoji_u2753.svg",
+    "label": "referencia visual para «preguntar»",
+    "emoji": "❓",
+    "provider": "noto-emoji"
+  },
+  "밀다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «empujar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "올라오다": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «subir (hacia acá)»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "고치다": {
+    "path": "assets/svg/noto/emoji_u1f4cb.svg",
+    "label": "referencia visual para «arreglar/corregir»",
+    "emoji": "📋",
+    "provider": "noto-emoji"
+  },
+  "다하다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «agotar/cumplir»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "싣다": {
+    "path": "assets/svg/noto/emoji_u2b06.svg",
+    "label": "referencia visual para «cargar (subir carga)»",
+    "emoji": "⬆️",
+    "provider": "noto-emoji"
+  },
+  "쌓다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «apilar/acumular»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "하얗다": {
+    "path": "assets/svg/noto/emoji_u26aa.svg",
+    "label": "referencia visual para «ser blanco (el corriente)»",
+    "emoji": "⚪",
+    "provider": "noto-emoji"
+  },
+  "잘못되다": {
+    "path": "assets/svg/noto/emoji_u1f4e4.svg",
+    "label": "referencia visual para «salir mal»",
+    "emoji": "📤",
+    "provider": "noto-emoji"
+  },
+  "착하다": {
+    "path": "assets/svg/noto/emoji_u2705.svg",
+    "label": "referencia visual para «ser bueno (de carácter)»",
+    "emoji": "✅",
+    "provider": "noto-emoji"
+  },
+  "너희": {
+    "path": "assets/svg/noto/emoji_u1f308.svg",
+    "label": "referencia visual para «vosotros/ustedes (informal)»",
+    "emoji": "🌈",
+    "provider": "noto-emoji"
+  },
+  "금방": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «enseguida/hace un momento»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "누르다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «presionar/pulsar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "끊다": {
+    "path": "assets/svg/noto/emoji_u2702.svg",
+    "label": "referencia visual para «cortar (romper); dejar (un hábito)»",
+    "emoji": "✂️",
+    "provider": "noto-emoji"
+  },
+  "서두르다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «apurarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "충분하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser suficiente»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "깊이": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «profundamente; profundidad»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "지르다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «gritar, chillar (con 소리를 지르다)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "마르다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «secarse; estar flaco»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "늙다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «envejecer»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "가까이": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «cerca»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "낫다": {
+    "path": "assets/svg/noto/emoji_u1f912.svg",
+    "label": "referencia visual para «mejorarse (de salud); ser mejor»",
+    "emoji": "🤒",
+    "provider": "noto-emoji"
+  },
+  "볶다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «saltear/freír»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "한두": {
+    "path": "assets/svg/noto/emoji_u1f947.svg",
+    "label": "referencia visual para «uno o dos»",
+    "emoji": "🥇",
+    "provider": "noto-emoji"
+  },
+  "첫째": {
+    "path": "assets/svg/noto/emoji_u1f4cd.svg",
+    "label": "referencia visual para «el primero, en primer lugar (al enumerar)»",
+    "emoji": "📍",
+    "provider": "noto-emoji"
+  },
+  "조금씩": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «poco a poco»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "좁다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser estrecho»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "피다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «florecer»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "지다": {
+    "path": "assets/svg/noto/emoji_u1f50d.svg",
+    "label": "referencia visual para «perder (un partido); cargar a la espalda»",
+    "emoji": "🔍",
+    "provider": "noto-emoji"
+  },
+  "일어서다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «ponerse de pie»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "틀리다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «estar equivocado»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "궁금하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «tener curiosidad»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "약하다": {
+    "path": "assets/svg/noto/emoji_u1f62b.svg",
+    "label": "referencia visual para «ser débil»",
+    "emoji": "😫",
+    "provider": "noto-emoji"
+  },
+  "잘못하다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «equivocarse/hacerlo mal»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "그만두다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «dejar (de hacer)/renunciar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "댁": {
+    "path": "assets/svg/noto/emoji_u1f3e0.svg",
+    "label": "referencia visual para «su casa (honorífico)»",
+    "emoji": "🏠",
+    "provider": "noto-emoji"
+  },
+  "굽다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «asar/hornear»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "섞다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «mezclar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "굵다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser grueso»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "깨끗이": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «limpiamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "붉다": {
+    "path": "assets/svg/noto/emoji_u26ab.svg",
+    "label": "referencia visual para «ser rojo (literario u oscuro; el corriente es 빨갛다)»",
+    "emoji": "⚫",
+    "provider": "noto-emoji"
+  },
+  "걸어가다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «ir caminando»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "글쎄": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «pues…/no sé»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "소중하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser valioso/preciado»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "킬로미터": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «kilómetro»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "조용히": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «en silencio»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "생각나다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «acordarse»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "차갑다": {
+    "path": "assets/svg/noto/emoji_u1f9ca.svg",
+    "label": "referencia visual para «estar frío (al tacto)»",
+    "emoji": "🧊",
+    "provider": "noto-emoji"
+  },
+  "끼다": {
+    "path": "assets/svg/noto/emoji_u23ee.svg",
+    "label": "referencia visual para «ponerse (anillo/guantes)»",
+    "emoji": "⏮️",
+    "provider": "noto-emoji"
+  },
+  "화려하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser vistoso/lujoso»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "틀다": {
+    "path": "assets/svg/noto/emoji_u1f621.svg",
+    "label": "referencia visual para «encender (aparato)/girar»",
+    "emoji": "😡",
+    "provider": "noto-emoji"
+  },
+  "감다": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "referencia visual para «cerrar (los ojos); lavarse (el pelo)»",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "닮다": {
+    "path": "assets/svg/noto/emoji_u2696.svg",
+    "label": "referencia visual para «parecerse»",
+    "emoji": "⚖️",
+    "provider": "noto-emoji"
+  },
+  "헤어지다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «separarse/despedirse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "날다": {
+    "path": "assets/svg/noto/emoji_u2708.svg",
+    "label": "referencia visual para «volar»",
+    "emoji": "✈️",
+    "provider": "noto-emoji"
+  },
+  "자세히": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «detalladamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "건너다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «cruzar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "깨다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «despertarse; romper»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "가늘다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser fino/delgado»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "가져가다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «llevarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "간단히": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «sencillamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "갈아입다": {
+    "path": "assets/svg/noto/emoji_u1f9fa.svg",
+    "label": "referencia visual para «cambiarse de ropa»",
+    "emoji": "🧺",
+    "provider": "noto-emoji"
+  },
+  "갚다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «devolver (dinero)»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "건너가다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «cruzar (hacia allá)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "걸어오다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «venir caminando»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "게으르다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser perezoso»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "귀여워하다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «tener por lindo, mimar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "귀엽다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser lindo»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "귀찮다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «dar pereza/ser molesto»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "그립다": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «añorar, echar de menos (con 이/가: 고향이 그립다)»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "그분": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «esa persona (honorífico)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "급하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser urgente/tener prisa»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "기뻐하다": {
+    "path": "assets/svg/noto/emoji_u1f604.svg",
+    "label": "referencia visual para «alegrarse»",
+    "emoji": "😄",
+    "provider": "noto-emoji"
+  },
+  "기억나다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «acordarse, venir a la memoria (solo)»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "까맣다": {
+    "path": "assets/svg/noto/emoji_u26ab.svg",
+    "label": "referencia visual para «ser negro (el corriente)»",
+    "emoji": "⚫",
+    "provider": "noto-emoji"
+  },
+  "깎다": {
+    "path": "assets/svg/noto/emoji_u2b07.svg",
+    "label": "referencia visual para «pelar/cortar; rebajar (precio)»",
+    "emoji": "⬇️",
+    "provider": "noto-emoji"
+  },
+  "깜짝": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «de golpe (susto)»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "꾸다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «soñar (꿈을 꾸다)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "끓다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «hervir (por sí solo)»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "날씬하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser esbelto»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "넘어지다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «caerse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "넷째": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cuarto»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "노랗다": {
+    "path": "assets/svg/noto/emoji_u1f7e1.svg",
+    "label": "referencia visual para «ser amarillo»",
+    "emoji": "🟡",
+    "provider": "noto-emoji"
+  },
+  "느리다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser lento»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "다섯째": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «quinto»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "다치다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «lastimarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "답답하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «sentirse agobiado»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "더럽다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar sucio»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "데려가다": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «llevar (a alguien)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "데려오다": {
+    "path": "assets/svg/noto/emoji_u1f464.svg",
+    "label": "referencia visual para «traer (a alguien)»",
+    "emoji": "👤",
+    "provider": "noto-emoji"
+  },
+  "돌다": {
+    "path": "assets/svg/noto/emoji_u1f621.svg",
+    "label": "referencia visual para «girar/dar vueltas»",
+    "emoji": "😡",
+    "provider": "noto-emoji"
+  },
+  "돌려주다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «devolver»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "돌리다": {
+    "path": "assets/svg/noto/emoji_u1f621.svg",
+    "label": "referencia visual para «hacer girar»",
+    "emoji": "😡",
+    "provider": "noto-emoji"
+  },
+  "두껍다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser grueso (grosor)»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "두다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «poner/dejar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "두세": {
+    "path": "assets/svg/noto/emoji_u1f449.svg",
+    "label": "referencia visual para «dos o tres»",
+    "emoji": "👉",
+    "provider": "noto-emoji"
+  },
+  "둘째": {
+    "path": "assets/svg/noto/emoji_u1f550.svg",
+    "label": "referencia visual para «segundo»",
+    "emoji": "🕐",
+    "provider": "noto-emoji"
+  },
+  "드디어": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «por fin»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "들르다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «pasarse por»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "들리다": {
+    "path": "assets/svg/noto/emoji_u1f442.svg",
+    "label": "referencia visual para «oírse»",
+    "emoji": "👂",
+    "provider": "noto-emoji"
+  },
+  "따로": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «por separado»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "떠나다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «partir/irse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "떠들다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «alborotar/hacer ruido»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "떨어지다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «caerse; agotarse; suspender»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "또는": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «o bien»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "똑같다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser idéntico»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "똑같이": {
+    "path": "assets/svg/noto/emoji_u2696.svg",
+    "label": "referencia visual para «igualmente»",
+    "emoji": "⚖️",
+    "provider": "noto-emoji"
+  },
+  "똑똑하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser inteligente»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "똑바로": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «derecho/correctamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "뚱뚱하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser gordo»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "뛰다": {
+    "path": "assets/svg/noto/emoji_u1f3c3.svg",
+    "label": "referencia visual para «correr/saltar»",
+    "emoji": "🏃",
+    "provider": "noto-emoji"
+  },
+  "뛰어가다": {
+    "path": "assets/svg/noto/emoji_u1f3c3.svg",
+    "label": "referencia visual para «ir corriendo, echar a correr»",
+    "emoji": "🏃",
+    "provider": "noto-emoji"
+  },
+  "뜨겁다": {
+    "path": "assets/svg/noto/emoji_u1f525.svg",
+    "label": "referencia visual para «estar caliente»",
+    "emoji": "🔥",
+    "provider": "noto-emoji"
+  },
+  "뜨다": {
+    "path": "assets/svg/noto/emoji_u1f6aa.svg",
+    "label": "referencia visual para «flotar; abrir (los ojos)»",
+    "emoji": "🚪",
+    "provider": "noto-emoji"
+  },
+  "만지다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «tocar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "매년": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «cada año (sino-coreano)»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "매다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «atar (corbata/cinturón)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "매달": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «cada mes»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "매주": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «cada semana»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "메다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «colgarse al hombro»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "모자라다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «faltar/ser insuficiente»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "못생기다": {
+    "path": "assets/svg/noto/emoji_u1f623.svg",
+    "label": "referencia visual para «ser feo (se dice en pasado: 못생겼어요)»",
+    "emoji": "😣",
+    "provider": "noto-emoji"
+  },
+  "미끄러지다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «resbalar»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "받아쓰다": {
+    "path": "assets/svg/noto/emoji_u270d.svg",
+    "label": "referencia visual para «escribir al dictado»",
+    "emoji": "✍️",
+    "provider": "noto-emoji"
+  },
+  "방금": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «hace un instante»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "벌": {
+    "path": "assets/svg/noto/emoji_u1f9fa.svg",
+    "label": "referencia visual para «juego (contador de ropa)»",
+    "emoji": "🧺",
+    "provider": "noto-emoji"
+  },
+  "뵙다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «ver a alguien (humilde)»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "부끄럽다": {
+    "path": "assets/svg/noto/emoji_u1f440.svg",
+    "label": "referencia visual para «tener vergüenza»",
+    "emoji": "👀",
+    "provider": "noto-emoji"
+  },
+  "부럽다": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «tener envidia»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "부지런하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser diligente»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "부치다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «enviar (por correo)»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "불쌍하다": {
+    "path": "assets/svg/noto/emoji_u1f932.svg",
+    "label": "referencia visual para «dar pena/ser lastimoso»",
+    "emoji": "🤲",
+    "provider": "noto-emoji"
+  },
+  "빨갛다": {
+    "path": "assets/svg/noto/emoji_u1f534.svg",
+    "label": "referencia visual para «ser rojo (el corriente)»",
+    "emoji": "🔴",
+    "provider": "noto-emoji"
+  },
+  "빨다": {
+    "path": "assets/svg/noto/emoji_u1f9fa.svg",
+    "label": "referencia visual para «lavar (ropa); chupar»",
+    "emoji": "🧺",
+    "provider": "noto-emoji"
+  },
+  "서너": {
+    "path": "assets/svg/noto/emoji_u1f449.svg",
+    "label": "referencia visual para «tres o cuatro»",
+    "emoji": "👉",
+    "provider": "noto-emoji"
+  },
+  "선선하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar fresquito»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "섭섭하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «sentirse dolido»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "세다": {
+    "path": "assets/svg/noto/emoji_u1f4ac.svg",
+    "label": "referencia visual para «ser fuerte; contar»",
+    "emoji": "💬",
+    "provider": "noto-emoji"
+  },
+  "셋째": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «tercero»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "쉰": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «cincuenta (nativo)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "스무": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «veinte (nativo, ante contador)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "슬퍼하다": {
+    "path": "assets/svg/noto/emoji_u1f622.svg",
+    "label": "referencia visual para «entristecerse»",
+    "emoji": "😢",
+    "provider": "noto-emoji"
+  },
+  "시끄럽다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «ser ruidoso»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "식다": {
+    "path": "assets/svg/noto/emoji_u1f6e0.svg",
+    "label": "referencia visual para «enfriarse»",
+    "emoji": "🛠️",
+    "provider": "noto-emoji"
+  },
+  "신선하다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «ser fresco (alimento)»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "심심하다": {
+    "path": "assets/svg/noto/emoji_u1f3a8.svg",
+    "label": "referencia visual para «estar aburrido»",
+    "emoji": "🎨",
+    "provider": "noto-emoji"
+  },
+  "쌀쌀하다": {
+    "path": "assets/svg/noto/emoji_u1f9ca.svg",
+    "label": "referencia visual para «hacer fresco/frío»",
+    "emoji": "🧊",
+    "provider": "noto-emoji"
+  },
+  "씹다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «masticar»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "켤레": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «par (contador de zapatos)»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "킬로그램": {
+    "path": "assets/svg/noto/emoji_u1f522.svg",
+    "label": "referencia visual para «kilogramo»",
+    "emoji": "🔢",
+    "provider": "noto-emoji"
+  },
+  "튀기다": {
+    "path": "assets/svg/noto/emoji_u1f37d.svg",
+    "label": "referencia visual para «freír (en abundante aceite)»",
+    "emoji": "🍽️",
+    "provider": "noto-emoji"
+  },
+  "특별히": {
+    "path": "assets/svg/noto/emoji_u27a1.svg",
+    "label": "referencia visual para «de forma especial, expresamente»",
+    "emoji": "➡️",
+    "provider": "noto-emoji"
+  },
+  "튼튼하다": {
+    "path": "assets/svg/noto/emoji_u1f4aa.svg",
+    "label": "referencia visual para «ser robusto/resistente»",
+    "emoji": "💪",
+    "provider": "noto-emoji"
+  },
+  "파랗다": {
+    "path": "assets/svg/noto/emoji_u1f535.svg",
+    "label": "referencia visual para «ser azul»",
+    "emoji": "🔵",
+    "provider": "noto-emoji"
+  },
+  "팔리다": {
+    "path": "assets/svg/noto/emoji_u1f4b5.svg",
+    "label": "referencia visual para «venderse»",
+    "emoji": "💵",
+    "provider": "noto-emoji"
+  },
+  "편찮다": {
+    "path": "assets/svg/noto/emoji_u1f912.svg",
+    "label": "referencia visual para «estar enfermo (honorífico)»",
+    "emoji": "🤒",
+    "provider": "noto-emoji"
+  },
+  "푹": {
+    "path": "assets/svg/noto/emoji_u1f634.svg",
+    "label": "referencia visual para «profundamente (푹 자다 = dormir bien)»",
+    "emoji": "😴",
+    "provider": "noto-emoji"
+  },
+  "해마다": {
+    "path": "assets/svg/noto/emoji_u1f4c5.svg",
+    "label": "referencia visual para «cada año (nativo, más coloquial)»",
+    "emoji": "📅",
+    "provider": "noto-emoji"
+  },
+  "화나다": {
+    "path": "assets/svg/noto/emoji_u1f621.svg",
+    "label": "referencia visual para «enfadarse»",
+    "emoji": "😡",
+    "provider": "noto-emoji"
+  },
+  "화내다": {
+    "path": "assets/svg/noto/emoji_u1f621.svg",
+    "label": "referencia visual para «enfadarse (con alguien)»",
+    "emoji": "😡",
+    "provider": "noto-emoji"
   }
 };

@@ -87,7 +87,7 @@ El hito de 500 palabras en `ESTA_HECHO` acumuló 163 asociaciones nuevas desde l
 Quedan 1.281 palabras pendientes y se publicarán en dos únicos commits:
 
 1. Lote de 640 palabras completado, con 1.140 palabras en `ESTA_HECHO`.
-2. Pendiente un lote final de 641 palabras, para completar las 1.781 palabras del inventario.
+2. Lote final de 641 palabras completado, con las 1.781 palabras del inventario en `ESTA_HECHO`.
 
 No se actualizará la versión de caché ni se ejecutará `commit` o `push` durante el desarrollo interno de cada lote. Cada publicación se realizará únicamente después de validar el inventario completo, el manifiesto y todos los SVG asociados.
 
