@@ -142,23 +142,120 @@ let shiftActive = false;
 let mistakeCount = 0;
 let guidedUsed = false;
 let lastReviewBaseline = null;
+let lastSavedAt = null;
+let storageReady = true;
+let resumeWord = null;
 const DAY = 24 * 60 * 60 * 1000;
 const mobileViewport = matchMedia('(max-width: 760px)');
 
+function applySavedProgress(saved={}) {
+  const previousWords = ['사과','물','집','책','나무','고양이','커피','우유','바나나'];
+  const knownWords = new Set(words.map(word => word.korean));
+  const savedCompleted = Array.isArray(saved.completed) ? saved.completed : [];
+  completed = new Set(savedCompleted.map(item => typeof item === 'number' ? previousWords[item] : item).filter(item => knownWords.has(item)));
+  reviewState = Object.create(null);
+  if (saved.review && typeof saved.review === 'object' && !Array.isArray(saved.review)) {
+    Object.entries(saved.review).forEach(([korean,review]) => {
+      if (!knownWords.has(korean) || !review || typeof review !== 'object') return;
+      const due = Number(review.due);
+      const interval = Number(review.interval);
+      if (!Number.isFinite(due) || !Number.isFinite(interval) || interval < 0) return;
+      reviewState[korean] = {
+        interval,
+        due,
+        lastReviewed:Number.isFinite(Number(review.lastReviewed)) ? Number(review.lastReviewed) : due - interval * DAY,
+        rating:['hard','good','easy'].includes(review.rating) ? review.rating : 'good',
+        reviews:Math.max(0,Number(review.reviews) || 0),
+        lapses:Math.max(0,Number(review.lapses) || 0)
+      };
+    });
+  }
+  guided = saved.guided === true;
+  autoSpeak = saved.autoSpeak !== false;
+  resumeWord = knownWords.has(saved.lastWord) ? saved.lastWord : null;
+  lastSavedAt = Number.isFinite(Number(saved.updatedAt)) ? Number(saved.updatedAt) : null;
+}
 function loadProgress() {
   try {
     const current = localStorage.getItem('trazo-coreano-v2');
-    const saved = JSON.parse(current || localStorage.getItem('trazo-coreano-v1') || '{}');
-    const previousWords = ['사과','물','집','책','나무','고양이','커피','우유','바나나'];
-    const knownWords = new Set(words.map(word => word.korean));
-    completed = new Set(Array.isArray(saved.completed) ? saved.completed.map(item => typeof item === 'number' ? previousWords[item] : item).filter(item => knownWords.has(item)) : []);
-    reviewState = saved.review && typeof saved.review === 'object' ? saved.review : {};
-    guided = saved.guided === true;
-    autoSpeak = saved.autoSpeak !== false;
-  } catch { completed = new Set(); reviewState = {}; }
+    applySavedProgress(JSON.parse(current || localStorage.getItem('trazo-coreano-v1') || '{}'));
+    storageReady = true;
+  } catch {
+    completed = new Set();
+    reviewState = Object.create(null);
+    storageReady = false;
+  }
+}
+function progressRecord() {
+  return { version:3, completed:[...completed], guided, autoSpeak, review:reviewState, lastWord:words[currentIndex]?.korean || resumeWord, updatedAt:Date.now() };
 }
 function saveProgress() {
-  try { localStorage.setItem('trazo-coreano-v2', JSON.stringify({ completed:[...completed], guided, autoSpeak, review:reviewState })); } catch { /* La práctica sigue funcionando sin almacenamiento. */ }
+  try {
+    const record = progressRecord();
+    localStorage.setItem('trazo-coreano-v2',JSON.stringify(record));
+    lastSavedAt = record.updatedAt;
+    storageReady = true;
+    renderSaveStatus();
+    return true;
+  } catch {
+    storageReady = false;
+    renderSaveStatus();
+    return false;
+  }
+}
+function savedTimeLabel(timestamp) {
+  if (!timestamp) return 'Todavía no hay cambios guardados.';
+  return `Último cambio: ${new Intl.DateTimeFormat('es',{ hour:'2-digit', minute:'2-digit' }).format(timestamp)}`;
+}
+function renderSaveStatus() {
+  const status = $('#save-status');
+  if (!status) return;
+  status.classList.toggle('storage-error',!storageReady);
+  status.querySelector('.save-status-icon').textContent = storageReady ? '✓' : '!';
+  status.querySelector('strong').textContent = storageReady ? 'Guardado automáticamente' : 'No se pudo guardar en este navegador';
+  $('#save-status-copy').textContent = storageReady ? savedTimeLabel(lastSavedAt) : 'Descarga una copia para no perder esta sesión.';
+  $('#saved-completed').textContent = String(completed.size);
+  $('#saved-reviewed').textContent = String(Object.keys(reviewState).length);
+  $('#saved-due').textContent = String(dueWordKeys().length);
+}
+function exportProgress() {
+  if (!saveProgress()) {
+    $('#backup-feedback').textContent = 'No se pudo preparar la copia. Inténtalo de nuevo.';
+    $('#backup-feedback').classList.add('error');
+    return;
+  }
+  const backup = { app:'trazo-coreano', exportedAt:new Date().toISOString(), progress:progressRecord() };
+  const url = URL.createObjectURL(new Blob([JSON.stringify(backup,null,2)],{ type:'application/json' }));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = `trazo-progreso-${new Date().toISOString().slice(0,10)}.json`;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url),0);
+  $('#backup-feedback').textContent = 'Copia descargada. Guárdala en un lugar seguro.';
+  $('#backup-feedback').classList.remove('error');
+}
+async function importProgress(file) {
+  const feedback = $('#backup-feedback');
+  try {
+    if (!file || file.size > 5 * 1024 * 1024) throw new Error('invalid-file');
+    const parsed = JSON.parse(await file.text());
+    const saved = parsed?.progress || parsed;
+    if (!saved || typeof saved !== 'object' || (!Array.isArray(saved.completed) && typeof saved.review !== 'object')) throw new Error('invalid-backup');
+    applySavedProgress(saved);
+    if (!saveProgress()) throw new Error('storage-failed');
+    renderAutoSpeak();
+    const index = resumeWord ? words.findIndex(word => word.korean === resumeWord) : 0;
+    loadWord(index >= 0 ? index : 0);
+    feedback.textContent = `Copia restaurada: ${completed.size} palabras aprendidas.`;
+    feedback.classList.remove('error');
+  } catch {
+    feedback.textContent = 'No pudimos leer esa copia. Elige un archivo JSON exportado por Trazo.';
+    feedback.classList.add('error');
+  } finally {
+    $('#import-progress').value = '';
+  }
 }
 function stepsFor(word) {
   const steps = [];
@@ -626,6 +723,7 @@ function loadWord(index) {
   renderWordButtons();
   renderProgress();
   renderAnswer();
+  saveProgress();
   if (autoSpeak) {
     const loadedIndex = index;
     setTimeout(() => {
@@ -800,7 +898,8 @@ function renderGrammar(id) {
 loadProgress();
 renderAutoSpeak();
 renderKeyboard();
-loadWord(0);
+const resumeIndex = resumeWord ? words.findIndex(word => word.korean === resumeWord) : 0;
+loadWord(resumeIndex >= 0 ? resumeIndex : 0);
 renderGrammarLevels();
 renderGrammar(currentGrammarId);
 $('#guide-toggle').addEventListener('change', event => { guided = event.target.checked; if (guided) guidedUsed = true; saveProgress(); renderGuide(); setHint(guided ? 'La siguiente tecla está resaltada.' : 'Ahora puedes practicar sin guía.'); });
@@ -843,6 +942,15 @@ $('#hear-example').addEventListener('click',() => {
 });
 $('#reveal-text').addEventListener('click',() => { $('#grammar-translation').hidden=false; $('#reveal-text').hidden=true; });
 $('#show-tip').addEventListener('click',() => $('#hangul-dialog').showModal());
+$('#open-progress').addEventListener('click',() => {
+  renderSaveStatus();
+  $('#backup-feedback').textContent = '';
+  $('#backup-feedback').classList.remove('error');
+  $('#progress-dialog').showModal();
+});
+$('#export-progress').addEventListener('click',exportProgress);
+$('#choose-progress-file').addEventListener('click',() => $('#import-progress').click());
+$('#import-progress').addEventListener('change',event => importProgress(event.target.files?.[0]));
 $('#answer-display').addEventListener('click',openKeyboard);
 $('#open-keyboard').addEventListener('click',openKeyboard);
 $('#close-keyboard').addEventListener('click',closeKeyboard);
@@ -850,7 +958,7 @@ mobileViewport.addEventListener('change',closeKeyboard);
 $('#open-words').addEventListener('click',() => { const menu=$('#mobile-words'); menu.hidden=!menu.hidden; $('#open-words').setAttribute('aria-expanded',String(!menu.hidden)); });
 window.addEventListener('keydown',event => {
   if (!$('#grammar-view').hidden) return;
-  if ($('#hangul-dialog').open || event.altKey || event.ctrlKey || event.metaKey || event.isComposing) return;
+  if ($('#hangul-dialog').open || $('#progress-dialog').open || event.altKey || event.ctrlKey || event.metaKey || event.isComposing) return;
   if (event.key === 'Escape' && document.body.classList.contains('keyboard-open')) { event.preventDefault(); closeKeyboard(); return; }
   if (event.key === 'Backspace') { event.preventDefault(); eraseToken(); return; }
   if (event.key === 'Enter' && (event.target === document.body || event.target === $('#answer-display'))) { event.preventDefault(); checkAnswer(); return; }
@@ -860,6 +968,7 @@ window.addEventListener('keydown',event => {
   const jamo = event.shiftKey ? SHIFT_KEY[key] || LATIN_KEY[key] : LATIN_KEY[key];
   if (jamo) { event.preventDefault(); addToken(jamo); }
 });
+window.addEventListener('pagehide',saveProgress);
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   window.addEventListener('load',() => navigator.serviceWorker.register('./service-worker.js').catch(() => {}));
 }

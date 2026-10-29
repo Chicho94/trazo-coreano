@@ -9,10 +9,10 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="styles.css?v=38">
+  <link rel="stylesheet" href="styles.css?v=42">
   <script src="data/topik-content.js?v=14" defer></script>
   <script src="data/svg-vocabulary.js?v=41" defer></script>
-  <script src="app.js?v=38" defer></script>
+  <script src="app.js?v=42" defer></script>
 </head>
 <body>
   <svg class="asset-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -103,6 +103,7 @@
           <span class="switch-track" aria-hidden="true"></span>
         </label>
       </div>
+      <button class="progress-button" id="open-progress" type="button" aria-haspopup="dialog" aria-controls="progress-dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 9.2 17 19 7M6 21h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3Z"/></svg><span>Progreso</span></button>
     </header>
 
     <div class="layout">
@@ -202,6 +203,7 @@
   </div>
 
   <dialog id="hangul-dialog" class="info-dialog" aria-labelledby="hangul-dialog-title"><form method="dialog"><button class="dialog-close" aria-label="Cerrar explicación" type="submit">×</button><span class="eyebrow">UNA IDEA SENCILLA</span><h2 id="hangul-dialog-title">Cada bloque forma una sílaba.</h2><p>En Hangul, primero eliges una consonante y después una vocal. Por ejemplo, <strong lang="ko">ㅅ + ㅏ = 사</strong>. Si agregas otra consonante, puede cerrar el bloque; al escribir una vocal después, esa consonante pasa al siguiente bloque.</p><div class="dialog-example"><span lang="ko">ㅅ</span><b>+</b><span lang="ko">ㅏ</span><b>=</b><strong lang="ko">사</strong></div><button class="check-button" type="submit">Entendido</button></form></dialog>
+  <dialog id="progress-dialog" class="info-dialog progress-dialog" aria-labelledby="progress-dialog-title"><form method="dialog"><button class="dialog-close" aria-label="Cerrar progreso" type="submit">×</button><h2 id="progress-dialog-title">Tu progreso queda guardado.</h2><p>Trazo conserva en este dispositivo las palabras aprendidas y cuándo debes repasarlas.</p><div class="save-status" id="save-status" role="status" aria-live="polite"><span class="save-status-icon" aria-hidden="true">✓</span><span><strong>Guardado automáticamente</strong><small id="save-status-copy">Preparando el guardado…</small></span></div><dl class="progress-summary"><div><dt>Aprendidas</dt><dd id="saved-completed">0</dd></div><div><dt>En seguimiento</dt><dd id="saved-reviewed">0</dd></div><div><dt>Para repasar</dt><dd id="saved-due">0</dd></div></dl><div class="backup-note"><strong>¿Vas a cambiar de navegador o dispositivo?</strong><span>Descarga una copia y restáurala después para conservar tu repaso inteligente.</span></div><div class="backup-actions"><button class="secondary-action" id="export-progress" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 15v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4"/></svg>Descargar copia</button><button class="check-button" id="choose-progress-file" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0 4 4m-4-4L8 8M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></svg>Restaurar copia</button><input id="import-progress" type="file" accept="application/json,.json" hidden></div><p class="backup-feedback" id="backup-feedback" role="status" aria-live="polite"></p></form></dialog>
   <div class="success-card" id="success-card" role="status" aria-live="polite" hidden><span class="success-icon">✓</span><div class="success-copy"><strong>¡Lo escribiste!</strong><p><span id="success-korean" lang="ko">사과</span> significa <span id="success-spanish">manzana</span>.</p><small id="review-plan">La volverás a ver según tu desempeño.</small></div><div class="rating-buttons" aria-label="Cambiar dificultad"><button type="button" data-rating="hard">Difícil</button><button type="button" data-rating="good">Bien</button><button type="button" data-rating="easy">Fácil</button></div><button id="success-next" type="button">Siguiente <span aria-hidden="true">→</span></button></div>
 </body>
 </html>
